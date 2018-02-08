@@ -110,7 +110,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DevExpress.VideoRent.Resources\NukaCollect.Resources.csproj">
+    <ProjectReference Include="..\NukaCollect.Resources\NukaCollect.Resources.csproj">
       <Project>{30e7937a-0651-4865-b8ae-97c2a8d405f8}</Project>
       <Name>NukaCollect.Resources</Name>
     </ProjectReference>

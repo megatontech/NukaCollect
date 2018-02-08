@@ -1,8 +1,9 @@
-﻿using System;
-
-namespace NukaCollect.Helpers {
-    public abstract class StringEncoder {
-        public static string CalcHash(string s) {
+﻿namespace NukaCollect.Helpers
+{
+    public abstract class StringEncoder
+    {
+        public static string CalcHash(string s)
+        {
 #if SL
             return SimpleStringEncoder.CalcHash(s);
 #else
