@@ -19,9 +19,9 @@ namespace NukaCollect.Win.Modules {
                 layoutControlItem5.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             }
             ElementConstStringLoader.LoadConstStringsForAbout(this);
-            lcLink1.Appearance.Image = ElementHelper.GetAboutPageImage("Learn-More");
-            lcLink2.Appearance.Image = ElementHelper.GetAboutPageImage("Download");
-            lcLink3.Appearance.Image = ElementHelper.GetAboutPageImage("Buy");
+            lcLink1.Appearance.Image = ElementHelper.GetAboutPageImage("了解更多");
+            lcLink2.Appearance.Image = ElementHelper.GetAboutPageImage("下载");
+            lcLink3.Appearance.Image = ElementHelper.GetAboutPageImage("购买");
             ucControlAbout1.Init("XtraGrid", DemoProducts.Grid, ElementHelper.GetAboutPageImage("Grid"));
             ucControlAbout2.Init("XtraReports", DemoProducts.Reports, ElementHelper.GetAboutPageImage("Reports"));
             ucControlAbout3.Init("XtraCharts", DemoProducts.Charts, ElementHelper.GetAboutPageImage("Charts"));

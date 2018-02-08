@@ -1,77 +1,113 @@
-using System;
-using System.Drawing;
 using DevExpress.Utils;
 using NukaCollect.Helpers;
+using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Reflection;
 
 #if SL
 using DevExpress.Xpf.Drawing;
 #endif
 
-namespace NukaCollect {
+namespace NukaCollect
+{
     [Flags]
-    public enum MovieGenre {
+    public enum MovieGenre
+    {
         None = 0, Action = 0x1, Adventure = 0x2, Animation = 0x4, Biography = 0x8, Comedy = 0x10, Crime = 0x20,
         Documentary = 0x40, Drama = 0x80, Family = 0x100, Fantasy = 0x200, History = 0x400, Horror = 0x800,
         Music = 0x1000, Musical = 0x2000, Mystery = 0x4000, Romance = 0x8000, SciFi = 0x10000, Sport = 0x20000,
         Thriller = 0x40000, War = 0x80000, Western = 0x100000
     }
+
     public enum MovieRating { G, PG, PG13, R, NC17 }
+
     public enum MovieItemStatus { Active, Rented, Sold, Damaged, Lost }
+
     public enum MovieItemFormat { DVD = 1, BlueRay = 2, VideoCD = 3 }
+
     public enum EmployeeRole { Administrator, Operator }
+
     public enum PersonGender { Male, Female }
+
     public enum ReceiptType { Rentals, Purchases, LateFees }
+
     public enum CustomerDiscountLevel { FirstTime, Basic, Occasional, Active, Prodigious }
+
     public enum ActiveRentType { None, Overdue, Today, Active }
-    public class ReferenceData {
+
+    public class ReferenceData
+    {
         public const int ShelvesCount = 12;
         public const string DirectorString = "Director";
         public const string AdministratorString = "Administrator";
+
         public static string[] CompanyTypes = new string[] {
             "Production", "Distributor", "Special Effects", "Others" };
+
         public static string[] MovieLanguages = new string[] {
             "English", "French", "Spanish", "Russian", "Arabic", "Chinese", "German", "Japanese", "Portuguese", "Somali", "Italian" };
+
         public static decimal[] CustomerDiscount = new decimal[] { 0, 0.03M, 0.05M, 0.1M, 0.2M };
         public static decimal[] CustomerDiscountLevel = new decimal[] { 0, 300, 600, 900, 1200 };
-        public static decimal GetDiscountLevelPayment(CustomerDiscountLevel level) {
+
+        public static decimal GetDiscountLevelPayment(CustomerDiscountLevel level)
+        {
             return CustomerDiscountLevel[(int)level];
         }
-        public static decimal GetDiscount(CustomerDiscountLevel level) {
+
+        public static decimal GetDiscount(CustomerDiscountLevel level)
+        {
             return CustomerDiscount[(int)level];
         }
     }
-    public class ReferenceImages {
-        static Image person = null, person_small = null, movie = null;
-        public static Image UnknownPerson {
-            get {
-                if(person == null)
+
+    public class ReferenceImages
+    {
+        private static Image person = null, person_small = null, movie = null;
+
+        public static Image UnknownPerson
+        {
+            get
+            {
+                if (person == null)
                     person = ResourceImageHelper.CreateImageFromResources("NukaCollect.Images.Unknown-user.png", typeof(Customer).Assembly);
                 return person;
             }
         }
-        public static Image UnknownPerson_Small {
-            get {
-                if(person_small == null)
+
+        public static Image UnknownPerson_Small
+        {
+            get
+            {
+                if (person_small == null)
                     person_small = ResourceImageHelper.CreateImageFromResources("NukaCollect.Images.Unknown-user-small.png", typeof(Customer).Assembly);
                 return person_small;
             }
         }
-        public static Image UnknownMovie {
-            get {
-                if(movie == null)
+
+        public static Image UnknownMovie
+        {
+            get
+            {
+                if (movie == null)
                     movie = ResourceImageHelper.CreateImageFromResources("NukaCollect.Images.Unknown-movie.png", typeof(Movie).Assembly);
                 return movie;
             }
         }
     }
+
     public enum DBFormat { Mdb, Sql }
+
     public enum SqlAuthenticationType { Win, Sql }
-    public static class EnumTitlesRegistrator {
-        static bool alreadyRegistered;
-        public static void TryRegisterTitles() {
-            if(alreadyRegistered) return;
+
+    public static class EnumTitlesRegistrator
+    {
+        private static bool alreadyRegistered;
+
+        public static void TryRegisterTitles()
+        {
+            if (alreadyRegistered) return;
             alreadyRegistered = true;
             EnumTitlesKeeper<DBFormat>.RegisterTitle(DBFormat.Mdb, Properties.Resources.DBFormatMdb);
             EnumTitlesKeeper<DBFormat>.RegisterTitle(DBFormat.Sql, Properties.Resources.DBFormatSql);
@@ -104,39 +140,55 @@ namespace NukaCollect {
             EnumTitlesKeeper<ActiveRentType>.RegisterTitle(ActiveRentType.Active, Properties.Resources.ActiveRent);
         }
     }
-    public static class EnumTitlesKeeper<T> {
-        static object nullValue = new object();
-        static Dictionary<object, string> titles = new Dictionary<object, string>();
-        public static void RegisterTitle(object id, string value) {
-            if(id == null) {
+
+    public static class EnumTitlesKeeper<T>
+    {
+        private static object nullValue = new object();
+        private static Dictionary<object, string> titles = new Dictionary<object, string>();
+
+        public static void RegisterTitle(object id, string value)
+        {
+            if (id == null)
+            {
                 id = nullValue;
             }
-            if(!titles.ContainsKey(id)) {
+            if (!titles.ContainsKey(id))
+            {
                 titles.Add(id, value);
             }
         }
-        public static List<TI> GetItemsList<TI>() {
+
+        public static List<TI> GetItemsList<TI>()
+        {
             List<TI> listToReturn = new List<TI>();
-            if(titles != null) {
+            if (titles != null)
+            {
                 ConstructorInfo constructor = typeof(TI).GetConstructor(new Type[] { typeof(T), typeof(string) });
-                if(constructor == null) {
+                if (constructor == null)
+                {
                     constructor = typeof(TI).GetConstructor(new Type[] { typeof(object), typeof(string) });
                 }
-                if(constructor != null) {
-                    foreach(T item in EnumHelper.GetValues<T>()) {
+                if (constructor != null)
+                {
+                    foreach (T item in EnumHelper.GetValues<T>())
+                    {
                         listToReturn.Add((TI)constructor.Invoke(new object[] { item, GetTitle(item) }));
                     }
                 }
             }
             return listToReturn;
         }
-        public static string GetTitle(object value) {
+
+        public static string GetTitle(object value)
+        {
             EnumTitlesRegistrator.TryRegisterTitles();
-            if(value == null) {
+            if (value == null)
+            {
                 value = nullValue;
             }
             string title;
-            if(!titles.TryGetValue(value, out title)) {
+            if (!titles.TryGetValue(value, out title))
+            {
                 title = value.ToString();
             }
             return title;
