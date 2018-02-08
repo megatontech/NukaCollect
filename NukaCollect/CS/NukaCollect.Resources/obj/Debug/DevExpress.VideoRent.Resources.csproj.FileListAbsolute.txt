@@ -1,0 +1,15 @@
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\bin\Debug\DevExpress.VideoRent.Resources.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\bin\Debug\DevExpress.VideoRent.Resources.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.Properties.Resources.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\bin\Debug\DevExpress.VideoRent.Resources.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\bin\Debug\DevExpress.VideoRent.Resources.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.Properties.Resources.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\DevExpress.VideoRent.Resources.pdb

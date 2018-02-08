@@ -1,0 +1,36 @@
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.Reports.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.Reports.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.ActiveCustomersListReport.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.CustomerFilmRentsListReport.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.CustomerInfoCardReport.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.CustomerSelectionReportBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.FilmInfoCardReport.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.Properties.Resources.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.TheMostProfitableGenresListReport.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.TimePeriodReportBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.TopNFilmsReport.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.Reports.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.Reports.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\bin\Debug\DevExpress.VideoRent.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.csprojResolveAssemblyReference.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.ActiveCustomersListReport.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.CustomerFilmRentsListReport.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.CustomerInfoCardReport.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.CustomerSelectionReportBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.FilmInfoCardReport.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.Properties.Resources.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.TheMostProfitableGenresListReport.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.TimePeriodReportBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.TopNFilmsReport.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Reports\obj\Debug\DevExpress.VideoRent.Reports.pdb

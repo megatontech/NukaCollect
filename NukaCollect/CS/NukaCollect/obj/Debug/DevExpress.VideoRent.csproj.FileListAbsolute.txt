@@ -1,0 +1,15 @@
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\bin\Debug\DevExpress.VideoRent.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\bin\Debug\DevExpress.VideoRent.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.Properties.Resources.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\bin\Debug\DevExpress.VideoRent.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\bin\Debug\DevExpress.VideoRent.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.Properties.Resources.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent\obj\Debug\DevExpress.VideoRent.pdb

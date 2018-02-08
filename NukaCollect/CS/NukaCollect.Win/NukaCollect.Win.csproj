@@ -1,0 +1,1078 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2D95262-8DB6-479C-ABBA-F41B03DB9F99}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NukaCollect.Win</RootNamespace>
+    <AssemblyName>NukaCollect.Win</AssemblyName>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugTest;</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <OutputPath>bin\Debug\</OutputPath>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.2.Core">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Core">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Presets">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Win">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.2.Core">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.2.UI">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Reporting.Extensions">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Core">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v13.2.Extensions">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v13.2.Core">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.2">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls.cs" />
+    <Compile Include="Controls\ExportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ExportControl.Designer.cs">
+      <DependentUpon>ExportControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RibbonApplicationUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RibbonApplicationUserControl.Designer.cs">
+      <DependentUpon>RibbonApplicationUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucControlAbout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucControlAbout.Designer.cs">
+      <DependentUpon>ucControlAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucMovieInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucMovieInfo.Designer.cs">
+      <DependentUpon>ucMovieInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucPeriod.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucPeriod.Designer.cs">
+      <DependentUpon>ucPeriod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElementConstStringLoader.cs" />
+    <Compile Include="FormsBase\frmDetailBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsBase\frmDetailBase.Designer.cs">
+      <DependentUpon>frmDetailBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPeriod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPeriod.Designer.cs">
+      <DependentUpon>frmPeriod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEditAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEditAppointment.Designer.cs">
+      <DependentUpon>frmEditAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmArtistDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmArtistDetail.Designer.cs">
+      <DependentUpon>frmArtistDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmNewMovieCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmNewMovieCategory.Designer.cs">
+      <DependentUpon>frmNewMovieCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMovieCategoriesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMovieCategoriesList.Designer.cs">
+      <DependentUpon>frmMovieCategoriesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProgress.Designer.cs">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainModules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesBase\BaseModules.cs" />
+    <Compile Include="FormsBase\frmMainBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsBase\frmMainBase.Designer.cs">
+      <DependentUpon>frmMainBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucBarTwoButtons.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucBarTwoButtons.Designer.cs">
+      <DependentUpon>ucBarTwoButtons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucCustomerInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucCustomerInfo.Designer.cs">
+      <DependentUpon>ucCustomerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucPictureEditBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucPictureEditBar.Designer.cs">
+      <DependentUpon>ucPictureEditBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucGridEditBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucGridEditBar.Designer.cs">
+      <DependentUpon>ucGridEditBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucBarOneCheckedButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucBarOneCheckedButton.Designer.cs">
+      <DependentUpon>ucBarOneCheckedButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucMovieCategoryPriceDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucMovieCategoryPriceDetail.Designer.cs">
+      <DependentUpon>ucMovieCategoryPriceDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucMovieItemsInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucMovieItemsInfo.Designer.cs">
+      <DependentUpon>ucMovieItemsInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucPictureCollection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucPictureCollection.Designer.cs">
+      <DependentUpon>ucPictureCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucRentalSalesInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucRentalSalesInfo.Designer.cs">
+      <DependentUpon>ucRentalSalesInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucRents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucRents.Designer.cs">
+      <DependentUpon>ucRents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucScreens.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucScreens.Designer.cs">
+      <DependentUpon>ucScreens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DemosRegistration.cs">
+    </Compile>
+    <Compile Include="ElementHelper.cs" />
+    <Compile Include="FormsBase\frmAddBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsBase\frmAddBase.Designer.cs">
+      <DependentUpon>frmAddBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCompanyAddMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCompanyAddMovie.Designer.cs">
+      <DependentUpon>frmCompanyAddMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesDetail\CompanyDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesDetail\CompanyDetail.Designer.cs">
+      <DependentUpon>CompanyDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCreateInitialDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCreateInitialDB.Designer.cs">
+      <DependentUpon>frmCreateInitialDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReceiptGridOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReceiptGridOptions.Designer.cs">
+      <DependentUpon>frmReceiptGridOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmArtistAddMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmArtistAddMovie.Designer.cs">
+      <DependentUpon>frmArtistAddMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesDetail\ArtistDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesDetail\ArtistDetail.Designer.cs">
+      <DependentUpon>ArtistDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmArtistGridOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmArtistGridOptions.Designer.cs">
+      <DependentUpon>frmArtistGridOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsBase\frmGridOptionsBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsBase\frmGridOptionsBase.Designer.cs">
+      <DependentUpon>frmGridOptionsBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesBase\DetailBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesBase\DetailBase.Designer.cs">
+      <DependentUpon>DetailBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesDetail\CustomerDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesDetail\CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFindCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFindCustomer.Designer.cs">
+      <DependentUpon>frmFindCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLayoutOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLayoutOptions.Designer.cs">
+      <DependentUpon>frmLayoutOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMovieAddArtist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMovieAddArtist.Designer.cs">
+      <DependentUpon>frmMovieAddArtist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMovieAddItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMovieAddItems.Designer.cs">
+      <DependentUpon>frmMovieAddItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucMovieCategoryDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucMovieCategoryDetail.Designer.cs">
+      <DependentUpon>ucMovieCategoryDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesDetail\MovieDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesDetail\MovieDetail.Designer.cs">
+      <DependentUpon>MovieDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMovieAddCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMovieAddCompany.Designer.cs">
+      <DependentUpon>frmMovieAddCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMovieItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMovieItems.Designer.cs">
+      <DependentUpon>frmMovieItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenImageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenImageDialog.Designer.cs">
+      <DependentUpon>frmOpenImageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutManager.cs" />
+    <Compile Include="ModulesKPI\CustomersByDatesKPI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesKPI\CustomersByDatesKPI.Designer.cs">
+      <DependentUpon>CustomersByDatesKPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesKPI\CustomersKPI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesKPI\CustomersKPI.Designer.cs">
+      <DependentUpon>CustomersKPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesKPI\MoviesKPI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesKPI\MoviesKPI.Designer.cs">
+      <DependentUpon>MoviesKPI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\ActiveCustomersList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\ActiveCustomersList.Designer.cs">
+      <DependentUpon>ActiveCustomersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\CustomerFilmRentsList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\CustomerFilmRentsList.Designer.cs">
+      <DependentUpon>CustomerFilmRentsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\CustomerInfoCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\CustomerInfoCard.Designer.cs">
+      <DependentUpon>CustomerInfoCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\FilmInfoCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\FilmInfoCard.Designer.cs">
+      <DependentUpon>FilmInfoCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\ReportModuleBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\ReportModuleBase.Designer.cs">
+      <DependentUpon>ReportModuleBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\RibbonReportDesigner\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\RibbonReportDesigner\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\RibbonReportDesigner\PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\RibbonReportDesigner\SkinGalleryHelper.cs" />
+    <Compile Include="ModulesReports\RibbonReportDesigner\XRDesignRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\TheMostProfitableGenresList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\TheMostProfitableGenresList.Designer.cs">
+      <DependentUpon>TheMostProfitableGenresList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesReports\TopNFilms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesReports\TopNFilms.Designer.cs">
+      <DependentUpon>TopNFilms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesScheduler\RentSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesScheduler\RentSchedule.Designer.cs">
+      <DependentUpon>RentSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesStatistics\MediaPerformanceStatistics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesStatistics\MediaPerformanceStatistics.Designer.cs">
+      <DependentUpon>MediaPerformanceStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesStatistics\CustomerRevenuesStatistics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesStatistics\CustomerRevenuesStatistics.Designer.cs">
+      <DependentUpon>CustomerRevenuesStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesStatistics\TopCustomers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesStatistics\TopCustomers.Designer.cs">
+      <DependentUpon>TopCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesStatistics\RevenueSplitStatistics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesStatistics\RevenueSplitStatistics.Designer.cs">
+      <DependentUpon>RevenueSplitStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulesStatistics\NetIncomeStatistics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ModulesStatistics\NetIncomeStatistics.Designer.cs">
+      <DependentUpon>NetIncomeStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Artists.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Artists.Designer.cs">
+      <DependentUpon>Artists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Categories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Companies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Companies.Designer.cs">
+      <DependentUpon>Companies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Customers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Movies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Movies.Designer.cs">
+      <DependentUpon>Movies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Rent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Rent.Designer.cs">
+      <DependentUpon>Rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="App.config" />
+    <Compile Include="Registration.cs" />
+    <Compile Include="Reports\LatefeeReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\LatefeeReceipt.Designer.cs">
+      <DependentUpon>LatefeeReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\ElementConstStringLoaderTests.cs" />
+    <Compile Include="Tests\FormsDetailTests.cs" />
+    <Compile Include="Tests\CollectionsTests.cs" />
+    <Compile Include="Tests\OpenImageDialogTests.cs" />
+    <Compile Include="VisualBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Modules\About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ModulesDetail\MovieDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MovieDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Employee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Movies.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Movies.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NukaCollect.Reports\NukaCollect.Reports.csproj">
+      <Project>{E0DB9E8D-06BF-48C5-9D94-67324E4BA6D5}</Project>
+      <Name>NukaCollect.Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NukaCollect.Resources\NukaCollect.Resources.csproj">
+      <Project>{30E7937A-0651-4865-B8AE-97C2A8D405F8}</Project>
+      <Name>NukaCollect.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NukaCollect\NukaCollect.csproj">
+      <Project>{64358044-1010-4E3D-A18D-ACB7755C40FA}</Project>
+      <Name>NukaCollect</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ModulesBase\DetailBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DetailBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Artists.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Artists.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ucGridEditBar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucGridEditBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesDetail\ArtistDetail.resx">
+      <DependentUpon>ArtistDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmArtistGridOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmArtistGridOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsBase\frmGridOptionsBase.resx">
+      <DependentUpon>frmGridOptionsBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ucPictureCollection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucPictureCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsBase\frmAddBase.resx">
+      <DependentUpon>frmAddBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLayoutOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLayoutOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMovieAddArtist.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMovieAddArtist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMovieAddCompany.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMovieAddCompany.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ucBarTwoButtons.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucBarTwoButtons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucCustomerInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucCustomerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucPictureEditBar.resx">
+      <DependentUpon>ucPictureEditBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucBarOneCheckedButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucBarOneCheckedButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucMovieCategoryPriceDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucMovieCategoryPriceDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucMovieItemsInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucMovieItemsInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucRentalSalesInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucRentalSalesInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucRents.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucRents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucScreens.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucScreens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmArtistAddMovie.resx">
+      <DependentUpon>frmArtistAddMovie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesDetail\CustomerDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFindCustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFindCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMovieAddItems.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMovieAddItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucMovieCategoryDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucMovieCategoryDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMovieItems.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMovieItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenImageDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOpenImageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Customers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Rent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Rent.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmReceiptGridOptions.resx">
+      <DependentUpon>frmReceiptGridOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ucMovieInfo.resx">
+      <DependentUpon>ucMovieInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucPeriod.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucPeriod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsBase\frmDetailBase.resx">
+      <DependentUpon>frmDetailBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsBase\frmMainBase.resx">
+      <DependentUpon>frmMainBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPeriod.resx">
+      <DependentUpon>frmPeriod.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCompanyAddMovie.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCompanyAddMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEditAppointment.resx">
+      <DependentUpon>frmEditAppointment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmNewMovieCategory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNewMovieCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMovieCategoriesList.resx">
+      <DependentUpon>frmMovieCategoriesList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProgress.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesDetail\CompanyDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CompanyDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCreateInitialDB.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCreateInitialDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesKPI\CustomersByDatesKPI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomersByDatesKPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesKPI\CustomersKPI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomersKPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesKPI\MoviesKPI.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MoviesKPI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\ActiveCustomersList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActiveCustomersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\CustomerFilmRentsList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomerFilmRentsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\CustomerInfoCard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomerInfoCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\FilmInfoCard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilmInfoCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\ReportModuleBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportModuleBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\TheMostProfitableGenresList.resx">
+      <DependentUpon>TheMostProfitableGenresList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\TopNFilms.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TopNFilms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesScheduler\RentSchedule.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RentSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesStatistics\MediaPerformanceStatistics.resx">
+      <DependentUpon>MediaPerformanceStatistics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesStatistics\CustomerRevenuesStatistics.resx">
+      <DependentUpon>CustomerRevenuesStatistics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesStatistics\TopCustomers.resx">
+      <DependentUpon>TopCustomers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesStatistics\RevenueSplitStatistics.resx">
+      <DependentUpon>RevenueSplitStatistics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesStatistics\NetIncomeStatistics.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NetIncomeStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Companies.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Companies.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ModulesReports\RibbonReportDesigner\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\RibbonReportDesigner\PrintRibbonControllerResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>RibbonReportDesigner</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulesReports\RibbonReportDesigner\XRDesignRibbonControllerResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>RibbonReportDesigner</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppIcon.ico" />
+    <EmbeddedResource Include="Controls\ExportControl.resx">
+      <DependentUpon>ExportControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RibbonApplicationUserControl.resx">
+      <DependentUpon>RibbonApplicationUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucControlAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucControlAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Categories.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Categories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reports\LatefeeReceipt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LatefeeReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="AppIcon-bak.ico" />
+    <Content Include="ModulesReports\RibbonReportDesigner\RibbonReportDesignerIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

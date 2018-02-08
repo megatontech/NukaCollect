@@ -1,0 +1,174 @@
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Win.exe.config
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Win.exe
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Win.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Reports.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Resources.dll
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Reports.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Resources.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.pdb
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.About.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.MovieDetail.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Employee.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Movies.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.DetailBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Artists.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucGridEditBar.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.ArtistDetail.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmArtistGridOptions.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmGridOptionsBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucPictureCollection.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmAddBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmLayoutOptions.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieAddArtist.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieAddCompany.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucBarTwoButtons.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucCustomerInfo.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucPictureEditBar.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucBarOneCheckedButton.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieCategoryPriceDetail.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieItemsInfo.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucRentalSalesInfo.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucRents.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucScreens.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmArtistAddMovie.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.CustomerDetail.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmFindCustomer.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieAddItems.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieCategoryDetail.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieItems.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmOpenImageDialog.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Customers.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Rent.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmReceiptGridOptions.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieInfo.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucPeriod.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmDetailBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.frmMainBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmPeriod.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmCompanyAddMovie.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.RentalDetailsForm.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmNewMovieCategory.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieCategoriesList.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmProgress.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.CompanyDetail.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmCreateInitialDB.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.frmMain.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesKPI.CustomersByDatesKPI.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesKPI.CustomersKPI.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesKPI.MoviesKPI.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.ActiveCustomersList.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.CustomerFilmRentsList.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.CustomerInfoCard.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.FilmInfoCard.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.ReportModuleBase.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.TheMostProfitableGenresList.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.TopNFilms.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesScheduler.RentalCalendar.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.MediaPerformanceStatistics.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.CustomerRevenueStatistics.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.TopCustomersStatistics.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.RevenueSplitStatistics.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.NetIncomeStatistics.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Companies.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\RibbonReportDesigner.MainForm.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.RibbonReportDesigner.PrintRibbonControllerResources.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.RibbonReportDesigner.XRDesignRibbonControllerResources.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ExportControl.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.RibbonApplicationUserControl.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucControlAbout.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.frmAbout.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Categories.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Reports.LatefeeReceipt.resources
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.csproj.GenerateResource.Cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.csproj.CoreCompileInputs.cache
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.exe
+C:\Users\Public\Documents\DevExpress Demos 13.2\Components\WinForms\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Win.exe.config
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Win.exe
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Win.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Reports.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Resources.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Reports.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.Resources.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\bin\Debug\DevExpress.VideoRent.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.csprojResolveAssemblyReference.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.About.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.MovieDetail.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Employee.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Movies.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.DetailBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Artists.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucGridEditBar.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.ArtistDetail.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmArtistGridOptions.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmGridOptionsBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucPictureCollection.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmAddBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmLayoutOptions.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieAddArtist.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieAddCompany.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucBarTwoButtons.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucCustomerInfo.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucPictureEditBar.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucBarOneCheckedButton.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieCategoryPriceDetail.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieItemsInfo.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucRentalSalesInfo.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucRents.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucScreens.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmArtistAddMovie.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.CustomerDetail.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmFindCustomer.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieAddItems.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieCategoryDetail.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieItems.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmOpenImageDialog.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Customers.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Rent.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmReceiptGridOptions.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucMovieInfo.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucPeriod.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmDetailBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.frmMainBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmPeriod.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmCompanyAddMovie.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.RentalDetailsForm.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmNewMovieCategory.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmMovieCategoriesList.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmProgress.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.CompanyDetail.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Forms.frmCreateInitialDB.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.frmMain.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesKPI.CustomersByDatesKPI.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesKPI.CustomersKPI.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesKPI.MoviesKPI.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.ActiveCustomersList.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.CustomerFilmRentsList.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.CustomerInfoCard.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.FilmInfoCard.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.ReportModuleBase.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.TheMostProfitableGenresList.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.TopNFilms.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesScheduler.RentalCalendar.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.MediaPerformanceStatistics.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.CustomerRevenueStatistics.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.TopCustomersStatistics.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.RevenueSplitStatistics.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesStatistics.NetIncomeStatistics.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Companies.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\RibbonReportDesigner.MainForm.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.RibbonReportDesigner.PrintRibbonControllerResources.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.ModulesReports.RibbonReportDesigner.XRDesignRibbonControllerResources.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ExportControl.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.RibbonApplicationUserControl.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Controls.ucControlAbout.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.frmAbout.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Modules.Categories.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.Reports.LatefeeReceipt.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.exe
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Win\obj\Debug\DevExpress.VideoRent.Win.pdb

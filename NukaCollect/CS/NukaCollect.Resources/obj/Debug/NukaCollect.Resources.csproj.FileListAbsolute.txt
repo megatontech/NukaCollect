@@ -1,0 +1,14 @@
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\bin\Debug\NukaCollect.Resources.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\bin\Debug\NukaCollect.Resources.pdb
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\NukaCollect.Resources.Properties.Resources.resources
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\NukaCollect.Resources.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\NukaCollect.Resources.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\NukaCollect.Resources.dll
+C:\Users\user\OneDrive\DevExpress.VideoRent.Win\CS\DevExpress.VideoRent.Resources\obj\Debug\NukaCollect.Resources.pdb
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\bin\Debug\NukaCollect.Resources.dll
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\bin\Debug\NukaCollect.Resources.pdb
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Debug\NukaCollect.Resources.Properties.Resources.resources
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Debug\NukaCollect.Resources.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Debug\NukaCollect.Resources.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Debug\NukaCollect.Resources.dll
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Debug\NukaCollect.Resources.pdb
