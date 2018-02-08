@@ -1,27 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
+using DevExpress.DemoData.Helpers;
 using DevExpress.XtraEditors;
-using DevExpress.Xpo;
-using DevExpress.Xpo.DB;
-using System.Reflection;
-using System.IO;
-using DevExpress.Xpo.Metadata;
-using DevExpress.XtraLayout;
 using NukaCollect.Helpers;
 using NukaCollect.Resources;
-using DevExpress.DemoData.Helpers;
+using System;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Forms {
-    public partial class frmCreateInitialDB : XtraForm {
-        DBConnectData dbConnectData;
-        FormAnimationSizer sizer;
+namespace NukaCollect.Win.Forms
+{
+    public partial class frmCreateInitialDB : XtraForm
+    {
+        private DBConnectData dbConnectData;
+        private FormAnimationSizer sizer;
 
-        public frmCreateInitialDB(DBConnectData dbConnectData) {
+        public frmCreateInitialDB(DBConnectData dbConnectData)
+        {
             InitializeComponent();
             ElementConstStringLoader.LoadConstStringsForFrmCreateInitialDB(this);
             sizer = new FormAnimationSizer(this);
@@ -30,7 +22,7 @@ namespace NukaCollect.Win.Forms {
             teServer.EditValue = DbEngineDetector.GetSqlServerInstanceName();
             notePanel.Text = ConstStrings.Get("DatabaseCreating");
             EditorHelper.CreateDBFormatRadioGroup(rgType.Properties);
-            rgType.DataBindings.Add("EditValue", dbConnectData, "DBFormat"); 
+            rgType.DataBindings.Add("EditValue", dbConnectData, "DBFormat");
             EditorHelper.CreateSqlAuthenticationTypeRadioGroup(rgSqlAuthenticationType.Properties);
             rgSqlAuthenticationType.DataBindings.Add("EditValue", dbConnectData, "SqlAuthenticationType");
             teServer.DataBindings.Add("Text", dbConnectData, "Server");
@@ -40,21 +32,28 @@ namespace NukaCollect.Win.Forms {
             teDatabase.DataBindings.Add("Text", dbConnectData, "MdbPath");
             teDatabaseSQL.DataBindings.Add("Text", dbConnectData, "SqlDbName");
         }
+
         public event EventHandler Start;
-        void rgType_EditValueChanged(object sender, EventArgs e) {
+
+        private void rgType_EditValueChanged(object sender, EventArgs e)
+        {
             lcMain.BeginUpdate();
-            try {
-                if((DBFormat)rgType.EditValue == DBFormat.Mdb)
+            try
+            {
+                if ((DBFormat)rgType.EditValue == DBFormat.Mdb)
                     DisbleSqlConnect();
                 else
                     EnableSqlConnect();
             }
-            finally {
+            finally
+            {
                 lcMain.EndUpdate();
                 sizer.SetMinHeight(lcMain.Root.MinSize.Height);
             }
         }
-        void EnableSqlConnect() {
+
+        private void EnableSqlConnect()
+        {
             lcgSQL.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             lcgAccess.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             teServer.Enabled = true;
@@ -63,7 +62,9 @@ namespace NukaCollect.Win.Forms {
             teDatabase.Enabled = false;
             UpdateLoginPassword();
         }
-        void DisbleSqlConnect() {
+
+        private void DisbleSqlConnect()
+        {
             lcgAccess.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
             lcgSQL.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never;
             teServer.Enabled = false;
@@ -73,55 +74,94 @@ namespace NukaCollect.Win.Forms {
             teDatabaseSQL.Enabled = false;
             teDatabase.Enabled = true;
         }
-        void rgSqlAuthenticationType_EditValueChanged(object sender, EventArgs e) {
+
+        private void rgSqlAuthenticationType_EditValueChanged(object sender, EventArgs e)
+        {
             UpdateLoginPassword();
         }
-        void UpdateLoginPassword() {
+
+        private void UpdateLoginPassword()
+        {
             teLogin.Enabled = tePassword.Enabled = (SqlAuthenticationType)rgSqlAuthenticationType.EditValue == SqlAuthenticationType.Sql;
         }
-        void ceGenerateRentsHistory_CheckedChanged(object sender, EventArgs e) {
-            if(ceGenerateRentsHistory.Visible) 
+
+        private void ceGenerateRentsHistory_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ceGenerateRentsHistory.Visible)
                 vbwRentsHistory.Enabled = ceGenerateRentsHistory.Checked;
         }
-        void sbCreate_Click(object sender, EventArgs e) {
+
+        private void sbCreate_Click(object sender, EventArgs e)
+        {
             EventHandler start = Start;
-            if(start != null) start(this, EventArgs.Empty);
+            if (start != null) start(this, EventArgs.Empty);
         }
-        public void BeginWork() {
+
+        public void BeginWork()
+        {
             this.Cursor = Cursors.WaitCursor;
             sbCreate.Enabled = false;
             lcMain.OptionsView.IsReadOnly = DevExpress.Utils.DefaultBoolean.True;
             lcMain.Refresh();
         }
-        public void EndWork(bool complete) {
+
+        public void EndWork(bool complete)
+        {
             lcMain.OptionsView.IsReadOnly = DevExpress.Utils.DefaultBoolean.False;
             sbCreate.Enabled = true;
-            if(!complete) {
+            if (!complete)
+            {
                 vbwCreatingDb.Position = vbwCreatingDb.Properties.Minimum;
                 vbwRentsHistory.Position = vbwRentsHistory.Properties.Minimum;
             }
             this.Cursor = Cursors.Arrow;
         }
+
         public IBackgroundWorker CreateDbWorker { get { return vbwCreatingDb; } }
         public IBackgroundWorker GenerateRentsHistoryWorker { get { return vbwRentsHistory; } }
     }
-    public class CreateInitialDbDialog : ICreateInitialDbDialog {
-        frmCreateInitialDB form;
-        public void Show(DBConnectData dbConnectData) { form = new frmCreateInitialDB(dbConnectData); }
-        public void ShowDialog() { form.ShowDialog(); }
-        public void Close() {
+
+    public class CreateInitialDbDialog : ICreateInitialDbDialog
+    {
+        private frmCreateInitialDB form;
+
+        public void Show(DBConnectData dbConnectData)
+        {
+            form = new frmCreateInitialDB(dbConnectData);
+        }
+
+        public void ShowDialog()
+        {
+            form.ShowDialog();
+        }
+
+        public void Close()
+        {
             form.Close();
             form.Dispose();
         }
+
         public IBackgroundWorker CreateDbWorker { get { return form.CreateDbWorker; } }
         public IBackgroundWorker GenerateRentsHistoryWorker { get { return form.GenerateRentsHistoryWorker; } }
-        public event EventHandler Start {
+
+        public event EventHandler Start
+        {
             add { form.Start += value; }
             remove { form.Start -= value; }
         }
-        public void BeginWork() { form.BeginWork(); }
-        public void EndWork(bool complete) { form.EndWork(complete); }
-        public void ShowUnableToOpenMessage(bool createNew) {
+
+        public void BeginWork()
+        {
+            form.BeginWork();
+        }
+
+        public void EndWork(bool complete)
+        {
+            form.EndWork(complete);
+        }
+
+        public void ShowUnableToOpenMessage(bool createNew)
+        {
             XtraMessageBox.Show(createNew ? ConstStrings.Get("UnableCreateDBMessage") : ConstStrings.Get("UnableOpenDBMessage"), ConstStrings.Get("Error"), MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }

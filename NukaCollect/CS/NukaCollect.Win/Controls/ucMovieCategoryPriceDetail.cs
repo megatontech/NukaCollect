@@ -1,56 +1,67 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.XtraEditors;
-using DevExpress.XtraEditors.DXErrorProvider;
 using DevExpress.Utils.Menu;
-using DevExpress.XtraGrid;
-using NukaCollect.Resources;
+using DevExpress.XtraEditors;
+using System;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Controls {
-    public interface IEditsContainer {
+namespace NukaCollect.Win.Controls
+{
+    public interface IEditsContainer
+    {
         event EventHandler EditValueChanged;
     }
-    public partial class ucMovieCategoryPriceDetail : XtraUserControl, IEditsContainer {
-        MovieCategoryPrice categoryPrice;
+
+    public partial class ucMovieCategoryPriceDetail : XtraUserControl, IEditsContainer
+    {
+        private MovieCategoryPrice categoryPrice;
+
         public event EventHandler EditValueChanged;
+
         public ucMovieCategoryPriceDetail()
-            : base() {
+            : base()
+        {
             InitializeComponent();
             ElementConstStringLoader.LoadConstStringsForUCMovieCategoryPriceDetail(this);
         }
+
         public ucMovieCategoryPriceDetail(MovieCategoryPrice categoryPrice)
-            : this() {
+            : this()
+        {
             Init(categoryPrice);
         }
-        public void SetLayoutManager(IDXMenuManager manager) {
+
+        public void SetLayoutManager(IDXMenuManager manager)
+        {
             this.lcMain.MenuManager = manager;
-            foreach(Control item in lcMain.Controls) {
+            foreach (Control item in lcMain.Controls)
+            {
                 BaseEdit edit = item as BaseEdit;
-                if(edit != null)
+                if (edit != null)
                     edit.MenuManager = manager;
             }
         }
-        public void Init(MovieCategoryPrice categoryPrice) {
+
+        public void Init(MovieCategoryPrice categoryPrice)
+        {
             InitData(categoryPrice);
-            foreach(Control item in lcMain.Controls)
+            foreach (Control item in lcMain.Controls)
                 AddControl(item);
         }
-        protected void AddControl(Control item) {
+
+        protected void AddControl(Control item)
+        {
             BaseEdit edit = item as BaseEdit;
-            if(edit != null) {
+            if (edit != null)
+            {
                 edit.MenuManager = lcMain.MenuManager;
                 edit.EditValueChanged += new EventHandler(edit_EditValueChanged);
             }
             IEditsContainer editsContainer = item as IEditsContainer;
-            if(editsContainer != null) editsContainer.EditValueChanged += new EventHandler(edit_EditValueChanged);
+            if (editsContainer != null) editsContainer.EditValueChanged += new EventHandler(edit_EditValueChanged);
         }
-        public void InitData(MovieCategoryPrice categoryPrice) {
-            if(categoryPrice == null) return;
+
+        public void InitData(MovieCategoryPrice categoryPrice)
+        {
+            if (categoryPrice == null) return;
             this.categoryPrice = categoryPrice;
             seDays1Price.Value = categoryPrice.Days1RentPrice;
             seDays2Price.Value = categoryPrice.Days2RentPrice;
@@ -62,7 +73,9 @@ namespace NukaCollect.Win.Controls {
             seLatePrice.Value = categoryPrice.LateRentPrice;
             seDefaultDays.Value = categoryPrice.DefaultRentDays;
         }
-        public void SaveData() {
+
+        public void SaveData()
+        {
             categoryPrice.Days1RentPrice = seDays1Price.Value;
             categoryPrice.Days2RentPrice = seDays2Price.Value;
             categoryPrice.Days3RentPrice = seDays3Price.Value;
@@ -73,8 +86,10 @@ namespace NukaCollect.Win.Controls {
             categoryPrice.LateRentPrice = seLatePrice.Value;
             categoryPrice.DefaultRentDays = (int)seDefaultDays.Value;
         }
-        void edit_EditValueChanged(object sender, EventArgs e) {
-            if(EditValueChanged != null)
+
+        private void edit_EditValueChanged(object sender, EventArgs e)
+        {
+            if (EditValueChanged != null)
                 EditValueChanged(sender, e);
         }
     }

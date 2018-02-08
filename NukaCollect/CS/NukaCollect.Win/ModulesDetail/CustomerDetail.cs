@@ -1,36 +1,36 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.Xpo;
 using DevExpress.Utils.Menu;
 using DevExpress.XtraEditors;
 using NukaCollect.Resources;
+using System;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Modules {
-    public partial class CustomerDetail : DetailBase {
+namespace NukaCollect.Win.Modules
+{
+    public partial class CustomerDetail : DetailBase
+    {
         public CustomerDetail(Form parent, GetSessionCallback session, Customer customer, IDXMenuManager manager, CloseDetailForm closeForm)
-            : base(parent, session, customer, manager, closeForm) {
+            : base(parent, session, customer, manager, closeForm)
+        {
             InitializeComponent();
             ElementConstStringLoader.LoadConstStringsForCustomerDetail(this);
             beEmail.Properties.Buttons[0].Caption = ConstStrings.Get("SendEmail");
             beEmail.Properties.Buttons[0].ToolTip = ConstStrings.Get("SendEmail");
             Text = customer != null ? customer.FullName : ConstStrings.Get("NewCustomer");
         }
+
         protected override string HomeButtonCaption { get { return ConstStrings.Get("CustomerList"); } }
         public Customer Customer { get { return editObject as Customer; } }
-        protected override void InitData() {
+
+        protected override void InitData()
+        {
             base.InitData();
             InitEditors();
-            if(Customer == null) return;
+            if (Customer == null) return;
             teFirstName.Text = Customer.FirstName;
             teLastName.Text = Customer.LastName;
             teMiddleName.Text = Customer.MiddleName;
             icbGender.EditValue = Customer.Gender;
-            if(Customer.BirthDate != null) deBirthDate.DateTime = Customer.BirthDate.Value;
+            if (Customer.BirthDate != null) deBirthDate.DateTime = Customer.BirthDate.Value;
             tePhone.Text = Customer.Phone;
             beEmail.Text = Customer.Email;
             meAddress.Text = Customer.Address;
@@ -40,29 +40,37 @@ namespace NukaCollect.Win.Modules {
             teDiscount.EditValue = Customer.Discount;
             ucPictureEditBar1.Init(pePhoto, LayoutManager);
         }
-        protected override void InitValidation() {
+
+        protected override void InitValidation()
+        {
             ValidationProvider.SetValidationRule(teFirstName, ValidationRulesHelper.RuleIsNotBlank);
             ValidationProvider.SetValidationRule(teLastName, ValidationRulesHelper.RuleIsNotBlank);
         }
-        void InitEditors() {
+
+        private void InitEditors()
+        {
             EditorHelper.CreateGenderImageComboBox(icbGender.Properties, null);
             EditorHelper.CreateDiscountLevelImageComboBox(icbDiscountLevel.Properties, null);
             EditorHelper.CreateDiscountTextEdit(teDiscount.Properties);
             pePhoto.Properties.NullText = ConstStrings.Get("NoImageData");
             npDiscount.Text = ConstStrings.Get("DiscountNote");
         }
-        protected override void UpdateReadOnlyData() {
+
+        protected override void UpdateReadOnlyData()
+        {
             base.UpdateReadOnlyData();
             lciBar.Visibility = ReadOnly ? DevExpress.XtraLayout.Utils.LayoutVisibility.Never : DevExpress.XtraLayout.Utils.LayoutVisibility.Always;
         }
-        protected override void SaveData() {
+
+        protected override void SaveData()
+        {
             base.SaveData();
             Customer.FirstName = teFirstName.Text;
             Customer.LastName = teLastName.Text;
             Customer.MiddleName = teMiddleName.Text;
             Customer.Gender = (PersonGender)icbGender.EditValue;
             Customer.BirthDate = deBirthDate.DateTime;
-            if(Customer.BirthDate == DateTime.MinValue) Customer.BirthDate = null;
+            if (Customer.BirthDate == DateTime.MinValue) Customer.BirthDate = null;
             Customer.Phone = tePhone.Text;
             Customer.Email = beEmail.Text;
             Customer.Address = meAddress.Text;
@@ -70,27 +78,38 @@ namespace NukaCollect.Win.Modules {
             Customer.Photo = pePhoto.Image;
             CommitSession();
         }
-        protected override VideoRentBaseObject CreateNewObject() {
+
+        protected override VideoRentBaseObject CreateNewObject()
+        {
             base.CreateNewObject();
             return new Customer(Session);
         }
 
-        private void beEmail_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e) {
-            try {
+        private void beEmail_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            try
+            {
                 System.Diagnostics.Process.Start(string.Format("MailTo:{0}", beEmail.Text));
             }
-            catch(Exception ex) {
+            catch (Exception ex)
+            {
                 XtraMessageBox.Show(ex.Message, ConstStrings.Get("Error"), MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private void beEmail_TextChanged(object sender, EventArgs e) {
+
+        private void beEmail_TextChanged(object sender, EventArgs e)
+        {
             beEmail.Properties.Buttons[0].Enabled = !string.IsNullOrEmpty(beEmail.Text.Trim());
         }
-        protected internal override void LoadPicture() {
+
+        protected internal override void LoadPicture()
+        {
             base.LoadPicture();
             ucPictureEditBar1.LoadPicture();
         }
-        protected internal override void ClearPicture() {
+
+        protected internal override void ClearPicture()
+        {
             base.ClearPicture();
             ucPictureEditBar1.ClearPicture();
         }

@@ -1,65 +1,90 @@
+using NukaCollect.Resources;
 using System;
 using System.Reflection;
-using NukaCollect.Resources;
 
-namespace NukaCollect.Win {
-    public class ElementConstStringLoader {
-        public static void LoadConstStringsForCustomerRevenueStatistics(object element) {
+namespace NukaCollect.Win
+{
+    public class ElementConstStringLoader
+    {
+        public static void LoadConstStringsForCustomerRevenueStatistics(object element)
+        {
             SetPropertyPathValue(element, "fieldCustomer.Caption", ConstStrings.Get("Customer"));
             SetPropertyPathValue(element, "fieldRevenue.Caption", ConstStrings.Get("Revenue"));
             SetPropertyPathValue(element, "fieldMonth.Caption", ConstStrings.Get("Month"));
         }
-        public static void LoadConstStringsForTopCustomersStatistics(object element) {
+
+        public static void LoadConstStringsForTopCustomersStatistics(object element)
+        {
             SetPropertyPathValue(element, "fieldCustomer.Caption", ConstStrings.Get("Customer"));
             SetPropertyPathValue(element, "fieldRevenue.Caption", ConstStrings.Get("Income"));
             SetPropertyPathValue(element, "layoutControlItem3.Text", ConstStrings.Get("Period") + ":");
             SetPropertyPathValue(element, "layoutControlItem4.Text", ConstStrings.Get("CustomerCount") + ":");
         }
-        public static void LoadConstStringsForRevenueSplitStatistics(object element) {
+
+        public static void LoadConstStringsForRevenueSplitStatistics(object element)
+        {
             SetPropertyPathValue(element, "fieldMonth.Caption", ConstStrings.Get("Month"));
             SetPropertyPathValue(element, "fieldRevenue.Caption", ConstStrings.Get("Revenue"));
             SetPropertyPathValue(element, "fieldReceiptType.Caption", ConstStrings.Get("ReceiptType"));
         }
-        public static void LoadConstStringsForNetIncomeStatistics(object element) {
+
+        public static void LoadConstStringsForNetIncomeStatistics(object element)
+        {
             SetPropertyPathValue(element, "fieldMonth.Caption", ConstStrings.Get("Month"));
             SetPropertyPathValue(element, "fieldPeriod.Caption", ConstStrings.Get("Period"));
         }
-        public static void LoadConstStringsForCustomerByDatesKPI(object element) {
+
+        public static void LoadConstStringsForCustomerByDatesKPI(object element)
+        {
             SetPropertyPathValue(element, "fieldPayment.Caption", ConstStrings.Get("Payment"));
             SetPropertyPathValue(element, "fieldCustomer.Caption", ConstStrings.Get("Customer"));
             SetPropertyPathValue(element, "Year.Caption", ConstStrings.Get("Year"));
             SetPropertyPathValue(element, "Quarter.Caption", ConstStrings.Get("Quarter"));
             SetPropertyPathValue(element, "layoutControlItem1.Text", ConstStrings.Get("SortBy"));
         }
-        public static void LoadConstStringsForCustomerKPI(object element) {
+
+        public static void LoadConstStringsForCustomerKPI(object element)
+        {
             SetPropertyPathValue(element, "fieldPayment.Caption", ConstStrings.Get("Payment"));
             SetPropertyPathValue(element, "fieldCustomer.Caption", ConstStrings.Get("Customer"));
             SetPropertyPathValue(element, "Year.Caption", ConstStrings.Get("Year"));
             SetPropertyPathValue(element, "Quarter.Caption", ConstStrings.Get("Quarter"));
         }
-        public static void LoadConstStringsForMoviesKPI(object element) {
+
+        public static void LoadConstStringsForMoviesKPI(object element)
+        {
             SetPropertyPathValue(element, "fieldPayment.Caption", ConstStrings.Get("Payment"));
             SetPropertyPathValue(element, "fieldMovie.Caption", ConstStrings.Get("Movie"));
             SetPropertyPathValue(element, "Year.Caption", ConstStrings.Get("Year"));
             SetPropertyPathValue(element, "Quarter.Caption", ConstStrings.Get("Quarter"));
         }
-        public static void LoadConstStringsForFrmAddBase(object element) {
+
+        public static void LoadConstStringsForFrmAddBase(object element)
+        {
             SetPropertyPathValue(element, "sbSave.Text", ConstStrings.Get("ButtonTextAdd"));
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("ButtonTextCancel"));
         }
-        public static void LoadConstStringsForFrmDetailBase(object element) {
+
+        public static void LoadConstStringsForFrmDetailBase(object element)
+        {
             SetPropertyPathValue(element, "sbOK.Text", ConstStrings.Get("ButtonTextOK"));
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("ButtonTextCancel"));
         }
-        public static void LoadConstStringsForFrmGridOptionsBase(object element) {
+
+        public static void LoadConstStringsForFrmGridOptionsBase(object element)
+        {
             SetPropertyPathValue(element, "sbSave.Text", ConstStrings.Get("ButtonTextOK"));
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("ButtonTextCancel"));
         }
-        public static void LoadConstStringsForFrmMainBase(object element) {
+
+        public static void LoadConstStringsForFrmMainBase(object element)
+        {
             SetPropertyPathValue(element, "bbiAbout.Caption", ConstStrings.Get("About"));
             SetPropertyPathValue(element, "bbiAbout.Hint", ConstStrings.Get("AboutThisDemo"));
         }
-        public static void LoadConstStringsForAbout(object element) {
+
+        public static void LoadConstStringsForAbout(object element)
+        {
             SetPropertyPathValue(element, "lcAbout1.Text", ConstStrings.Get("WelcomeText1"));
             SetPropertyPathValue(element, "lcAbout2.Text", ConstStrings.Get("WelcomeText2"));
             SetPropertyPathValue(element, "lcLink1.Text", ConstStrings.Get("WelcomeLink1"));
@@ -71,7 +96,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lcControlsText.Text", ConstStrings.Get("WelcomeText3"));
             SetPropertyPathValue(element, "lcHint.Text", ConstStrings.Get("WelcomeText4"));
         }
-        public static void LoadConstStringsForArtists(object element) {
+
+        public static void LoadConstStringsForArtists(object element)
+        {
             SetPropertyPathValue(element, "cardView1.CardCaptionFormat", ConstStrings.Get("PhotoNumber"));
             SetPropertyPathValue(element, "colPicture.Caption", ConstStrings.Get("Image"));
             SetPropertyPathValue(element, "colGender.Caption", ConstStrings.Get("Gender"));
@@ -85,11 +112,15 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "colNickName.Caption", ConstStrings.Get("NickName"));
             SetPropertyPathValue(element, "colLink.Caption", ConstStrings.Get("Link"));
         }
-        public static void LoadConstStringsForCategories(object element) {
+
+        public static void LoadConstStringsForCategories(object element)
+        {
             SetPropertyPathValue(element, "colName.Caption", ConstStrings.Get("Name"));
             SetPropertyPathValue(element, "colIsDefault.Caption", ConstStrings.Get("Default"));
         }
-        public static void LoadConstStringsForCompanies(object element) {
+
+        public static void LoadConstStringsForCompanies(object element)
+        {
             SetPropertyPathValue(element, "layoutView1.CardCaptionFormat", ConstStrings.Get("MovieOf"));
             SetPropertyPathValue(element, "colDescription.Caption", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "colName.Caption", ConstStrings.Get("Name"));
@@ -98,7 +129,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "colCountry.Caption", ConstStrings.Get("Country"));
             SetPropertyPathValue(element, "colFlag.Caption", ConstStrings.Get("Flag"));
         }
-        public static void LoadConstStringsForCustomers(object element) {
+
+        public static void LoadConstStringsForCustomers(object element)
+        {
             SetPropertyPathValue(element, "colPhoto.Caption", ConstStrings.Get("Photo"));
             SetPropertyPathValue(element, "colCustomerId.Caption", ConstStrings.Get("CardNumber"));
             SetPropertyPathValue(element, "colName1.Caption", ConstStrings.Get("Name"));
@@ -119,10 +152,14 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "gridColumn10.Caption", ConstStrings.Get("Comments"));
             SetPropertyPathValue(element, "colPhoto2.Caption", ConstStrings.Get("Photo"));
         }
-        public static void LoadConstStringsForEmployee(object element) {
+
+        public static void LoadConstStringsForEmployee(object element)
+        {
             SetPropertyPathValue(element, "simpleButton1.Text", ConstStrings.Get("Save"));
         }
-        public static void LoadConstStringsForMovies(object element) {
+
+        public static void LoadConstStringsForMovies(object element)
+        {
             SetPropertyPathValue(element, "colPicturesCount.Caption", ConstStrings.Get("PicturesCount"));
             SetPropertyPathValue(element, "colPhoto.Caption", ConstStrings.Get("Photo"));
             SetPropertyPathValue(element, "colTitle.Caption", ConstStrings.Get("Title"));
@@ -145,7 +182,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "colPlot1.Caption", ConstStrings.Get("Plot"));
             SetPropertyPathValue(element, "dpScreens.Text", ConstStrings.Get("Screens"));
         }
-        public static void LoadConstStringsForRent(object element) {
+
+        public static void LoadConstStringsForRent(object element)
+        {
             SetPropertyPathValue(element, "colActive.Caption", ConstStrings.Get("Active"));
             SetPropertyPathValue(element, "colRentId.Caption", ConstStrings.Get("RentalIdHtml"));
             SetPropertyPathValue(element, "colReturnedOn.Caption", ConstStrings.Get("ReturnedOn"));
@@ -182,9 +221,13 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lcgActiveRents.CustomizationFormText", ConstStrings.Get("ActiveRentals"));
             SetPropertyPathValue(element, "lcgActiveRents.Text", ConstStrings.Get("ActiveRentals"));
         }
-        public static void LoadConstStringsForDetailBase(object element) {
+
+        public static void LoadConstStringsForDetailBase(object element)
+        {
         }
-        public static void LoadConstStringsForArtistDetail(object element) {
+
+        public static void LoadConstStringsForArtistDetail(object element)
+        {
             SetPropertyPathValue(element, "lcgAdditionalDetail.CustomizationFormText", ConstStrings.Get("AdditionalDetails"));
             SetPropertyPathValue(element, "lcgAdditionalDetail.Text", ConstStrings.Get("AdditionalDetails"));
             SetPropertyPathValue(element, "lcgArtist.CustomizationFormText", ConstStrings.Get("ActorsCrew"));
@@ -217,7 +260,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "colDescription.Caption", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "colLine.Caption", ConstStrings.Get("Line"));
         }
-        public static void LoadConstStringsForCompanyDetail(object element) {
+
+        public static void LoadConstStringsForCompanyDetail(object element)
+        {
             SetPropertyPathValue(element, "colMovie.Caption", ConstStrings.Get("Movie"));
             SetPropertyPathValue(element, "colDescription.Caption", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "lciName.CustomizationFormText", ConstStrings.Get("Name"));
@@ -231,7 +276,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciMoviesGridBar.CustomizationFormText", ConstStrings.Get("LinkedMovies"));
             SetPropertyPathValue(element, "lciMoviesGridBar.Text", ConstStrings.Get("LinkedMovies") + ":");
         }
-        public static void LoadConstStringsForCustomerDetail(object element) {
+
+        public static void LoadConstStringsForCustomerDetail(object element)
+        {
             SetPropertyPathValue(element, "lciFirstName.CustomizationFormText", ConstStrings.Get("FirstName"));
             SetPropertyPathValue(element, "lciFirstName.Text", ConstStrings.Get("FirstName") + ":");
             SetPropertyPathValue(element, "lciMiddleName.CustomizationFormText", ConstStrings.Get("MiddleName"));
@@ -259,7 +306,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciComments.CustomizationFormText", ConstStrings.Get("Comments"));
             SetPropertyPathValue(element, "lciComments.Text", ConstStrings.Get("Comments") + ":");
         }
-        public static void LoadConstStringsForMovieDetail(object element) {
+
+        public static void LoadConstStringsForMovieDetail(object element)
+        {
             SetPropertyPathValue(element, "ceIsColor.Properties.Caption", ConstStrings.Get("Color"));
             SetPropertyPathValue(element, "lciTitle.CustomizationFormText", ConstStrings.Get("Title"));
             SetPropertyPathValue(element, "lciTitle.Text", ConstStrings.Get("Title") + ":");
@@ -307,13 +356,17 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciCategory.CustomizationFormText", ConstStrings.Get("RentalCategory"));
             SetPropertyPathValue(element, "lciCategory.Text", ConstStrings.Get("RentalCategory") + ":");
         }
-        public static void LoadConstStringsForFrmMovieAddCompany(object element) {
+
+        public static void LoadConstStringsForFrmMovieAddCompany(object element)
+        {
             SetPropertyPathValue(element, "lciCompany.CustomizationFormText", ConstStrings.Get("Company"));
             SetPropertyPathValue(element, "lciCompany.Text", ConstStrings.Get("Company") + ":");
             SetPropertyPathValue(element, "lciDescription.CustomizationFormText", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "lciDescription.Text", ConstStrings.Get("Description") + ":");
         }
-        public static void LoadConstStringsForFrmMovieAddItems(object element) {
+
+        public static void LoadConstStringsForFrmMovieAddItems(object element)
+        {
             SetPropertyPathValue(element, "lciFormat.CustomizationFormText", ConstStrings.Get("Format"));
             SetPropertyPathValue(element, "lciFormat.Text", ConstStrings.Get("Format") + ":");
             SetPropertyPathValue(element, "lciCount.CustomizationFormText", ConstStrings.Get("Count"));
@@ -323,7 +376,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "ceAvailableForSell.Properties.Caption", ConstStrings.Get("AvailableForSaleHtml"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("AddToMovieInventory"));
         }
-        public static void LoadConstStringsForFrmMovieCategoriesList(object element) {
+
+        public static void LoadConstStringsForFrmMovieCategoriesList(object element)
+        {
             SetPropertyPathValue(element, "colName.Caption", ConstStrings.Get("Name"));
             SetPropertyPathValue(element, "colIsDefault.Caption", ConstStrings.Get("Default"));
             SetPropertyPathValue(element, "sbSave.Text", ConstStrings.Get("ButtonTextSaveAndClose"));
@@ -335,7 +390,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "bbiDelete.Hint", ConstStrings.Get("DeleteCurrentCategory"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("MovieCategories"));
         }
-        public static void LoadConstStringsForFrmMovieItems(object element) {
+
+        public static void LoadConstStringsForFrmMovieItems(object element)
+        {
             SetPropertyPathValue(element, "colStatus.Caption", ConstStrings.Get("Status"));
             SetPropertyPathValue(element, "colFormat.Caption", ConstStrings.Get("Format"));
             SetPropertyPathValue(element, "colSellingPrice.Caption", ConstStrings.Get("SellingPrice"));
@@ -348,19 +405,25 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "sbClose.Text", ConstStrings.Get("ButtonTextClose"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("MovieItems"));
         }
-        public static void LoadConstStringsForFrmNewMovieCategory(object element) {
+
+        public static void LoadConstStringsForFrmNewMovieCategory(object element)
+        {
             SetPropertyPathValue(element, "sbOk.Text", ConstStrings.Get("ButtonTextSaveAndClose"));
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("ButtonTextClose"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("NewMovieCategory"));
         }
-        public static void LoadConstStringsForFrmOpenImageDialog(object element) {
+
+        public static void LoadConstStringsForFrmOpenImageDialog(object element)
+        {
             SetPropertyPathValue(element, "colName.Caption", ConstStrings.Get("Name"));
             SetPropertyPathValue(element, "colPath.Caption", ConstStrings.Get("Path"));
             SetPropertyPathValue(element, "sbOk.Text", ConstStrings.Get("OK"));
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("Cancel"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("OpenImage"));
         }
-        public static void LoadConstStringsForFrmPeriod(object element) {
+
+        public static void LoadConstStringsForFrmPeriod(object element)
+        {
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("ButtonTextCancel"));
             SetPropertyPathValue(element, "sbOK.Text", ConstStrings.Get("ButtonTextOK"));
             SetPropertyPathValue(element, "lcgKPI.CustomizationFormText", ConstStrings.Get("KPIPeriod"));
@@ -369,10 +432,14 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lcgReceipt.Text", ConstStrings.Get("ReceiptPeriod"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("SpecifyDateIntervals") + " ");
         }
-        public static void LoadConstStringsForFrmProgress(object element) {
+
+        public static void LoadConstStringsForFrmProgress(object element)
+        {
             SetPropertyPathValue(element, "labelControl1.Text", ConstStrings.Get("ChangingLookAndFeelHtml") + ":");
         }
-        public static void LoadConstStringsForFrmReceiptGridOptions(object element) {
+
+        public static void LoadConstStringsForFrmReceiptGridOptions(object element)
+        {
             SetPropertyPathValue(element, "ceGroupRowFooter.Properties.Caption", ConstStrings.Get("ShowGroupRowFooter"));
             SetPropertyPathValue(element, "ceIndicator.Properties.Caption", ConstStrings.Get("ShowIndicator"));
             SetPropertyPathValue(element, "ceDetailTabs.Properties.Caption", ConstStrings.Get("ShowDetailTabs"));
@@ -380,25 +447,35 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "ceAutoFilterRow.Properties.Caption", ConstStrings.Get("ShowTheAutoFilterRow"));
             SetPropertyPathValue(element, "ceViewCaption.Properties.Caption", ConstStrings.Get("ShowViewCaption"));
         }
-        public static void LoadConstStringsForUCScreens(object element) {
+
+        public static void LoadConstStringsForUCScreens(object element)
+        {
             SetPropertyPathValue(element, "brMain.Text", ConstStrings.Get("MainMenu"));
             SetPropertyPathValue(element, "bbiAdd.Caption", ConstStrings.Get("Add"));
             SetPropertyPathValue(element, "bbiAdd.Hint", ConstStrings.Get("AddNewImage"));
             SetPropertyPathValue(element, "bbiDelete.Caption", ConstStrings.Get("Delete"));
             SetPropertyPathValue(element, "bbiDelete.Hint", ConstStrings.Get("DeleteCurrentImage"));
         }
-        public static void LoadConstStringsForFrmAbout(object element) {
+
+        public static void LoadConstStringsForFrmAbout(object element)
+        {
         }
-        public static void LoadConstStringsForFrmArtistAddMovie(object element) {
+
+        public static void LoadConstStringsForFrmArtistAddMovie(object element)
+        {
             SetPropertyPathValue(element, "lciArtist.CustomizationFormText", ConstStrings.Get("Movie"));
             SetPropertyPathValue(element, "lciArtist.Text", ConstStrings.Get("Movie") + ":");
             SetPropertyPathValue(element, "lciLine.Text", ConstStrings.Get("Credits") + ":");
             SetPropertyPathValue(element, "lciDescription.CustomizationFormText", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "lciDescription.Text", ConstStrings.Get("Description") + ":");
         }
-        public static void LoadConstStringsForFrmArtistDetail(object element) {
+
+        public static void LoadConstStringsForFrmArtistDetail(object element)
+        {
         }
-        public static void LoadConstStringsForFrmArtistGridOptions(object element) {
+
+        public static void LoadConstStringsForFrmArtistGridOptions(object element)
+        {
             SetPropertyPathValue(element, "cePreview.Properties.Caption", ConstStrings.Get("ShowRowPreviews"));
             SetPropertyPathValue(element, "ceEditing.Properties.Caption", ConstStrings.Get("AllowDataEditingViaListViews"));
             SetPropertyPathValue(element, "ceAutoZoomDetail.Properties.Caption", ConstStrings.Get("AutoZoomDetails"));
@@ -406,13 +483,17 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "ceAutoFilterRow.Properties.Caption", ConstStrings.Get("ShowTheAutoFilterRow"));
             SetPropertyPathValue(element, "ceMasterDetail.Properties.Caption", ConstStrings.Get("EnableMasterViewMode"));
         }
-        public static void LoadConstStringsForFrmCompanyAddMovie(object element) {
+
+        public static void LoadConstStringsForFrmCompanyAddMovie(object element)
+        {
             SetPropertyPathValue(element, "lciMovie.CustomizationFormText", ConstStrings.Get("Movie"));
             SetPropertyPathValue(element, "lciMovie.Text", ConstStrings.Get("Movie") + ":");
             SetPropertyPathValue(element, "lciDescription.CustomizationFormText", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "lciDescription.Text", ConstStrings.Get("Description") + ":");
         }
-        public static void LoadConstStringsForFrmCreateInitialDB(object element) {
+
+        public static void LoadConstStringsForFrmCreateInitialDB(object element)
+        {
             SetPropertyPathValue(element, "sbCreate.Text", ConstStrings.Get("Create"));
             SetPropertyPathValue(element, "ceGenerateRentsHistory.Properties.Caption", ConstStrings.Get("GenerateRentsHistory"));
             SetPropertyPathValue(element, "lciRentsHistory.CustomizationFormText", ConstStrings.Get("GeneratingData"));
@@ -433,7 +514,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciPassword.Text", ConstStrings.Get("Password") + ":");
             SetPropertyPathValue(element, "Text", ConstStrings.Get("CreateDatabase"));
         }
-        public static void LoadConstStringsForFrmEditAppointment(object element) {
+
+        public static void LoadConstStringsForFrmEditAppointment(object element)
+        {
             SetPropertyPathValue(element, "btnClose.Text", ConstStrings.Get("ButtonTextClose"));
             SetPropertyPathValue(element, "chkActiveRental.Properties.AccessibleName", ConstStrings.Get("AllDayEvent"));
             SetPropertyPathValue(element, "chkActiveRental.Properties.Caption", ConstStrings.Get("ActiveRental"));
@@ -460,7 +543,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciLanguage.Text", ConstStrings.Get("Language") + ":");
             SetPropertyPathValue(element, "Text", ConstStrings.Get("RentalDetailsReadOnly"));
         }
-        public static void LoadConstStringsForFrmFindCustomer(object element) {
+
+        public static void LoadConstStringsForFrmFindCustomer(object element)
+        {
             SetPropertyPathValue(element, "sbClear.Text", ConstStrings.Get("ClearCurrentCustomer"));
             SetPropertyPathValue(element, "sbOK.Text", ConstStrings.Get("ButtonTextOK"));
             SetPropertyPathValue(element, "sbClose.Text", ConstStrings.Get("ButtonTextClose"));
@@ -477,7 +562,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "colComments.Caption", ConstStrings.Get("Comments"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("FindCustomer"));
         }
-        public static void LoadConstStringsForFrmLayoutOptions(object element) {
+
+        public static void LoadConstStringsForFrmLayoutOptions(object element)
+        {
             SetPropertyPathValue(element, "ceAllowRestoreDockingLayout.Properties.Caption", ConstStrings.Get("SaveAndRestoreDockWindowLayouts"));
             SetPropertyPathValue(element, "ceDefaultEditGridViewInDetailForms.Properties.Caption", ConstStrings.Get("EnableDataEditingWithinTheGrid"));
             SetPropertyPathValue(element, "sbCancel.Text", ConstStrings.Get("ButtonTextCancel"));
@@ -488,7 +575,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "sbClearLayouts.Text", ConstStrings.Get("ClearLayouts"));
             SetPropertyPathValue(element, "Text", ConstStrings.Get("LayoutOptions"));
         }
-        public static void LoadConstStringsForFrmMovieAddArtist(object element) {
+
+        public static void LoadConstStringsForFrmMovieAddArtist(object element)
+        {
             SetPropertyPathValue(element, "lciArtist.CustomizationFormText", ConstStrings.Get("ActorCrew"));
             SetPropertyPathValue(element, "lciArtist.Text", ConstStrings.Get("ActorCrew") + ":");
             SetPropertyPathValue(element, "lciLine.CustomizationFormText", ConstStrings.Get("Credits"));
@@ -496,7 +585,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciDescription.CustomizationFormText", ConstStrings.Get("Description"));
             SetPropertyPathValue(element, "lciDescription.Text", ConstStrings.Get("Description") + ":");
         }
-        public static void LoadConstStringsForFrmMain(object element) {
+
+        public static void LoadConstStringsForFrmMain(object element)
+        {
             SetPropertyPathValue(element, "bbiDelete.Caption", ConstStrings.Get("Delete"));
             SetPropertyPathValue(element, "rcMain.ExpandCollapseItem.Hint", ConstStrings.Get("HideDisplayRibbon"));
             SetPropertyPathValue(element, "rpMovies.Text", ConstStrings.Get("Movies"));
@@ -651,18 +742,28 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "rpgCategoriesNavigation.Text", ConstStrings.Get("LayoutAndNavigation"));
             SetPropertyPathValue(element, "rpgCategoryChartAppearance.Text", ConstStrings.Get("ChartAppearance"));
         }
-        public static void LoadConstStringsForUCBarOneCheckedButton(object element) {
+
+        public static void LoadConstStringsForUCBarOneCheckedButton(object element)
+        {
             SetPropertyPathValue(element, "mainBar.Text", ConstStrings.Get("Tools"));
             SetPropertyPathValue(element, "bciSwitch.Caption", ConstStrings.Get("Text"));
             SetPropertyPathValue(element, "biSwitch.Caption", ConstStrings.Get("OnlyActive"));
         }
-        public static void LoadConstStringsForUCBarTwoButtons(object element) {
+
+        public static void LoadConstStringsForUCBarTwoButtons(object element)
+        {
         }
-        public static void LoadConstStringsForUCControlAbout(object element) {
+
+        public static void LoadConstStringsForUCControlAbout(object element)
+        {
         }
-        public static void LoadConstStringsForUCCustomerInfo(object element) {
+
+        public static void LoadConstStringsForUCCustomerInfo(object element)
+        {
         }
-        public static void LoadConstStringsForUCGridEditBar(object element) {
+
+        public static void LoadConstStringsForUCGridEditBar(object element)
+        {
             SetPropertyPathValue(element, "bciAllowEditing.Caption", ConstStrings.Get("AllowEditing"));
             SetPropertyPathValue(element, "bciAllowEditing.Hint", ConstStrings.Get("AllowEditing"));
             SetPropertyPathValue(element, "bbiAdd.Caption", ConstStrings.Get("Add"));
@@ -670,12 +771,16 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "bbiDelete.Caption", ConstStrings.Get("Delete"));
             SetPropertyPathValue(element, "bbiDelete.Hint", ConstStrings.Get("DeleteCurrentRecord"));
         }
-        public static void LoadConstStringsForUCMovieCategoryDetail(object element) {
+
+        public static void LoadConstStringsForUCMovieCategoryDetail(object element)
+        {
             SetPropertyPathValue(element, "lciName.CustomizationFormText", ConstStrings.Get("Name"));
             SetPropertyPathValue(element, "lciName.Text", ConstStrings.Get("Name") + ":");
             SetPropertyPathValue(element, "layoutControlGroup1.Text", ConstStrings.Get("Format"));
         }
-        public static void LoadConstStringsForUCMovieCategoryPriceDetail(object element) {
+
+        public static void LoadConstStringsForUCMovieCategoryPriceDetail(object element)
+        {
             SetPropertyPathValue(element, "lciDays1Price.CustomizationFormText", ConstStrings.Get("PricePerDayFor1DayRental"));
             SetPropertyPathValue(element, "lciDays1Price.Text", ConstStrings.Get("PricePerDayFor1DayRental") + ":");
             SetPropertyPathValue(element, "lciDays2Price.CustomizationFormText", ConstStrings.Get("PricePerDayFor2DayRental"));
@@ -695,14 +800,20 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lciDefaultDays.CustomizationFormText", ConstStrings.Get("DefaultRentalDays"));
             SetPropertyPathValue(element, "lciDefaultDays.Text", ConstStrings.Get("DefaultRentalDays") + ":");
         }
-        public static void LoadConstStringsForUCMovieInfo(object element) {
+
+        public static void LoadConstStringsForUCMovieInfo(object element)
+        {
         }
-        public static void LoadConstStringsForUCMovieItemsInfo(object element) {
+
+        public static void LoadConstStringsForUCMovieItemsInfo(object element)
+        {
             SetPropertyPathValue(element, "tpFormat.Text", ConstStrings.Get("Format"));
             SetPropertyPathValue(element, "lciLastRentedOn.CustomizationFormText", ConstStrings.Get("LastRentedOn"));
             SetPropertyPathValue(element, "lciLastRentedOn.Text", ConstStrings.Get("LastRentedOn") + ":");
         }
-        public static void LoadConstStringsForUCPeriod(object element) {
+
+        public static void LoadConstStringsForUCPeriod(object element)
+        {
             SetPropertyPathValue(element, "layoutControlItem1.CustomizationFormText", ConstStrings.Get("Period"));
             SetPropertyPathValue(element, "layoutControlItem1.Text", ConstStrings.Get("Period") + ":");
             SetPropertyPathValue(element, "layoutControlItem2.CustomizationFormText", ConstStrings.Get("StartDate"));
@@ -710,7 +821,9 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "layoutControlItem3.CustomizationFormText", ConstStrings.Get("EndDate"));
             SetPropertyPathValue(element, "layoutControlItem3.Text", ConstStrings.Get("EndDate") + ":");
         }
-        public static void LoadConstStringsForUCPictureCollection(object element) {
+
+        public static void LoadConstStringsForUCPictureCollection(object element)
+        {
             SetPropertyPathValue(element, "bbiPrev.Caption", ConstStrings.Get("Prev"));
             SetPropertyPathValue(element, "bbiPrev.Hint", ConstStrings.Get("PreviousPhoto"));
             SetPropertyPathValue(element, "bbiNext.Caption", ConstStrings.Get("Next"));
@@ -720,18 +833,24 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "bbiDelete.Caption", ConstStrings.Get("DeleteImage"));
             SetPropertyPathValue(element, "bbiDelete.Hint", ConstStrings.Get("DeleteCurrentPhoto"));
         }
-        public static void LoadConstStringsForUCPictureEditBar(object element) {
+
+        public static void LoadConstStringsForUCPictureEditBar(object element)
+        {
             SetPropertyPathValue(element, "mainBar.Text", ConstStrings.Get("MainMenu"));
             SetPropertyPathValue(element, "bbiLoad.Caption", ConstStrings.Get("LoadImage"));
             SetPropertyPathValue(element, "bbiClear.Caption", ConstStrings.Get("ClearImage"));
         }
-        public static void LoadConstStringsForUCRentalSalesInfo(object element) {
+
+        public static void LoadConstStringsForUCRentalSalesInfo(object element)
+        {
             SetPropertyPathValue(element, "lciDefaultDays.CustomizationFormText", ConstStrings.Get("DefaultRentalDays"));
             SetPropertyPathValue(element, "lciDefaultDays.Text", ConstStrings.Get("DefaultRentalDays") + ":");
             SetPropertyPathValue(element, "lciDefaultPrice.CustomizationFormText", ConstStrings.Get("DefaultLateFee"));
             SetPropertyPathValue(element, "lciDefaultPrice.Text", ConstStrings.Get("DefaultLateFee") + ":");
         }
-        public static void LoadConstStringsForUCRents(object element) {
+
+        public static void LoadConstStringsForUCRents(object element)
+        {
             SetPropertyPathValue(element, "ucGridSwitcherBar.ButtonCaption", ConstStrings.Get("OnlyActive"));
             SetPropertyPathValue(element, "colRentId.Caption", ConstStrings.Get("RentId"));
             SetPropertyPathValue(element, "colCustomer.Caption", ConstStrings.Get("Customer"));
@@ -742,64 +861,82 @@ namespace NukaCollect.Win {
             SetPropertyPathValue(element, "lcgRents.CustomizationFormText", ConstStrings.Get("Rents"));
             SetPropertyPathValue(element, "lcgRents.Text", ConstStrings.Get("Rents"));
         }
-        internal static void SetPropertyPathValue(object obj, string path, object value) {
+
+        internal static void SetPropertyPathValue(object obj, string path, object value)
+        {
             string[] pathParts = path.Split('.');
-            if(pathParts.Length == 0) return;
+            if (pathParts.Length == 0) return;
             object target = obj;
-            for(int i = 0; i < pathParts.Length - 1; ++i) {
-                if(target == null) break;
+            for (int i = 0; i < pathParts.Length - 1; ++i)
+            {
+                if (target == null) break;
                 target = GetMemberValue(target, pathParts[i]);
             }
-            if(target != null)
+            if (target != null)
                 SetMemberValue(target, pathParts[pathParts.Length - 1], value);
         }
-        const int fieldMaxDepth = 1;
-        static object GetMemberValue(object obj, string memberName) {
+
+        private const int fieldMaxDepth = 1;
+
+        private static object GetMemberValue(object obj, string memberName)
+        {
             Type objectType = obj.GetType();
             PropertyInfo declaredPropertyInfo = objectType.GetProperty(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
-            if(declaredPropertyInfo != null)
+            if (declaredPropertyInfo != null)
                 return declaredPropertyInfo.GetValue(obj, null);
             FieldInfo fieldInfo = objectType.GetField(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            if(fieldInfo != null)
+            if (fieldInfo != null)
                 return fieldInfo.GetValue(obj);
-            try {
+            try
+            {
                 PropertyInfo propertyInfo = objectType.GetProperty(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-                if(propertyInfo != null)
+                if (propertyInfo != null)
                     return propertyInfo.GetValue(obj, null);
-            } catch(AmbiguousMatchException) { }
-            for(int i = 0; i < fieldMaxDepth; ++i) {
+            }
+            catch (AmbiguousMatchException) { }
+            for (int i = 0; i < fieldMaxDepth; ++i)
+            {
                 objectType = objectType.BaseType;
-                if(objectType == typeof(object)) break;
+                if (objectType == typeof(object)) break;
                 FieldInfo f = objectType.GetField(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
-                if(f != null)
+                if (f != null)
                     return f.GetValue(obj);
             }
             return null;
         }
-        static void SetMemberValue(object obj, string memberName, object value) {
+
+        private static void SetMemberValue(object obj, string memberName, object value)
+        {
             Type objectType = obj.GetType();
             PropertyInfo declaredPropertyInfo = objectType.GetProperty(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.DeclaredOnly);
-            if(declaredPropertyInfo != null) {
+            if (declaredPropertyInfo != null)
+            {
                 declaredPropertyInfo.SetValue(obj, value, null);
                 return;
             }
             FieldInfo fieldInfo = objectType.GetField(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-            if(fieldInfo != null) {
+            if (fieldInfo != null)
+            {
                 fieldInfo.SetValue(obj, value);
                 return;
             }
-            try {
+            try
+            {
                 PropertyInfo propertyInfo = objectType.GetProperty(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
-                if(propertyInfo != null) {
+                if (propertyInfo != null)
+                {
                     propertyInfo.SetValue(obj, value, null);
                     return;
                 }
-            } catch(AmbiguousMatchException) { }
-            for(int i = 0; i < fieldMaxDepth; ++i) {
+            }
+            catch (AmbiguousMatchException) { }
+            for (int i = 0; i < fieldMaxDepth; ++i)
+            {
                 objectType = objectType.BaseType;
-                if(objectType == typeof(object)) break;
+                if (objectType == typeof(object)) break;
                 FieldInfo f = objectType.GetField(memberName, BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
-                if(f != null) {
+                if (f != null)
+                {
                     f.SetValue(obj, value);
                     return;
                 }

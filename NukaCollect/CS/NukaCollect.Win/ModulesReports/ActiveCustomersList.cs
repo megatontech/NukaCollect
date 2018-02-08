@@ -1,11 +1,16 @@
 using NukaCollect.Reports;
-namespace NukaCollect.Win.ModulesReports {
-    public partial class ActiveCustomersList : ReportModuleBase {
-        public ActiveCustomersList() {
+
+namespace NukaCollect.Win.ModulesReports
+{
+    public partial class ActiveCustomersList : ReportModuleBase
+    {
+        public ActiveCustomersList()
+        {
             InitializeComponent();
         }
 
-        protected override ReportBase CreateReport() {
+        protected override ReportBase CreateReport()
+        {
             return new ActiveCustomersListReport();
         }
     }

@@ -5,3 +5,4 @@ C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Release\NukaCollect.Resources.csproj.CoreCompileInputs.cache
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Release\NukaCollect.Resources.dll
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Release\NukaCollect.Resources.pdb
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Resources\obj\Release\NukaCollect.Resources.csprojResolveAssemblyReference.cache

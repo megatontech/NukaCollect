@@ -1,10 +1,12 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace NukaCollect.Resources.Helpers {
-    public static class ColorMatrixHelper {
-        public static Image InvertImage(Image image) {
+namespace NukaCollect.Resources.Helpers
+{
+    public static class ColorMatrixHelper
+    {
+        public static Image InvertImage(Image image)
+        {
             ColorMatrix colorMatrix = new ColorMatrix(new float[][] {
                 new float[] { -1.0f, 0.0f, 0.0f, 0.0f, 0.0f},
                 new float[] { 0.0f, -1.0f, 0.0f, 0.0f, 0.0f},
@@ -14,7 +16,9 @@ namespace NukaCollect.Resources.Helpers {
             });
             return ApplyColorMatrixToImage(image, colorMatrix);
         }
-        public static Image GrayscaleImage(Image image) {
+
+        public static Image GrayscaleImage(Image image)
+        {
             ColorMatrix colorMatrix = new ColorMatrix(new float[][] {
                 new float[] { 0.333f, 0.333f, 0.333f, 0.0f, 0.0f },
                 new float[] { 0.333f, 0.333f, 0.333f, 0.0f, 0.0f },
@@ -24,7 +28,9 @@ namespace NukaCollect.Resources.Helpers {
             });
             return ApplyColorMatrixToImage(image, colorMatrix);
         }
-        public static Image ColorizeImage(Image image, Color color) {
+
+        public static Image ColorizeImage(Image image, Color color)
+        {
             float r = (float)color.R / 255.0f;
             float g = (float)color.G / 255.0f;
             float b = (float)color.B / 255.0f;
@@ -38,7 +44,9 @@ namespace NukaCollect.Resources.Helpers {
             });
             return ApplyColorMatrixToImage(image, colorMatrix);
         }
-        public static Image ApplyColorMatrixToImage(Image image, ColorMatrix colorMatrix) {
+
+        public static Image ApplyColorMatrixToImage(Image image, ColorMatrix colorMatrix)
+        {
             int width = image.Width;
             int height = image.Height;
             Bitmap bitmap = new Bitmap(width, height);

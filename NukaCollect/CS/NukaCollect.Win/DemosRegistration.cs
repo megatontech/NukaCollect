@@ -1,27 +1,28 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.XtraEditors;
-using DevExpress.Utils.Menu;
-using DevExpress.XtraBars;
-using DevExpress.XtraBars.Docking;
 using DevExpress.Xpo;
-using DevExpress.XtraNavBar;
+using DevExpress.XtraBars;
 using DevExpress.XtraBars.Ribbon;
-using NukaCollect.Win.Modules;
+using DevExpress.XtraEditors;
+using DevExpress.XtraNavBar;
 using NukaCollect.Resources;
+using NukaCollect.Win.Modules;
+using System;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win {
-    public class DemosInfo : ModulesInfo {
-        public static void ShowModule(frmMain parent, string name, PanelControl group, UnitOfWork session) {
+namespace NukaCollect.Win
+{
+    public class DemosInfo : ModulesInfo
+    {
+        public static void ShowModule(frmMain parent, string name, PanelControl group, UnitOfWork session)
+        {
             ModuleInfo item = DemosInfo.GetItem(name);
             Cursor currentCursor = Cursor.Current;
             Cursor.Current = Cursors.WaitCursor;
-            try {
+            try
+            {
                 TutorialControlBase oldTutorial = null;
-                if(Instance.CurrentModuleBase != null) {
-                    if(Instance.CurrentModuleBase.Name == name) return;
+                if (Instance.CurrentModuleBase != null)
+                {
+                    if (Instance.CurrentModuleBase.Name == name) return;
                     oldTutorial = Instance.CurrentModuleBase.TModule;
                     Instance.CurrentModuleBase.ModuleDispose();
                 }
@@ -45,46 +46,59 @@ namespace NukaCollect.Win {
                 tutorial.CheckChartStyles(parent.ChartAppearanceManager);
                 tutorial.ShowTutorial();
                 //------------
-                
+
                 tutorial.Visible = true;
                 tutorial.BringToFront();
                 item.WasShown = true;
-                if(oldTutorial != null) {
+                if (oldTutorial != null)
+                {
                     oldTutorial.DumpActiveDetailControl();
                     oldTutorial.HideElements();
                 }
             }
-            finally {
+            finally
+            {
                 Cursor.Current = currentCursor;
             }
             RaiseModuleChanged();
         }
     }
-    public class RibbonViewMenu {
-        public static void CreateNavigationMenu(BarSubItem menu, NavBarControl navBar, BarManager manager) {
-            foreach(NavBarGroup group in navBar.Groups)
+
+    public class RibbonViewMenu
+    {
+        public static void CreateNavigationMenu(BarSubItem menu, NavBarControl navBar, BarManager manager)
+        {
+            foreach (NavBarGroup group in navBar.Groups)
                 menu.ItemLinks.Add(CreateBarSubItem(manager, group));
         }
-        static BarItem CreateBarSubItem(BarManager manager, NavBarGroup group) {
+
+        private static BarItem CreateBarSubItem(BarManager manager, NavBarGroup group)
+        {
             BarSubItem item = new BarSubItem(manager, group.Caption);
             //item.Glyph = group.GetImage();
             item.Popup += new EventHandler(item_Popup);
-            foreach(NavBarItemLink link in group.ItemLinks)
+            foreach (NavBarItemLink link in group.ItemLinks)
                 item.ItemLinks.Add(CreateBarButtonItem(manager, link));
             return item;
         }
-        static void item_Popup(object sender, EventArgs e) {
+
+        private static void item_Popup(object sender, EventArgs e)
+        {
             BarSubItem menu = sender as BarSubItem;
-            foreach(BarItemLink link in menu.ItemLinks)
-                ((BarButtonItem)link.Item).Down = 
+            foreach (BarItemLink link in menu.ItemLinks)
+                ((BarButtonItem)link.Item).Down =
                     ModulesInfo.Instance.CurrentModuleBase == GetModuleInfoBarItemLink(link);
         }
-        static ModuleInfo GetModuleInfoBarItemLink(BarItemLink link) {
+
+        private static ModuleInfo GetModuleInfoBarItemLink(BarItemLink link)
+        {
             NavBarItemLink nLink = link.Item.Tag as NavBarItemLink;
-            if(nLink == null) return null;
+            if (nLink == null) return null;
             return nLink.Item.Tag as ModuleInfo;
         }
-        static BarButtonItem CreateBarButtonItem(BarManager manager, NavBarItemLink link) {
+
+        private static BarButtonItem CreateBarButtonItem(BarManager manager, NavBarItemLink link)
+        {
             BarButtonItem item = new BarButtonItem(manager, link.Item.Caption);
             item.Glyph = link.Item.SmallImage;
             item.ItemClick += new ItemClickEventHandler(item_ItemClick);
@@ -92,34 +106,48 @@ namespace NukaCollect.Win {
             item.ButtonStyle = BarButtonStyle.Check;
             return item;
         }
-        static void item_ItemClick(object sender, ItemClickEventArgs e) {
+
+        private static void item_ItemClick(object sender, ItemClickEventArgs e)
+        {
             NavBarItemLink link = (NavBarItemLink)e.Item.Tag;
             link.NavBar.SelectedLink = link;
             link.NavBar.GetViewInfo().MakeLinkVisible(link);
         }
     }
-    public class RibbonMenuController {
-        frmMain parent = null;
-        TutorialControl currentControl;
-        public RibbonControl Ribbon {
-            get {
-                if(parent == null) return null;
-                return parent.RibbonControl; 
+
+    public class RibbonMenuController
+    {
+        private frmMain parent = null;
+        private TutorialControl currentControl;
+
+        public RibbonControl Ribbon
+        {
+            get
+            {
+                if (parent == null) return null;
+                return parent.RibbonControl;
             }
         }
-        public TutorialControl CurrentControl {
+
+        public TutorialControl CurrentControl
+        {
             get { return currentControl; }
-            set {
-                if(currentControl == value) return;
+            set
+            {
+                if (currentControl == value) return;
                 currentControl = value;
-                if(CurrentControl != null)
+                if (CurrentControl != null)
                     InitRibbonMenu();
             }
         }
-        internal void AddPageForControl(TutorialControl tutorialControl) {
-            foreach(RibbonPage page in Ribbon.TotalPageCategory.Pages) {
-                if(page.Tag == null) continue;
-                if(page.Tag.Equals(tutorialControl.TypeName)) {
+
+        internal void AddPageForControl(TutorialControl tutorialControl)
+        {
+            foreach (RibbonPage page in Ribbon.TotalPageCategory.Pages)
+            {
+                if (page.Tag == null) continue;
+                if (page.Tag.Equals(tutorialControl.TypeName))
+                {
                     tutorialControl.ActiveRibbonPage = page;
                     page.Text = ConstStrings.Get("DefaultPageName");
                     page.Tag = tutorialControl;
@@ -127,28 +155,38 @@ namespace NukaCollect.Win {
                 }
             }
         }
-        internal void CreateDetailRibbon() {
-            foreach(RibbonPage page in Ribbon.TotalPageCategory.Pages) {
-                if(page.Tag == null || 
+
+        internal void CreateDetailRibbon()
+        {
+            foreach (RibbonPage page in Ribbon.TotalPageCategory.Pages)
+            {
+                if (page.Tag == null ||
                     CurrentControl.ActiveDetailControl == null ||
                     CurrentControl.ActiveDetailControl.ActiveRibbonPage != null) continue;
-                if(page.Tag.Equals(CurrentControl.DetailTypeName)) 
+                if (page.Tag.Equals(CurrentControl.DetailTypeName))
                     CurrentControl.ActiveDetailControl.CreateActiveRibbonPage(page);
             }
         }
-        bool lockPageChanging = false;
-        internal void UpdateMenu() {
+
+        private bool lockPageChanging = false;
+
+        internal void UpdateMenu()
+        {
             lockPageChanging = true;
-            foreach(RibbonPage page in Ribbon.TotalPageCategory.Pages) {
-                if(page.Tag == null) continue;
+            foreach (RibbonPage page in Ribbon.TotalPageCategory.Pages)
+            {
+                if (page.Tag == null) continue;
                 page.Visible = CurrentControl.IsSuitablePage(page);
-                if(page.Visible && page.Tag.Equals(CurrentControl)) {
+                if (page.Visible && page.Tag.Equals(CurrentControl))
+                {
                     parent.RibbonControl.SelectedPage = page;
                 }
             }
             lockPageChanging = false;
         }
-        void InitRibbonMenu() {
+
+        private void InitRibbonMenu()
+        {
             UpdateMenu();
             parent.AddButton.Hint = string.Format(ConstStrings.Get("AddButtonHint"), CurrentControl.EditObjectName);
             parent.EditButton.Hint = string.Format(ConstStrings.Get("EditButtonHint"), CurrentControl.EditObjectName);
@@ -157,51 +195,64 @@ namespace NukaCollect.Win {
             parent.PrevButton.Hint = string.Format(ConstStrings.Get("PrevButtonHint"), CurrentControl.EditObjectName);
             parent.NextButton.Hint = string.Format(ConstStrings.Get("NextButtonHint"), CurrentControl.EditObjectName);
             parent.OptionsButton.Hint = string.Format(ConstStrings.Get("EditViewOptions"), CurrentControl.EditObjectName);
-            if(!string.IsNullOrEmpty(CurrentControl.EditObjectName) && CurrentControl.UseList) {
+            if (!string.IsNullOrEmpty(CurrentControl.EditObjectName) && CurrentControl.UseList)
+            {
                 parent.PrintPreviewButton.Hint = string.Format(ConstStrings.Get("PrintPreviewButtonHint"), CurrentControl.EditObjectName, ObjectHelper.GetArticleByWord(CurrentControl.EditObjectName));
                 parent.ExportButton.Hint = string.Format(ConstStrings.Get("ExportButtonHint"), CurrentControl.EditObjectName);
                 parent.HomeButton.Hint = string.Format(ConstStrings.Get("HomeButtonHint"), CurrentControl.EditObjectName);
             }
-            else {
+            else
+            {
                 parent.PrintPreviewButton.Hint = ConstStrings.Get("PrintPreviewButtonHintDefault");
                 parent.ExportButton.Hint = ConstStrings.Get("ExportButtonHintDefault");
                 parent.HomeButton.Hint = string.Empty;
             }
         }
-        public RibbonMenuController(frmMain parent) {
+
+        public RibbonMenuController(frmMain parent)
+        {
             this.parent = parent;
             InitRibbonElementsImages();
             InitButtonActions();
             InitStatusBar();
-            this.parent.RibbonControl.SelectedPageChanging += new RibbonPageChangingEventHandler(RibbonControl_SelectedPageChanging);    
+            this.parent.RibbonControl.SelectedPageChanging += new RibbonPageChangingEventHandler(RibbonControl_SelectedPageChanging);
         }
-        Control activeControl = null;
-        void RibbonControl_SelectedPageChanging(object sender, RibbonPageChangingEventArgs e) {
-            if(lockPageChanging) return;
+
+        private Control activeControl = null;
+
+        private void RibbonControl_SelectedPageChanging(object sender, RibbonPageChangingEventArgs e)
+        {
+            if (lockPageChanging) return;
             Control control = e.Page.Tag as Control;
-            if(control == null) return;
-            if(!control.Visible) control.Show();
+            if (control == null) return;
+            if (!control.Visible) control.Show();
             control.BringToFront();
-            if(!Object.Equals(control, activeControl))
+            if (!Object.Equals(control, activeControl))
                 WinHelper.CloseCustomizationForm(CurrentControl);
             activeControl = control;
 
             lockPageChanging = true;
-            try {
+            try
+            {
                 TutorialControlBase tControl = control as TutorialControlBase;
-                if(tControl != null) tControl.ActiveDetailControl = null;
+                if (tControl != null) tControl.ActiveDetailControl = null;
                 DetailBase dControl = control as DetailBase;
-                if(dControl != null) CurrentControl.ActiveDetailControl = dControl;
+                if (dControl != null) CurrentControl.ActiveDetailControl = dControl;
             }
-            finally {
+            finally
+            {
                 lockPageChanging = false;
             }
         }
-        public static void SetBarButtonImage(BarItem item, string name) {
+
+        public static void SetBarButtonImage(BarItem item, string name)
+        {
             item.LargeGlyph = ElementHelper.GetImage(name, ImageSize.Large32);
             item.Glyph = ElementHelper.GetImage(name, ImageSize.Small16);
         }
-        void InitRibbonElementsImages() {
+
+        private void InitRibbonElementsImages()
+        {
             SetBarButtonImage(parent.AddButton, "Add");
             SetBarButtonImage(parent.EditButton, "Edit");
             SetBarButtonImage(parent.DeleteButton, "Delete");
@@ -246,7 +297,9 @@ namespace NukaCollect.Win {
             SetBarButtonImage(parent.ReceiptPeriodButton, "Period");
             SetBarButtonImage(parent.SaveCurrentRecordButton, "Save");
         }
-        void InitButtonActions() {
+
+        private void InitButtonActions()
+        {
             parent.AddButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.Add(); });
             parent.EditButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.Edit(); });
             parent.DeleteButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.Delete(); });
@@ -268,7 +321,7 @@ namespace NukaCollect.Win {
             parent.AddPictureButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.AddPicture(); });
             parent.DeletePictureButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.DeletePicture(); });
             parent.ViewStylesMenu.Popup += new EventHandler(ViewStylesMenu_Popup);
-            parent.MainViewButton.ItemClick += new ItemClickEventHandler( delegate { CurrentControl.DoViewChange(true); });
+            parent.MainViewButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.DoViewChange(true); });
             parent.AlternateViewButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.DoViewChange(false); });
             parent.CloseDetailsButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.CloseAllDetails(); });
             parent.MovieCategoriesButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.ShowMovieCategories(); });
@@ -289,36 +342,53 @@ namespace NukaCollect.Win {
             parent.SaveCurrentRecordButton.ItemClick += new ItemClickEventHandler(delegate { CurrentControl.SaveCurrentRecord(); });
         }
 
-        void ViewStylesMenu_Popup(object sender, EventArgs e) {
+        private void ViewStylesMenu_Popup(object sender, EventArgs e)
+        {
             CurrentControl.ViewStylesPopup(sender);
         }
-        internal void CalcDetailFormItemsEnabling(bool allow, bool first, bool last) {
+
+        internal void CalcDetailFormItemsEnabling(bool allow, bool first, bool last)
+        {
             parent.EditButton.Enabled = parent.DeleteButton.Enabled = allow;
             parent.PrevButton.Enabled = allow && !first;
             parent.NextButton.Enabled = allow && !last;
         }
-        internal void SetAllowDelete(bool allow) {
+
+        internal void SetAllowDelete(bool allow)
+        {
             parent.DeleteButton.Enabled = allow;
         }
-        internal void SetAllowNavigation(bool allowPrev, bool allowNext) {
+
+        internal void SetAllowNavigation(bool allowPrev, bool allowNext)
+        {
             parent.PrevButton.Enabled = allowPrev;
             parent.NextButton.Enabled = allowNext;
         }
-        internal void CalcCustomerItemsEnabling(bool allow) {
+
+        internal void CalcCustomerItemsEnabling(bool allow)
+        {
             parent.CurrentCustomerButton.Enabled = allow;
         }
-        internal void CalcCloseAllDetails() {
+
+        internal void CalcCloseAllDetails()
+        {
             parent.CloseDetailsButton.Enabled = CurrentControl.IsDetailsExist;
         }
-        internal void CalcRentItemsEnabling(bool allowRent, bool allowReturn) {
+
+        internal void CalcRentItemsEnabling(bool allowRent, bool allowReturn)
+        {
             //TODO parent.RentButton.Enabled = allowRent;
-            parent.RentButton.Enabled = false; //for the future use    
+            parent.RentButton.Enabled = false; //for the future use
             parent.ReturnButton.Enabled = allowReturn;
         }
-        internal void CalcRentItemsEnablingEx(bool allowCheck) {
+
+        internal void CalcRentItemsEnablingEx(bool allowCheck)
+        {
             parent.ActiveRentButton.Enabled = allowCheck;
         }
-        void InitStatusBar() {
+
+        private void InitStatusBar()
+        {
             BarItemLink link = parent.MainStatusBar.ItemLinks.Add(parent.ChangeCustomerButton);
             link.Item.Alignment = BarItemLinkAlignment.Right;
             link.UserCaption = "";

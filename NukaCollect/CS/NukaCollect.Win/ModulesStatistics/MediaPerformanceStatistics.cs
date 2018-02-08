@@ -1,26 +1,23 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.Xpo;
 using DevExpress.Data.Filtering;
-using System.Globalization;
 using DevExpress.Data.PivotGrid;
+using DevExpress.Xpo;
 using DevExpress.XtraCharts;
-using DevExpress.XtraPivotGrid;
-using DevExpress.XtraLayout;
-using NukaCollect.Win.Modules;
 using DevExpress.XtraGrid.Views.Base;
+using DevExpress.XtraLayout;
+using DevExpress.XtraPivotGrid;
 using NukaCollect.Resources;
+using NukaCollect.Win.Modules;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.ModulesStatistics {
-    public partial class MediaPerformanceStatistics : ChartExportTutorialControl {
-        SalesPivotGridHelper salesGrid;
-        MostRentedPivotGridHelper mostRentedPivotGrid;
-        MovieItemFormat selectedFormat;
+namespace NukaCollect.Win.ModulesStatistics
+{
+    public partial class MediaPerformanceStatistics : ChartExportTutorialControl
+    {
+        private SalesPivotGridHelper salesGrid;
+        private MostRentedPivotGridHelper mostRentedPivotGrid;
+        private MovieItemFormat selectedFormat;
 
         protected internal override bool UseList { get { return false; } }
         protected override ChartControl MainChart { get { return chart; } }
@@ -29,10 +26,12 @@ namespace NukaCollect.Win.ModulesStatistics {
         protected override ColumnView MainView { get { return cardView1; } }
         protected override bool AllowRotateLayout { get { return true; } }
         protected override bool AllowFlipLayout { get { return true; } }
-        public MediaPerformanceStatistics() {
+
+        public MediaPerformanceStatistics()
+        {
             InitializeComponent();
 
-            this.salesGrid = new SalesPivotGridHelper();            
+            this.salesGrid = new SalesPivotGridHelper();
             this.chartRevenues.DataSource = this.salesGrid.ChartDataSource;
 
             this.mostRentedPivotGrid = new MostRentedPivotGridHelper();
@@ -40,26 +39,34 @@ namespace NukaCollect.Win.ModulesStatistics {
             chart.Titles[0].Text = ConstStrings.Get("MovieMediaDB");
             ((PieSeriesView)chart.Series[0].View).Titles[0].Text = ConstStrings.Get("PieHint");
         }
-        protected override void Dispose(bool disposing) {
-            if(disposing && (components != null)) {
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
                 components.Dispose();
             }
-            if(disposing) {
+            if (disposing)
+            {
                 salesGrid.Dispose();
                 mostRentedPivotGrid.Dispose();
             }
             base.Dispose(disposing);
         }
-        public MovieItemFormat SelectedFormat {
+
+        public MovieItemFormat SelectedFormat
+        {
             get { return selectedFormat; }
-            set {
-                if(selectedFormat == value) return;
+            set
+            {
+                if (selectedFormat == value) return;
                 selectedFormat = value;
                 UpdateFormatStats();
             }
         }
 
-        protected override void InitData() {
+        protected override void InitData()
+        {
             base.InitData();
             XPCollection<MovieItem> movieItems = new XPCollection<MovieItem>(Session);
             chart.DataSource = movieItems;
@@ -68,19 +75,25 @@ namespace NukaCollect.Win.ModulesStatistics {
             UpdateChartSelection();
         }
 
-        MovieItemFormat? GetFormatFromHitInfo(ChartHitInfo hitInfo) {
-            if(hitInfo.HitTest == ChartHitTest.Series && hitInfo.SeriesPoint != null &&
-                    !string.IsNullOrEmpty(hitInfo.SeriesPoint.Argument)) {
-                try {
+        private MovieItemFormat? GetFormatFromHitInfo(ChartHitInfo hitInfo)
+        {
+            if (hitInfo.HitTest == ChartHitTest.Series && hitInfo.SeriesPoint != null &&
+                    !string.IsNullOrEmpty(hitInfo.SeriesPoint.Argument))
+            {
+                try
+                {
                     MovieItemFormat format = (MovieItemFormat)Enum.Parse(typeof(MovieItemFormat), hitInfo.SeriesPoint.Argument);
                     return format;
-                } catch { }
+                }
+                catch { }
             }
             return null;
         }
 
-        void chart_MouseClick(object sender, MouseEventArgs e) {
-            if (e.Button == MouseButtons.Left || e.Button == MouseButtons.Middle) {
+        private void chart_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left || e.Button == MouseButtons.Middle)
+            {
                 ChartHitInfo hitInfo = chart.CalcHitInfo(e.Location);
                 MovieItemFormat? format = GetFormatFromHitInfo(hitInfo);
                 if (format == null)
@@ -88,12 +101,16 @@ namespace NukaCollect.Win.ModulesStatistics {
                 SelectedFormat = format.Value;
             }
         }
-        protected override void BeginRefreshData() {
+
+        protected override void BeginRefreshData()
+        {
             base.BeginRefreshData();
             UpdateFormatStats();
             UpdateChartSelection();
         }
-        void UpdateFormatStats() {
+
+        private void UpdateFormatStats()
+        {
             XPCollection<Rent> rents = new XPCollection<Rent>(Session,
                 new GroupOperator(
                     GroupOperatorType.And,
@@ -107,90 +124,109 @@ namespace NukaCollect.Win.ModulesStatistics {
             this.cardView1.ViewCaption = string.Format(ConstStrings.Get("MostRentedMovies"), EnumTitlesKeeper<MovieItemFormat>.GetTitle(SelectedFormat));
         }
 
-        void UpdateChartSelection() {
+        private void UpdateChartSelection()
+        {
             chart.ClearSelection();
             Series series = chart.Series[0];
             chart.SetObjectSelection(FindSeriesPoint(series, SelectedFormat.ToString()));
         }
 
-        SeriesPoint FindSeriesPoint(Series series, string argument) {
-            foreach(SeriesPoint pt in series.Points) {
-                if(pt.Argument == argument)
+        private SeriesPoint FindSeriesPoint(Series series, string argument)
+        {
+            foreach (SeriesPoint pt in series.Points)
+            {
+                if (pt.Argument == argument)
                     return pt;
             }
             return null;
         }
 
-        void chart_MouseMove(object sender, MouseEventArgs e) {
+        private void chart_MouseMove(object sender, MouseEventArgs e)
+        {
             ChartHitInfo hitInfo = chart.CalcHitInfo(e.Location);
             MovieItemFormat? format = GetFormatFromHitInfo(hitInfo);
-            if(format != null)
+            if (format != null)
                 chart.Cursor = Cursors.Hand;
             else
                 chart.Cursor = Cursors.Default;
         }
 
-        void chart_MouseLeave(object sender, EventArgs e) {
+        private void chart_MouseLeave(object sender, EventArgs e)
+        {
             chart.Cursor = Cursors.Default;
         }
 
-        void chartRevenues_BoundDataChanged(object sender, EventArgs e) {
+        private void chartRevenues_BoundDataChanged(object sender, EventArgs e)
+        {
             Series totalSeries = chartRevenues.Series[SalesPivotGridHelper.TotalText];
-            if(totalSeries != null) {
+            if (totalSeries != null)
+            {
                 totalSeries.ChangeView(ViewType.Bar);
                 totalSeries.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False; ;
             }
         }
 
-        private void chart_ObjectHotTracked(object sender, HotTrackEventArgs e) {
+        private void chart_ObjectHotTracked(object sender, HotTrackEventArgs e)
+        {
             if (!e.HitInfo.InSeries)
                 e.Cancel = true;
         }
 
-        private void chart_ObjectSelected(object sender, HotTrackEventArgs e) {
-            if(!e.HitInfo.InSeries) 
+        private void chart_ObjectSelected(object sender, HotTrackEventArgs e)
+        {
+            if (!e.HitInfo.InSeries)
                 e.Cancel = true;
         }
 
-        private void cardView1_CalcFieldHeight(object sender, DevExpress.XtraGrid.Views.Card.FieldHeightEventArgs e) {
-            if(e.Column != colPhoto) return;
+        private void cardView1_CalcFieldHeight(object sender, DevExpress.XtraGrid.Views.Card.FieldHeightEventArgs e)
+        {
+            if (e.Column != colPhoto) return;
             Image img = cardView1.GetRowCellValue(e.RowHandle, e.Column) as Image;
-            if(img != null) 
+            if (img != null)
                 e.FieldHeight = Math.Min(img.Height, cardView1.ViewRect.Height - 100);
-            if(e.FieldHeight < 20) e.FieldHeight = 20;
+            if (e.FieldHeight < 20) e.FieldHeight = 20;
         }
-        protected override VideoRentBaseObject CurrentEditObject { 
-            get {
+
+        protected override VideoRentBaseObject CurrentEditObject
+        {
+            get
+            {
                 PivotSummaryDataRow row = cardView1.GetRow(cardView1.FocusedRowHandle) as PivotSummaryDataRow;
-                if(row == null) return null;
+                if (row == null) return null;
                 return mostRentedPivotGrid.GetMovie(row.RowIndex);
-            } 
+            }
         }
-        public override void Edit() {
+
+        public override void Edit()
+        {
             base.Edit();
-            if(!IsDetailExist(CurrentEditObject.Oid))
+            if (!IsDetailExist(CurrentEditObject.Oid))
                 ShowModuleDialog(new MovieDetail(this.FindForm(), GetSession, CurrentEditObject as Movie, MenuManager, CloseDetailForm), true);
         }
 
-        private void chart_CustomDrawSeriesPoint(object sender, CustomDrawSeriesPointEventArgs e) {
+        private void chart_CustomDrawSeriesPoint(object sender, CustomDrawSeriesPointEventArgs e)
+        {
             MovieItemFormat format = (MovieItemFormat)Enum.Parse(typeof(MovieItemFormat), string.Format("{0}", e.SeriesPoint.Argument));
             e.LabelText = EnumTitlesKeeper<MovieItemFormat>.GetTitle(format);
             e.LegendText = EnumTitlesKeeper<MovieItemFormat>.GetTitle(format);
         }
 
-        private void chartRevenues_CustomDrawSeries(object sender, CustomDrawSeriesEventArgs e) {
+        private void chartRevenues_CustomDrawSeries(object sender, CustomDrawSeriesEventArgs e)
+        {
             ReceiptType type = (ReceiptType)Enum.Parse(typeof(ReceiptType), string.Format("{0}", e.Series.Name));
             e.LegendText = EnumTitlesKeeper<ReceiptType>.GetTitle(type);
         }
     }
 
-    class SalesPivotGridHelper : IDisposable{
+    internal class SalesPivotGridHelper : IDisposable
+    {
         public static string TotalText = ConstStrings.Get("Total");
 
-        PivotGridControl pivotGrid;
-        PivotGridField fieldMonth, fieldReceiptType;
+        private PivotGridControl pivotGrid;
+        private PivotGridField fieldMonth, fieldReceiptType;
 
-        public SalesPivotGridHelper() {
+        public SalesPivotGridHelper()
+        {
             this.pivotGrid = new PivotGridControl();
             this.pivotGrid.CustomGroupInterval += new PivotCustomGroupIntervalEventHandler(salesGrid_CustomGroupInterval);
             this.pivotGrid.FieldValueDisplayText += new PivotFieldDisplayTextEventHandler(salesGrid_FieldValueDisplayText);
@@ -206,51 +242,65 @@ namespace NukaCollect.Win.ModulesStatistics {
             this.fieldReceiptType = this.pivotGrid.Fields.Add("Receipt.Type", PivotArea.RowArea);
         }
 
-        public object ChartDataSource {
+        public object ChartDataSource
+        {
             get { return this.pivotGrid; }
         }
 
-        public object DataSource {
+        public object DataSource
+        {
             get { return this.pivotGrid.DataSource; }
             set { this.pivotGrid.DataSource = value; }
         }
 
-        void salesGrid_FieldValueDisplayText(object sender, PivotFieldDisplayTextEventArgs e) {
-            if(e.Field == fieldMonth) {
+        private void salesGrid_FieldValueDisplayText(object sender, PivotFieldDisplayTextEventArgs e)
+        {
+            if (e.Field == fieldMonth)
+            {
                 DateTime valueAsDate = (DateTime)e.Value;
                 e.DisplayText = valueAsDate.ToString("MMM yyyy");
             }
-            if(e.Field == null) {
+            if (e.Field == null)
+            {
                 e.DisplayText = TotalText;
             }
         }
 
-        void salesGrid_CustomGroupInterval(object sender, PivotCustomGroupIntervalEventArgs e) {
-            if(e.Field == fieldMonth) {
+        private void salesGrid_CustomGroupInterval(object sender, PivotCustomGroupIntervalEventArgs e)
+        {
+            if (e.Field == fieldMonth)
+            {
                 DateTime valueAsDate = (DateTime)e.Value;
                 e.GroupValue = new DateTime(valueAsDate.Year, valueAsDate.Month, 1);
             }
         }
 
         #region IDisposable Members
-        public void Dispose() {
-            if(pivotGrid != null) {
+
+        public void Dispose()
+        {
+            if (pivotGrid != null)
+            {
                 pivotGrid.CustomGroupInterval -= new PivotCustomGroupIntervalEventHandler(salesGrid_CustomGroupInterval);
                 pivotGrid.FieldValueDisplayText -= new PivotFieldDisplayTextEventHandler(salesGrid_FieldValueDisplayText);
                 pivotGrid.Fields.Clear();
                 pivotGrid.Dispose();
             }
         }
-        #endregion
-    }
-    class MostRentedPivotGridHelper : IDisposable {
-        PivotGridControl pivotGrid;
-        PivotGridField fieldRentCount, fieldMovie;
 
-        public MostRentedPivotGridHelper() {
+        #endregion IDisposable Members
+    }
+
+    internal class MostRentedPivotGridHelper : IDisposable
+    {
+        private PivotGridControl pivotGrid;
+        private PivotGridField fieldRentCount, fieldMovie;
+
+        public MostRentedPivotGridHelper()
+        {
             this.pivotGrid = new PivotGridControl();
             this.pivotGrid.FieldValueDisplayText += new PivotFieldDisplayTextEventHandler(pivotGrid_FieldValueDisplayText);
-                        
+
             this.pivotGrid.OptionsChartDataSource.SelectionOnly = false;
             this.pivotGrid.OptionsChartDataSource.ProvideRowGrandTotals = false;
             this.pivotGrid.OptionsDataField.FieldNaming = DataFieldNaming.Name;
@@ -268,34 +318,43 @@ namespace NukaCollect.Win.ModulesStatistics {
 
         public PivotGridControl PivotGrid { get { return pivotGrid; } }
 
-        public Movie GetMovie(int index) {
+        public Movie GetMovie(int index)
+        {
             return pivotGrid.GetFieldValue(fieldMovie, index) as Movie;
         }
 
-        public PivotSummaryDataSource CreateSummaryDataSource() {
+        public PivotSummaryDataSource CreateSummaryDataSource()
+        {
             return this.pivotGrid.CreateSummaryDataSource();
         }
 
-        public object DataSource {
+        public object DataSource
+        {
             get { return this.pivotGrid.DataSource; }
             set { this.pivotGrid.DataSource = value; }
         }
 
-        void pivotGrid_FieldValueDisplayText(object sender, PivotFieldDisplayTextEventArgs e) {
-            if(e.Field == fieldMovie) {
+        private void pivotGrid_FieldValueDisplayText(object sender, PivotFieldDisplayTextEventArgs e)
+        {
+            if (e.Field == fieldMovie)
+            {
                 Movie valueAsMovie = (Movie)e.Value;
                 e.DisplayText = valueAsMovie.Title;
             }
         }
 
         #region IDisposable Members
-        public void Dispose() {
-            if(pivotGrid != null) {
+
+        public void Dispose()
+        {
+            if (pivotGrid != null)
+            {
                 pivotGrid.FieldValueDisplayText -= new PivotFieldDisplayTextEventHandler(pivotGrid_FieldValueDisplayText);
                 pivotGrid.Fields.Clear();
                 pivotGrid.Dispose();
             }
         }
-        #endregion
+
+        #endregion IDisposable Members
     }
 }

@@ -1,44 +1,46 @@
-using System;
-using System.Drawing;
-using System.Collections;
-using System.ComponentModel;
-using System.Windows.Forms;
-using System.Data;
-using DevExpress.Utils;
-using DevExpress.XtraEditors;
-using DevExpress.Utils.Frames;
 using DevExpress.LookAndFeel;
+using DevExpress.Utils;
 using DevExpress.Xpo;
 using DevExpress.XtraBars;
-using NukaCollect.Win.Forms;
-using DevExpress.XtraNavBar.ViewInfo;
-using DevExpress.XtraBars.Ribbon;
 using DevExpress.XtraBars.Helpers;
+using DevExpress.XtraBars.Ribbon;
+using DevExpress.XtraEditors;
+using DevExpress.XtraNavBar.ViewInfo;
 using DevExpress.XtraPrinting.Preview;
-using System.Collections.Generic;
 using NukaCollect.Resources;
-using DevExpress.Utils.About;
-using DevExpress.Skins;
+using NukaCollect.Win.Forms;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win {
-    public partial class frmMain : frmMainBase, IFormWithLayoutManager {
-        FormLayoutManager layoutManager = null;
-        RibbonMenuController ribbonMenuController = null;
-        UnitOfWork dataSession = null;
-        ChartAppearanceManager chartAppearanceManager = null;
-        frmProgress progress = null;
+namespace NukaCollect.Win
+{
+    public partial class frmMain : frmMainBase, IFormWithLayoutManager
+    {
+        private FormLayoutManager layoutManager = null;
+        private RibbonMenuController ribbonMenuController = null;
+        private UnitOfWork dataSession = null;
+        private ChartAppearanceManager chartAppearanceManager = null;
+        private frmProgress progress = null;
 
         #region printing
-        List<BarItemLink> previewLinks = new List<BarItemLink>();
-        List<BarItemLink> links = new List<BarItemLink>();
-        PrintRibbonController printRibbonController = new PrintRibbonController();
-        BarButtonItem designerButton;
-        PrintPreviewRibbonPage previewPage;
 
-        PrintPreviewRibbonPage PreviewPage {
-            get {
-                if(previewPage == null) {
-                    foreach(PrintPreviewRibbonPage page in printRibbonController.PreviewRibbonPages) {
+        private List<BarItemLink> previewLinks = new List<BarItemLink>();
+        private List<BarItemLink> links = new List<BarItemLink>();
+        private PrintRibbonController printRibbonController = new PrintRibbonController();
+        private BarButtonItem designerButton;
+        private PrintPreviewRibbonPage previewPage;
+
+        private PrintPreviewRibbonPage PreviewPage
+        {
+            get
+            {
+                if (previewPage == null)
+                {
+                    foreach (PrintPreviewRibbonPage page in printRibbonController.PreviewRibbonPages)
+                    {
                         previewPage = page;
                         break;
                     }
@@ -46,24 +48,33 @@ namespace NukaCollect.Win {
                 return previewPage;
             }
         }
-        public void SubscribeOnDesignerButtonClick(ItemClickEventHandler handler) {
+
+        public void SubscribeOnDesignerButtonClick(ItemClickEventHandler handler)
+        {
             designerButton.ItemClick += handler;
         }
-        public PrintRibbonController PrintRibbonController {
+
+        public PrintRibbonController PrintRibbonController
+        {
             get { return printRibbonController; }
         }
-        void InitPrintRibbonController() {
-            foreach(BarItemLink link in this.StatusBar.ItemLinks)
+
+        private void InitPrintRibbonController()
+        {
+            foreach (BarItemLink link in this.StatusBar.ItemLinks)
                 links.Add(link);
             printRibbonController.Initialize(this.RibbonControl, this.StatusBar);
-            foreach(BarItemLink link in this.StatusBar.ItemLinks)
-                if(!links.Contains(link))
+            foreach (BarItemLink link in this.StatusBar.ItemLinks)
+                if (!links.Contains(link))
                     previewLinks.Add(link);
             InitPreviewPage(PreviewPage);
             HidePreviewPage();
         }
-        void InitPreviewPage(PrintPreviewRibbonPage page) {
-            if(page != null) {
+
+        private void InitPreviewPage(PrintPreviewRibbonPage page)
+        {
+            if (page != null)
+            {
                 designerButton = CreateDesignerButton();
                 designerButton.Manager = this.RibbonControl.Manager;
                 page.Groups[PrintPreviewRibbonPageGroupKind.Document.ToString()].ItemLinks.Add(designerButton);
@@ -71,34 +82,46 @@ namespace NukaCollect.Win {
                 page.Groups[PrintPreviewRibbonPageGroupKind.PageSetup.ToString()].Visible = false;
             }
         }
-        public void ShowPreviewPage() {
+
+        public void ShowPreviewPage()
+        {
             SetVisibility(links, false);
             SetVisibility(previewLinks, true);
-            if(PreviewPage != null) {
+            if (PreviewPage != null)
+            {
                 PreviewPage.Visible = true;
                 SetPageIndex(this.RibbonControl, PreviewPage, 0);
                 this.RibbonControl.SelectedPage = PreviewPage;
             }
         }
-        static void SetPageIndex(RibbonControl ribbonControl, RibbonPage page, int index) {
+
+        private static void SetPageIndex(RibbonControl ribbonControl, RibbonPage page, int index)
+        {
             int currentIndex = ribbonControl.Pages.IndexOf(page);
-            if(currentIndex != index) {
+            if (currentIndex != index)
+            {
                 ribbonControl.Pages.RemoveAt(currentIndex);
                 ribbonControl.Pages.Insert(index, page);
                 ribbonControl.SelectedPage = page;
             }
         }
-        public void HidePreviewPage() {
+
+        public void HidePreviewPage()
+        {
             SetVisibility(links, true);
             SetVisibility(previewLinks, false);
-            if(PreviewPage != null)
+            if (PreviewPage != null)
                 PreviewPage.Visible = false;
         }
-        static void SetVisibility(List<BarItemLink> links, bool value) {
-            foreach(BarItemLink link in links)
+
+        private static void SetVisibility(List<BarItemLink> links, bool value)
+        {
+            foreach (BarItemLink link in links)
                 link.Visible = value;
         }
-        static BarButtonItem CreateDesignerButton() {
+
+        private static BarButtonItem CreateDesignerButton()
+        {
             BarButtonItem buttonItem = new BarButtonItem();
             buttonItem.Caption = ConstStrings.Get("ShowReportDesigner");
             buttonItem.Hint = ConstStrings.Get("ShowReportDesigner");
@@ -107,9 +130,11 @@ namespace NukaCollect.Win {
             buttonItem.LargeGlyph = ResourceImageHelper.CreateImageFromResources("NukaCollect.Resources.Images.Action_Report_ShowDesigner_32x32.png", typeof(NukaCollect.Resources.ImagesHelper).Assembly);
             return buttonItem;
         }
-        #endregion
 
-        public frmMain() {
+        #endregion printing
+
+        public frmMain()
+        {
             InitializeComponent();
             ElementConstStringLoader.LoadConstStringsForFrmMain(this);
             InitStyles();
@@ -120,49 +145,66 @@ namespace NukaCollect.Win {
             this.Icon = ElementHelper.AppIcon;
             InitPrintRibbonController();
         }
-        frmProgress Progress {
-            get {
-                if(progress == null) progress = new frmProgress(this);
+
+        private frmProgress Progress
+        {
+            get
+            {
+                if (progress == null) progress = new frmProgress(this);
                 return progress;
             }
         }
-        void frmMain_StyleChangeProgress(object sender, LookAndFeelProgressEventArgs e) {
-            if(e.State == 0) {
+
+        private void frmMain_StyleChangeProgress(object sender, LookAndFeelProgressEventArgs e)
+        {
+            if (e.State == 0)
+            {
 #if DebugTest
                 System.Diagnostics.Debug.WriteLine(string.Format("Look and Feel objects count = {0}", e.Progress));
 #endif
                 Progress.ShowProgress(e.Progress);
                 SuspendLayout();
             }
-            if(e.State == 1) {
+            if (e.State == 1)
+            {
                 Progress.Progress(e.Progress);
             }
-            if(e.State == 2) {
+            if (e.State == 2)
+            {
                 Progress.HideProgress();
                 ResumeLayout();
             }
         }
+
         public RibbonMenuController RibbonMenuController { get { return ribbonMenuController; } }
         public ChartAppearanceManager ChartAppearanceManager { get { return chartAppearanceManager; } }
         protected override string DemoName { get { return ConstStrings.Get("DemoName"); } }
-        protected override void nbMain_CustomDrawGroupCaption(object sender, DevExpress.XtraNavBar.ViewInfo.CustomDrawNavBarElementEventArgs e) {
-            if(ConstStrings.Get("AdminGroup").Equals(e.Caption))
+
+        protected override void nbMain_CustomDrawGroupCaption(object sender, DevExpress.XtraNavBar.ViewInfo.CustomDrawNavBarElementEventArgs e)
+        {
+            if (ConstStrings.Get("AdminGroup").Equals(e.Caption))
                 e.Appearance.Font = ElementHelper.FontItalic;
-            if(NavigationBar.OptionsNavPane.NavPaneState == DevExpress.XtraNavBar.NavPaneState.Collapsed) return;
+            if (NavigationBar.OptionsNavPane.NavPaneState == DevExpress.XtraNavBar.NavPaneState.Collapsed) return;
             NavGroupInfoArgs info = e.ObjectInfo as NavGroupInfoArgs;
             int dx = 7;
-            if(info == null) return;
+            if (info == null) return;
             e.Image = null;
-            info.CaptionBounds = new Rectangle(info.CaptionClientBounds.X + dx, info.CaptionClientBounds.Y, 
+            info.CaptionBounds = new Rectangle(info.CaptionClientBounds.X + dx, info.CaptionClientBounds.Y,
                 info.CaptionClientBounds.Width - dx * 2, info.CaptionClientBounds.Height);
         }
-        void Default_StyleChanged(object sender, EventArgs e) {
+
+        private void Default_StyleChanged(object sender, EventArgs e)
+        {
             InitStyles();
         }
-        void InitStyles() {
+
+        private void InitStyles()
+        {
             ColorHelper.UpdateColor(ElementHelper.ColumnHeaderIcons, UserLookAndFeel.Default);
         }
-        protected override void OnLoad(EventArgs e) {
+
+        protected override void OnLoad(EventArgs e)
+        {
             base.OnLoad(e);
             WinHelper.SetFormClientSize(Screen.GetWorkingArea(this.Location), this, 1080, 840);
             InitDataManagement();
@@ -170,7 +212,9 @@ namespace NukaCollect.Win {
             LayoutManager.Properties.LoadChartPaletteAppearance(ChartAppearanceManager);
             SkinHelper.InitSkinGallery(rgbiSkins, true);
         }
-        void InitDataManagement() {
+
+        private void InitDataManagement()
+        {
             dataSession = new UnitOfWork(XpoDefault.DataLayer);
             layoutManager = new FormLayoutManager(XpoDefault.DataLayer, SetDataInfo, dataSession);
             LayoutManager.RestoreFormLayout(new FormLayoutInfo(this, null, rcMain.Toolbar));
@@ -179,23 +223,33 @@ namespace NukaCollect.Win {
             LayoutManager.SetDefaultCurrentCustomer(dataSession);
             NavigationBar.OptionsNavPane.NavPaneState = LayoutManager.Properties.CurrentProperty.NavPaneState;
         }
+
         public FormLayoutManager LayoutManager { get { return layoutManager; } }
-        protected override void RegisterTutorials() {
+
+        protected override void RegisterTutorials()
+        {
             NukaCollect.Win.RegisterTutorials.Register();
         }
-        protected override void ShowModule(string name, PanelControl parent) {
+
+        protected override void ShowModule(string name, PanelControl parent)
+        {
             DemosInfo.ShowModule(this, name, parent, dataSession == null ? null : new UnitOfWork(dataSession.DataLayer));
         }
-        protected override void OnClosing(CancelEventArgs e) {
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
             base.OnClosing(e);
             TutorialControl control = DemosInfo.CurrentModule as TutorialControl;
-            if(control != null)
+            if (control != null)
                 control.ForceHide();
             LayoutManager.SaveFormLayout(new FormLayoutInfo(this, null, rcMain.Toolbar));
             LayoutManager.Properties.SaveDefaultProperties(LayoutManager, NavigationBar.OptionsNavPane.NavPaneState, ChartAppearanceManager);
         }
+
         #region Ribbon
-        protected override void InitMenu() {
+
+        protected override void InitMenu()
+        {
             SetBarGroupImages();
             SetMenuItemImages();
             SetActionDescriptions();
@@ -210,7 +264,8 @@ namespace NukaCollect.Win {
             gddChartPalette.Gallery.ShowGroupCaption = false;
         }
 
-        void SetActionDescriptions() {
+        private void SetActionDescriptions()
+        {
             ExportButton.Description = ConstStrings.Get("ExportDescription");
             PrintPreviewButton.Description = ConstStrings.Get("PrintPreviewDescription");
             LayoutOptionsButton.Description = ConstStrings.Get("LayoutOptionDescription");
@@ -219,56 +274,76 @@ namespace NukaCollect.Win {
             bbiSkins.Description = ConstStrings.Get("ChooseSkinDescription");
         }
 
-        void chartAppearanceManager_StyleChanged(object sender, ChartAppearanceEventArgs e) {
+        private void chartAppearanceManager_StyleChanged(object sender, ChartAppearanceEventArgs e)
+        {
             ModulesInfo.CurrentModule.CheckChartStyles(ChartAppearanceManager);
         }
 
-        void SetBarGroupImages() {
+        private void SetBarGroupImages()
+        {
             NavigationBar.Groups[ConstStrings.Get("RentalGroup")].SmallImage = ElementHelper.GetGroupImage("Rental");
             NavigationBar.Groups[ConstStrings.Get("CatalogGroup")].SmallImage = ElementHelper.GetGroupImage("Catalog");
             NavigationBar.Groups[ConstStrings.Get("KPIGroup")].SmallImage = ElementHelper.GetGroupImage("KPI");
             NavigationBar.Groups[ConstStrings.Get("StatisticsGroup")].SmallImage = ElementHelper.GetGroupImage("Statistics");
             NavigationBar.Groups[ConstStrings.Get("ReportsGroup")].SmallImage = ElementHelper.GetGroupImage("Reports");
-            if(NavigationBar.Groups[ConstStrings.Get("AdminGroup")] != null)
+            if (NavigationBar.Groups[ConstStrings.Get("AdminGroup")] != null)
                 NavigationBar.Groups[ConstStrings.Get("AdminGroup")].SmallImage = ElementHelper.GetGroupImage("Administrator");
         }
 
-        void SetMenuItemImages() {
+        private void SetMenuItemImages()
+        {
             RibbonMenuController.SetBarButtonImage(bsiModules, "Navigation");
         }
-        private void rpgAppearance_CaptionButtonClick(object sender, DevExpress.XtraBars.Ribbon.RibbonPageGroupEventArgs e) {
+
+        private void rpgAppearance_CaptionButtonClick(object sender, DevExpress.XtraBars.Ribbon.RibbonPageGroupEventArgs e)
+        {
             pmAppearance.ShowPopup(MousePosition);
         }
-        private void pmAppearance_Popup(object sender, EventArgs e) {
+
+        private void pmAppearance_Popup(object sender, EventArgs e)
+        {
             bciFormSkin.Checked = DevExpress.Skins.SkinManager.AllowFormSkins;
         }
-        private void bciFormSkin_ItemClick(object sender, ItemClickEventArgs e) {
+
+        private void bciFormSkin_ItemClick(object sender, ItemClickEventArgs e)
+        {
             this.AllowFormGlass = DevExpress.Skins.SkinManager.AllowFormSkins ? DefaultBoolean.True : DefaultBoolean.False;
-            if(DevExpress.Skins.SkinManager.AllowFormSkins)
+            if (DevExpress.Skins.SkinManager.AllowFormSkins)
                 DevExpress.Skins.SkinManager.DisableFormSkins();
             else
                 DevExpress.Skins.SkinManager.EnableFormSkins();
         }
-        private void bbiLayoutOptions_ItemClick(object sender, ItemClickEventArgs e) {
-            using(frmLayoutOptions form = new frmLayoutOptions(LayoutManager))
+
+        private void bbiLayoutOptions_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            using (frmLayoutOptions form = new frmLayoutOptions(LayoutManager))
                 form.ShowDialog(this);
         }
-        private void bbiPeriod_ItemClick(object sender, ItemClickEventArgs e) {
+
+        private void bbiPeriod_ItemClick(object sender, ItemClickEventArgs e)
+        {
             ShowPeriod(PeriodType.All);
         }
-        private void bbiReceiptPeriod_ItemClick(object sender, ItemClickEventArgs e) {
+
+        private void bbiReceiptPeriod_ItemClick(object sender, ItemClickEventArgs e)
+        {
             ShowPeriod(PeriodType.Receipt);
         }
-        void ShowPeriod(PeriodType type) {
-            using(frmPeriod form = new frmPeriod(type))
-                if(form.ShowDialog(this) == DialogResult.OK && ModulesInfo.CurrentModule != null)
+
+        private void ShowPeriod(PeriodType type)
+        {
+            using (frmPeriod form = new frmPeriod(type))
+                if (form.ShowDialog(this) == DialogResult.OK && ModulesInfo.CurrentModule != null)
                     ((TutorialControl)ModulesInfo.CurrentModule).RefreshData();
         }
-        private void rcMain_ShowCustomizationMenu(object sender, RibbonCustomizationMenuEventArgs e) {
+
+        private void rcMain_ShowCustomizationMenu(object sender, RibbonCustomizationMenuEventArgs e)
+        {
             e.CustomizationMenu.InitializeMenu();
-            if(e.Link == null || !"AllowQuickAccess".Equals(e.Link.Item.Tag))
+            if (e.Link == null || !"AllowQuickAccess".Equals(e.Link.Item.Tag))
                 e.CustomizationMenu.RemoveLink(e.CustomizationMenu.ItemLinks[0]);
         }
+
         internal BarButtonItem AddButton { get { return bbiAdd; } }
         internal BarButtonItem EditButton { get { return bbiEdit; } }
         internal BarButtonItem DeleteButton { get { return bbiDelete; } }
@@ -314,13 +389,16 @@ namespace NukaCollect.Win {
         internal BarButtonItem PeriodButton { get { return bbiPeriod; } }
         internal BarButtonItem ReceiptPeriodButton { get { return bbiReceiptPeriod; } }
         internal BarButtonItem SaveCurrentRecordButton { get { return bbiSaveCurrentRecord; } }
-        #endregion
 
-        private void sbExit_Click(object sender, EventArgs e) {
+        #endregion Ribbon
+
+        private void sbExit_Click(object sender, EventArgs e)
+        {
             Close();
         }
 
-        internal void UpdateSchedulerRibbonController(DevExpress.XtraScheduler.SchedulerControl schedulerControl) {
+        internal void UpdateSchedulerRibbonController(DevExpress.XtraScheduler.SchedulerControl schedulerControl)
+        {
             this.schedulerBarController1.Control = schedulerControl;
         }
     }

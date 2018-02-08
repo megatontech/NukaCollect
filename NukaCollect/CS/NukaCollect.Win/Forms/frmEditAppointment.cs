@@ -1,30 +1,32 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.XtraScheduler.UI;
-using DevExpress.XtraScheduler;
 using DevExpress.XtraEditors;
+using DevExpress.XtraScheduler;
+using DevExpress.XtraScheduler.UI;
 using NukaCollect.Resources;
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Forms {
+namespace NukaCollect.Win.Forms
+{
+    public partial class RentalDetailsForm : XtraForm
+    {
+        private SchedulerControl control;
+        private Appointment apt;
+        private RentAppointmentFormController controller;
+        private int suspendUpdateCount;
+        private FormLayoutManager layoutManager = null;
 
-    public partial class RentalDetailsForm : XtraForm {
-        SchedulerControl control;
-        Appointment apt;
-        RentAppointmentFormController controller;
-        int suspendUpdateCount;
-        FormLayoutManager layoutManager = null;
+        public RentalDetailsForm()
+        {
+        }
 
-        public RentalDetailsForm() { }
-        public RentalDetailsForm(SchedulerControl control, Appointment apt, FormLayoutManager layoutManager) {
+        public RentalDetailsForm(SchedulerControl control, Appointment apt, FormLayoutManager layoutManager)
+        {
             this.layoutManager = layoutManager;
-            if(control == null)
+            if (control == null)
                 new ArgumentNullException("control");
-            if(apt == null)
+            if (apt == null)
                 new ArgumentNullException("apt");
             this.apt = apt;
             this.control = control;
@@ -36,37 +38,52 @@ namespace NukaCollect.Win.Forms {
             UpdateForm();
         }
 
-        void InitData() {
+        private void InitData()
+        {
             EditorHelper.CreateMovieItemFormatImageComboBox(txtFormat.Properties, null);
         }
+
         protected AppointmentStorage Appointments { get { return control.Storage.Appointments; } }
         protected internal bool IsNewAppointment { get { return controller != null ? controller.IsNewAppointment : true; } }
         protected bool IsUpdateSuspended { get { return suspendUpdateCount > 0; } }
 
-        protected void SuspendUpdate() {
+        protected void SuspendUpdate()
+        {
             suspendUpdateCount++;
         }
-        protected void ResumeUpdate() {
-            if(suspendUpdateCount > 0)
+
+        protected void ResumeUpdate()
+        {
+            if (suspendUpdateCount > 0)
                 suspendUpdateCount--;
         }
 
-        protected virtual void UpdateForm() {
+        protected virtual void UpdateForm()
+        {
             UnsubscribeControlsEvents();
-            try {
+            try
+            {
                 UpdateFormCore();
-            } finally {
+            }
+            finally
+            {
                 SubscribeControlsEvents();
             }
+        }
 
+        protected virtual void UnsubscribeControlsEvents()
+        {
         }
-        protected virtual void UnsubscribeControlsEvents() {
+
+        protected virtual void SubscribeControlsEvents()
+        {
         }
-        protected virtual void SubscribeControlsEvents() {
-        }
-        protected virtual void UpdateFormCore() {
+
+        protected virtual void UpdateFormCore()
+        {
             SuspendUpdate();
-            try {
+            try
+            {
                 txSubject.Text = controller.Subject;
 
                 dtStart.DateTime = controller.DisplayStart.Date;
@@ -82,7 +99,6 @@ namespace NukaCollect.Win.Forms {
                 txMovieLanguage.Text = controller.MovieLanguage;
                 edtDescription.Text = controller.Description;
 
-
                 pePhoto.Image = controller.MoviePhoto != null ? controller.MoviePhoto : ReferenceImages.UnknownMovie;
                 txtFormat.EditValue = controller.MovieFormat;
 
@@ -91,34 +107,44 @@ namespace NukaCollect.Win.Forms {
                 chkRentOverdue.Checked = controller.IsRentOverdue;
 
                 chkActiveRental.Checked = controller.IsActiveRent;
-            } finally {
+            }
+            finally
+            {
                 ResumeUpdate();
             }
         }
 
-        private void CustomAppointmentForm_Load(object sender, EventArgs e) {
+        private void CustomAppointmentForm_Load(object sender, EventArgs e)
+        {
             LoadFormLayout();
             lciReturnedOn.Text = controller.IsActiveRent ? ConstStrings.Get("ExpectedOn") : ConstStrings.Get("ReturnedOn");
         }
 
-        private void CustomAppointmentForm_FormClosing(object sender, FormClosingEventArgs e) {
+        private void CustomAppointmentForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
             SaveFormLayout();
         }
-        protected virtual void LoadFormLayout() {
-            if(layoutManager == null) return;
+
+        protected virtual void LoadFormLayout()
+        {
+            if (layoutManager == null) return;
             layoutManager.RestoreFormLayout(new FormLayoutInfo(this, lcMain));
         }
-        protected virtual void SaveFormLayout() {
-            if(layoutManager == null) return;
+
+        protected virtual void SaveFormLayout()
+        {
+            if (layoutManager == null) return;
             layoutManager.SaveFormLayout(new FormLayoutInfo(this, lcMain));
         }
 
-        private void dtStart_Properties_QueryPopUp(object sender, CancelEventArgs e) {
+        private void dtStart_Properties_QueryPopUp(object sender, CancelEventArgs e)
+        {
             e.Cancel = true;
         }
     }
 
-    public class RentAppointmentFormController : AppointmentFormController {
+    public class RentAppointmentFormController : AppointmentFormController
+    {
         public decimal Payment { get { return (decimal)EditedAppointmentCopy.CustomFields["Payment"]; } }
         public decimal OverduePayment { get { return (decimal)EditedAppointmentCopy.CustomFields["OverduePayment"]; } }
 
@@ -132,11 +158,13 @@ namespace NukaCollect.Win.Forms {
         public bool IsActiveRent { get { return EditedAppointmentCopy.CustomFields["ReturnedOn"] == null; } }
 
         public RentAppointmentFormController(SchedulerControl control, Appointment apt)
-            : base(control, apt) {
+            : base(control, apt)
+        {
         }
-        public override bool IsAppointmentChanged() {
+
+        public override bool IsAppointmentChanged()
+        {
             return false;
         }
     }
-
 }

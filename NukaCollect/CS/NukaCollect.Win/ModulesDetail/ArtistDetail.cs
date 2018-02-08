@@ -1,40 +1,40 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.XtraEditors;
-using DevExpress.Xpo;
-using DevExpress.Data.Filtering;
 using DevExpress.Utils.Menu;
+using DevExpress.Xpo;
 using DevExpress.Xpo.DB;
-using NukaCollect.Win.Forms;
+using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.DXErrorProvider;
 using NukaCollect.Resources;
+using NukaCollect.Win.Forms;
+using System;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Modules {
-    public partial class ArtistDetail : DetailBase {
+namespace NukaCollect.Win.Modules
+{
+    public partial class ArtistDetail : DetailBase
+    {
         public ArtistDetail(Form parent, GetSessionCallback session, Artist artist, IDXMenuManager manager, CloseDetailForm closeForm)
-            : base(parent, session, artist, manager, closeForm) {
+            : base(parent, session, artist, manager, closeForm)
+        {
             InitializeComponent();
             ElementConstStringLoader.LoadConstStringsForArtistDetail(this);
             teLink.Properties.Buttons[0].ToolTip = ConstStrings.Get("GoToWebsite");
             Text = artist != null ? artist.FullName : ConstStrings.Get("NewActor");
         }
+
         protected override string HomeButtonCaption { get { return ConstStrings.Get("ArtistList"); } }
         public Artist Artist { get { return editObject as Artist; } }
-        protected override void InitData() {
+
+        protected override void InitData()
+        {
             base.InitData();
             InitEditors();
-            if(Artist == null) return;
+            if (Artist == null) return;
             teFirstName.Text = Artist.FirstName;
             teLastName.Text = Artist.LastName;
             cbeGender.EditValue = Artist.Gender;
             teNickName.Text = Artist.NickName;
             teBirthName.Text = Artist.BirthName;
-            if(Artist.BirthDate != null) deBirthDate.DateTime = Artist.BirthDate.Value;
+            if (Artist.BirthDate != null) deBirthDate.DateTime = Artist.BirthDate.Value;
             EditorHelper.CreateCountryLookUpEdit(Session, lueBirthCountry.Properties, null);
             lueBirthCountry.EditValue = Artist.BirthCountry;
             teBirthLocation.Text = Artist.BirthLocation;
@@ -44,23 +44,29 @@ namespace NukaCollect.Win.Modules {
             InitMovies();
             InitDeleteButtonEnabled();
         }
-        protected override bool ValidateData() {
+
+        protected override bool ValidateData()
+        {
             ValidationRule rule = null;
-            if(string.IsNullOrEmpty(teFirstName.Text) && string.IsNullOrEmpty(teLastName.Text))
+            if (string.IsNullOrEmpty(teFirstName.Text) && string.IsNullOrEmpty(teLastName.Text))
                 rule = ValidationRulesHelper.RuleIsNotBlank;
             ValidationProvider.SetValidationRule(teFirstName, rule);
             ValidationProvider.SetValidationRule(teLastName, rule);
             return base.ValidateData();
         }
+
         //protected override void InitValidation() {
         //    //ValidationProvider.SetValidationRule(
         //    //ValidationProvider.SetValidationRule(teFirstName, ValidationRulesHelper.RuleIsNotBlank);
         //    //ValidationProvider.SetValidationRule(teLastName, ValidationRulesHelper.RuleIsNotBlank);
         //}
-        void InitEditors() {
+        private void InitEditors()
+        {
             EditorHelper.CreateGenderImageComboBox(cbeGender.Properties, null);
         }
-        void InitMovies() {
+
+        private void InitMovies()
+        {
             colMovie.ColumnEdit = EditorHelper.CreateMovieGridLookUpEdit(Session, gcMovies.RepositoryItems);
             colLine.ColumnEdit = EditorHelper.CreateMovieArtistLineLookUpEdit(Session, gcMovies.RepositoryItems);
             Artist.Movies.Sorting.AddRange(new SortProperty[] {
@@ -69,7 +75,9 @@ namespace NukaCollect.Win.Modules {
             gcMovies.DataSource = Artist.Movies;
             ucGridEditBarMovies.Init(gvMovies);
         }
-        protected override void SaveData() {
+
+        protected override void SaveData()
+        {
             base.SaveData();
 
             gvMovies.CloseEditor();
@@ -79,7 +87,7 @@ namespace NukaCollect.Win.Modules {
             Artist.BirthLocation = teBirthLocation.Text;
             Artist.BirthCountry = (Country)lueBirthCountry.EditValue;
             Artist.BirthDate = deBirthDate.DateTime;
-            if(Artist.BirthDate == DateTime.MinValue) Artist.BirthDate = null;
+            if (Artist.BirthDate == DateTime.MinValue) Artist.BirthDate = null;
             Artist.BirthName = teBirthName.Text;
             Artist.NickName = teNickName.Text;
             Artist.Gender = (PersonGender)cbeGender.EditValue;
@@ -87,46 +95,65 @@ namespace NukaCollect.Win.Modules {
             Artist.FirstName = teFirstName.Text;
             CommitSession();
         }
-        protected override VideoRentBaseObject CreateNewObject() {
+
+        protected override VideoRentBaseObject CreateNewObject()
+        {
             base.CreateNewObject();
             return new Artist(Session);
         }
-        MovieArtist CurrentMovieArtist {
-            get {
+
+        private MovieArtist CurrentMovieArtist
+        {
+            get
+            {
                 return gvMovies.GetRow(gvMovies.FocusedRowHandle) as MovieArtist;
             }
         }
-        private void ucGridEditBarMovies_AddRecord(object sender, EventArgs e) {
-            using(frmArtistAddMovie form = new frmArtistAddMovie(FindForm(), Session, Artist, lcMain.MenuManager)) {
-                if(form.ShowDialog() == DialogResult.Cancel) return;
+
+        private void ucGridEditBarMovies_AddRecord(object sender, EventArgs e)
+        {
+            using (frmArtistAddMovie form = new frmArtistAddMovie(FindForm(), Session, Artist, lcMain.MenuManager))
+            {
+                if (form.ShowDialog() == DialogResult.Cancel) return;
                 WinHelper.GridViewFocusObject(gvMovies, form.MovieArtist);
             }
         }
 
-        private void ucGridEditBarMovies_DeleteRecord(object sender, EventArgs e) {
-            if(CurrentMovieArtist != null) {
+        private void ucGridEditBarMovies_DeleteRecord(object sender, EventArgs e)
+        {
+            if (CurrentMovieArtist != null)
+            {
                 gvMovies.HideEditor();
                 gvMovies.UpdateCurrentRow();
                 ObjectHelper.SafeDelete(this.FindForm(), CurrentMovieArtist, false);
             }
         }
-        private void teLink_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e) {
+
+        private void teLink_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
             string link = ((TextEdit)sender).Text;
-            if(string.IsNullOrEmpty(link)) link = "http://www.imdb.com/find?s=nm&q=" + Artist.FirstName + "+" + Artist.LastName;
+            if (string.IsNullOrEmpty(link)) link = "http://www.imdb.com/find?s=nm&q=" + Artist.FirstName + "+" + Artist.LastName;
             ObjectHelper.ShowWebSite(link);
         }
-        protected internal override void AddPicture() {
+
+        protected internal override void AddPicture()
+        {
             ucPictureCollection1.AddPicture();
             InitDeleteButtonEnabled();
         }
-        protected internal override void DeletePicture() {
+
+        protected internal override void DeletePicture()
+        {
             ucPictureCollection1.DeletePicture();
             InitDeleteButtonEnabled();
         }
-        void InitDeleteButtonEnabled() {
-            if(ParentFormMain != null)
+
+        private void InitDeleteButtonEnabled()
+        {
+            if (ParentFormMain != null)
                 ParentFormMain.DeletePictureButton.Enabled = ucPictureCollection1.DeleteButtonEnabled;
         }
+
 #if DebugTest
         public TextEdit GetFirstNameEditor() { return teFirstName; }
         public TextEdit GetLastNameEditor() { return teLastName; }

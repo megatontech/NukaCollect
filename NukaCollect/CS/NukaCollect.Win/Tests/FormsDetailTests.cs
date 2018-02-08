@@ -109,7 +109,7 @@ namespace NukaCollect.Win.Tests {
                 this.webSite = webSite;
                 this.icon = icon;
                 this.isColor = isColor;
-            }         
+            }
             static bool CollectionsAreEqual<T>(XPCollection<T> a, XPCollection<T> b) where T : VideoRentBaseObject {
                 if(a.Count != b.Count) return false;
                 foreach(T aObject in a) {
@@ -283,7 +283,6 @@ namespace NukaCollect.Win.Tests {
             newArtistInfo = new ArtistDetailData(artist);
             ArtistDetailData.AssertAreEqual(newInfo, newArtistInfo);
         }
-
     }
 }
 #endif

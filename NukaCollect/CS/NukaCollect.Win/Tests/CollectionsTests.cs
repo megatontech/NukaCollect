@@ -13,7 +13,6 @@ using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Views.Grid;
 
 namespace NukaCollect.Win.Tests {
-
     [TestFixture]
     public class BaseCollectionsTests : NukaCollect.Tests.XPOObjectsBaseTests {
         protected override void CreateData(UnitOfWork session) {

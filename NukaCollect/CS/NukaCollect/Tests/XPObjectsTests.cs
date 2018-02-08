@@ -402,7 +402,7 @@ namespace NukaCollect.Tests {
             };
 #endif
             new RentsHistory(30, Session, backgroundWorker, null);
-#if!SL
+#if !SL
             while(!flag)
                 ;
             Assert.IsTrue(rentsCountAssert);

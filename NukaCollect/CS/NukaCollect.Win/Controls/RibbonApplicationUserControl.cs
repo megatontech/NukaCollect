@@ -1,29 +1,31 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Text;
-using System.Windows.Forms;
-using DevExpress.XtraBars.Ribbon.Drawing;
 using DevExpress.XtraBars.Ribbon;
+using DevExpress.XtraBars.Ribbon.Drawing;
 using DevExpress.XtraEditors;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Controls {
-    public partial class RibbonApplicationUserControl : XtraUserControl {
-        public RibbonApplicationUserControl() {
+namespace NukaCollect.Win.Controls
+{
+    public partial class RibbonApplicationUserControl : XtraUserControl
+    {
+        public RibbonApplicationUserControl()
+        {
             InitializeComponent();
         }
-        public BackstageViewControl BackstageView {
-            get {
-                if(Parent == null)
+
+        public BackstageViewControl BackstageView
+        {
+            get
+            {
+                if (Parent == null)
                     return null;
                 return Parent.Parent as BackstageViewControl;
             }
         }
-        protected override void OnPaint(PaintEventArgs e) {
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
             base.OnPaint(e);
-            if(BackstageView != null)
+            if (BackstageView != null)
                 BackstageViewPainter.DrawBackstageViewImage(e, this, BackstageView);
         }
     }

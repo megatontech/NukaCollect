@@ -1,12 +1,15 @@
-using System;
-using NukaCollect.Reports;
 using NukaCollect.Resources;
+using System;
 
-namespace NukaCollect.Win {
+namespace NukaCollect.Win
+{
     [Flags]
-    public enum DemoProducts { None = 0, Grid = 1, Reports = 2, Charts = 4, Pivot = 8, Scheduler = 16 }; 
-    public class RegisterTutorials {
-        public static void Register() {
+    public enum DemoProducts { None = 0, Grid = 1, Reports = 2, Charts = 4, Pivot = 8, Scheduler = 16 };
+
+    public class RegisterTutorials
+    {
+        public static void Register()
+        {
             DemosInfo.Add(ConstStrings.Get("AboutGroup"), typeof(NukaCollect.Win.Modules.About), "", null, ConstStrings.Get("AboutGroup"));
             DemosInfo.Add(ConstStrings.Get("RentModule"), typeof(NukaCollect.Win.Modules.Rent), "", "Sale", ConstStrings.Get("RentalGroup"), DemoProducts.Grid);
             DemosInfo.Add(ConstStrings.Get("CustomersModule"), typeof(NukaCollect.Win.Modules.Customers), "", "Person", ConstStrings.Get("RentalGroup"), DemoProducts.Grid);
@@ -29,7 +32,7 @@ namespace NukaCollect.Win {
             DemosInfo.Add(NukaCollect.Reports.Properties.Resources.GenresReport, typeof(NukaCollect.Win.ModulesReports.TheMostProfitableGenresList), "", "TheMostProfitableGenresList", ConstStrings.Get("ReportsGroup"));
             DemosInfo.Add(NukaCollect.Reports.Properties.Resources.CustomerCardsReport, typeof(NukaCollect.Win.ModulesReports.CustomerInfoCard), "", "CustomerInfoCards", ConstStrings.Get("ReportsGroup"), DemoProducts.Reports);
             DemosInfo.Add(NukaCollect.Reports.Properties.Resources.FilmCardsReport, typeof(NukaCollect.Win.ModulesReports.FilmInfoCard), "", "FilmItemInfoCards", ConstStrings.Get("ReportsGroup"));
-            
+
             //TODO DemosInfo.Add(ConstStrings.EmployeesModule, typeof(NukaCollect.Win.Modules.Employee), "", "Employee", ConstStrings.AdminGroup);
         }
     }

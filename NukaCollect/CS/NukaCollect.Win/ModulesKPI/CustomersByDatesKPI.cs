@@ -1,29 +1,33 @@
+using DevExpress.Data.Filtering;
+using DevExpress.Xpo;
+using DevExpress.XtraCharts;
+using DevExpress.XtraLayout;
+using DevExpress.XtraPivotGrid;
+using NukaCollect.Resources;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using DevExpress.XtraCharts;
-using DevExpress.XtraLayout;
-using DevExpress.Xpo;
-using DevExpress.XtraPivotGrid;
-using DevExpress.Data.Filtering;
-using NukaCollect.Resources;
 
-namespace NukaCollect.Win.ModulesKPI {
-    public partial class CustomersByDatesKPI : ChartExportTutorialControl {
-        const int selectedRowsCount = 5;
-        string customersChartTitleText = ConstStrings.Get("CustomersDatesModule");
+namespace NukaCollect.Win.ModulesKPI
+{
+    public partial class CustomersByDatesKPI : ChartExportTutorialControl
+    {
+        private const int selectedRowsCount = 5;
+        private string customersChartTitleText = ConstStrings.Get("CustomersDatesModule");
 
-        CustomerToolTipController tooltipGrid;
-        CustomerToolTipController tooltipChart;
-        CustomerDiscountLevelToolTipController tooltipDiscount;
+        private CustomerToolTipController tooltipGrid;
+        private CustomerToolTipController tooltipChart;
+        private CustomerDiscountLevelToolTipController tooltipDiscount;
 
-        XYDiagram Diagram { get { return customersChart.Diagram as XYDiagram; } }
+        private XYDiagram Diagram
+        { get { return customersChart.Diagram as XYDiagram; } }
         protected override ChartControl MainChart { get { return customersChart; } }
         protected override LayoutControl MainLayoutControl { get { return layoutControl1; } }
         protected override bool AllowFlipLayout { get { return true; } }
 
-        public CustomersByDatesKPI() {
+        public CustomersByDatesKPI()
+        {
             InitializeComponent();
             customersGrid.BestFit();
             tooltipGrid = new CustomerToolTipController(customersGrid);
@@ -41,41 +45,53 @@ namespace NukaCollect.Win.ModulesKPI {
             cbeSortMode.Properties.Items.Add(ConstStrings.Get("Customer"));
             cbeSortMode.SelectedIndex = 0;
         }
-        void AddConstantLine(AxisY axis, CustomerDiscountLevel level) {
+
+        private void AddConstantLine(AxisY axis, CustomerDiscountLevel level)
+        {
             ConstantLine constantLine = new ConstantLine(level.ToString(), (int)ReferenceData.GetDiscountLevelPayment(level));
             constantLine.Title.Text = EnumTitlesKeeper<CustomerDiscountLevel>.GetTitle(level) + " (" + ((int)ReferenceData.GetDiscountLevelPayment(level)).ToString() + ")";
             constantLine.ShowInLegend = false;
             axis.ConstantLines.Add(constantLine);
         }
-        void AddSelection(List<Point> selection, int rowIndex) {
+
+        private void AddSelection(List<Point> selection, int rowIndex)
+        {
             for (int i = 0; i < selectedRowsCount; i++)
                 selection.Add(new Point(0, rowIndex + i));
         }
-        void SetColors(DrawOptions drawOptions, int colorIndex) {
+
+        private void SetColors(DrawOptions drawOptions, int colorIndex)
+        {
             PaletteEntry palleteEntry = customersChart.GetPaletteEntries(5)[colorIndex];
             drawOptions.Color = palleteEntry.Color;
             BarDrawOptions barDrawoptions = drawOptions as BarDrawOptions;
-            if (barDrawoptions != null) {
+            if (barDrawoptions != null)
+            {
                 RectangleGradientFillOptions gradientOptions = barDrawoptions.FillStyle.Options as RectangleGradientFillOptions;
                 if (gradientOptions != null)
                     gradientOptions.Color2 = palleteEntry.Color2;
             }
         }
-        void CustomerKPI_Load(object sender, EventArgs e) {
+
+        private void CustomerKPI_Load(object sender, EventArgs e)
+        {
             List<Point> selection = new List<Point>();
             AddSelection(selection, 0);
             AddSelection(selection, customersGrid.Cells.RowCount / 3);
             AddSelection(selection, customersGrid.Cells.RowCount - selectedRowsCount);
             customersGrid.Cells.MultiSelection.SetSelection(selection.ToArray());
             customersChart.DataSource = customersGrid;
-            if (Diagram != null) {
+            if (Diagram != null)
+            {
                 AddConstantLine(Diagram.AxisY, CustomerDiscountLevel.Basic);
                 AddConstantLine(Diagram.AxisY, CustomerDiscountLevel.Occasional);
                 AddConstantLine(Diagram.AxisY, CustomerDiscountLevel.Active);
                 AddConstantLine(Diagram.AxisY, CustomerDiscountLevel.Prodigious);
             }
         }
-        void SetDateFilter() {
+
+        private void SetDateFilter()
+        {
             receiptsCollection.Criteria =
                         new GroupOperator(GroupOperatorType.And,
                             new BinaryOperator(
@@ -84,12 +100,17 @@ namespace NukaCollect.Win.ModulesKPI {
                             "Date", PeriodManager.KPIPeriod.EndDate, BinaryOperatorType.LessOrEqual)
                         );
         }
-        void receiptsCollection_ResolveSession(object sender, ResolveSessionEventArgs e) {
+
+        private void receiptsCollection_ResolveSession(object sender, ResolveSessionEventArgs e)
+        {
             SetDateFilter();
             e.Session = Session;
         }
-        void customersChart_BoundDataChanged(object sender, EventArgs e) {
-            if (Diagram != null && customersChart.Series.Count > 0) {
+
+        private void customersChart_BoundDataChanged(object sender, EventArgs e)
+        {
+            if (Diagram != null && customersChart.Series.Count > 0)
+            {
                 bool isVerticalLabels = customersChart.Series[0].Points.Count > 12;
                 Diagram.AxisX.Label.Angle = isVerticalLabels ? -90 : 0;
                 foreach (Series series in customersChart.Series)
@@ -97,26 +118,35 @@ namespace NukaCollect.Win.ModulesKPI {
                 customersChart.Titles[0].Text = customersChartTitleText + " (" + customersChart.Series[0].Name + ")";
             }
         }
-        void customersChart_CustomDrawSeries(object sender, CustomDrawSeriesEventArgs e) {
-            switch (customersChart.Series.IndexOf(e.Series)) {
+
+        private void customersChart_CustomDrawSeries(object sender, CustomDrawSeriesEventArgs e)
+        {
+            switch (customersChart.Series.IndexOf(e.Series))
+            {
                 case 1:
                     SetColors(e.LegendDrawOptions, 0);
                     break;
+
                 case 2:
                     SetColors(e.LegendDrawOptions, 1);
                     break;
+
                 case 3:
                     SetColors(e.LegendDrawOptions, 2);
                     break;
+
                 case 4:
                     SetColors(e.LegendDrawOptions, 3);
                     break;
+
                 case 5:
                     SetColors(e.LegendDrawOptions, 4);
                     break;
             }
         }
-        void customersChart_CustomDrawSeriesPoint(object sender, CustomDrawSeriesPointEventArgs e) {
+
+        private void customersChart_CustomDrawSeriesPoint(object sender, CustomDrawSeriesPointEventArgs e)
+        {
             if (e.SeriesPoint.Values[0] >= (int)ReferenceData.GetDiscountLevelPayment(CustomerDiscountLevel.Prodigious))
                 SetColors(e.SeriesDrawOptions, 0);
             else if (e.SeriesPoint.Values[0] >= (int)ReferenceData.GetDiscountLevelPayment(CustomerDiscountLevel.Active))
@@ -128,35 +158,47 @@ namespace NukaCollect.Win.ModulesKPI {
             else
                 SetColors(e.SeriesDrawOptions, 4);
         }
-        void customersChart_MouseMove(object sender, MouseEventArgs e) {
+
+        private void customersChart_MouseMove(object sender, MouseEventArgs e)
+        {
             ChartHitInfo hitInfo = customersChart.CalcHitInfo(e.X, e.Y);
-            if (hitInfo.SeriesPoint != null) {
+            if (hitInfo.SeriesPoint != null)
+            {
                 int[] cell = hitInfo.SeriesPoint.Tag as int[];
-                if (cell != null && cell.Length == 2) {
+                if (cell != null && cell.Length == 2)
+                {
                     Customer customer = customersGrid.GetFieldValue(fieldCustomer, cell[1]) as Customer;
-                    if (customer != null) {
+                    if (customer != null)
+                    {
                         tooltipChart.ShowHint(customer, e.Location);
                         return;
                     }
                 }
             }
             tooltipChart.HideHint(true);
-            if (hitInfo.Series != null) {
+            if (hitInfo.Series != null)
+            {
                 Series series = hitInfo.Series as Series;
-                if (series != null) {
-                    switch (series.Name) {
+                if (series != null)
+                {
+                    switch (series.Name)
+                    {
                         case "FirstTime":
                             tooltipDiscount.ShowHint(CustomerDiscountLevel.FirstTime, e.Location);
                             return;
+
                         case "Basic":
                             tooltipDiscount.ShowHint(CustomerDiscountLevel.Basic, e.Location);
                             return;
+
                         case "Occasional":
                             tooltipDiscount.ShowHint(CustomerDiscountLevel.Occasional, e.Location);
                             return;
+
                         case "Active":
                             tooltipDiscount.ShowHint(CustomerDiscountLevel.Active, e.Location);
                             return;
+
                         case "Prodigious":
                             tooltipDiscount.ShowHint(CustomerDiscountLevel.Prodigious, e.Location);
                             return;
@@ -165,11 +207,15 @@ namespace NukaCollect.Win.ModulesKPI {
             }
             tooltipDiscount.HideHint(true);
         }
-        void customersGrid_MouseMove(object sender, MouseEventArgs e) {
+
+        private void customersGrid_MouseMove(object sender, MouseEventArgs e)
+        {
             PivotGridHitInfo hitInfo = customersGrid.CalcHitInfo(e.Location);
-            if(MustShowCustomerTooltip(hitInfo)) {
+            if (MustShowCustomerTooltip(hitInfo))
+            {
                 Customer customer = hitInfo.ValueInfo.Value as Customer;
-                if (customer != null) {
+                if (customer != null)
+                {
                     Point location = e.Location;
                     location.Offset(20, 20);
                     tooltipGrid.ShowHint(customer, location);
@@ -178,40 +224,55 @@ namespace NukaCollect.Win.ModulesKPI {
             else
                 tooltipGrid.HideHint(true);
         }
-        void customersGrid_FieldTooltipShowing(object sender, PivotFieldTooltipShowingEventArgs e) {
+
+        private void customersGrid_FieldTooltipShowing(object sender, PivotFieldTooltipShowingEventArgs e)
+        {
             PivotGridHitInfo hitInfo = e.HitInfo;
-            if (MustShowCustomerTooltip(hitInfo)) {
+            if (MustShowCustomerTooltip(hitInfo))
+            {
                 e.ShowTooltip = false;
             }
         }
-        void cbeSortMode_SelectedIndexChanged(object sender, EventArgs e) {
-            if (cbeSortMode.SelectedIndex == 0) {
+
+        private void cbeSortMode_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbeSortMode.SelectedIndex == 0)
+            {
                 customersChart.SeriesTemplate.SeriesPointsSortingKey = SeriesPointKey.Value_1;
                 customersChart.SeriesTemplate.SeriesPointsSorting = SortingMode.Descending;
             }
-            else {
+            else
+            {
                 customersChart.SeriesTemplate.SeriesPointsSortingKey = SeriesPointKey.Argument;
                 customersChart.SeriesTemplate.SeriesPointsSorting = SortingMode.Ascending;
             }
         }
-        bool MustShowCustomerTooltip(PivotGridHitInfo hitInfo) {
+
+        private bool MustShowCustomerTooltip(PivotGridHitInfo hitInfo)
+        {
             return hitInfo.HitTest == PivotGridHitTest.Value && hitInfo.ValueInfo.Field == fieldCustomer;
         }
-        protected override void BeginRefreshData() {
+
+        protected override void BeginRefreshData()
+        {
             base.BeginRefreshData();
             customersChart.BeginInit();
-            try {
+            try
+            {
                 Rectangle selection = customersGrid.Cells.Selection;
                 customersGrid.BeginUpdate();
-                try {
+                try
+                {
                     SetDateFilter();
                 }
-                finally {
+                finally
+                {
                     customersGrid.EndUpdate();
                 }
                 customersGrid.Cells.Selection = selection;
             }
-            finally {
+            finally
+            {
                 customersChart.EndInit();
             }
             customersGrid.BestFit();

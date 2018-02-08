@@ -1,46 +1,53 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
 using DevExpress.XtraEditors;
-using NukaCollect.Resources;
+using System;
+using System.ComponentModel;
+using System.Windows.Forms;
 
-namespace NukaCollect.Win.Forms {
-    public partial class frmLayoutOptions : XtraForm {
-        FormLayoutManager layoutManager;
-        public frmLayoutOptions() {
+namespace NukaCollect.Win.Forms
+{
+    public partial class frmLayoutOptions : XtraForm
+    {
+        private FormLayoutManager layoutManager;
+
+        public frmLayoutOptions()
+        {
             InitializeComponent();
             ElementConstStringLoader.LoadConstStringsForFrmLayoutOptions(this);
         }
-        WinFormProperty CurrentProperty { get { return layoutManager.Properties.CurrentProperty; } }
+
+        private WinFormProperty CurrentProperty
+        { get { return layoutManager.Properties.CurrentProperty; } }
+
         public frmLayoutOptions(FormLayoutManager layoutManager)
-            : this() {
+            : this()
+        {
             this.layoutManager = layoutManager;
             InitData();
         }
 
-        void InitData() {
+        private void InitData()
+        {
             ceAllowRestoreFormLayout.Checked = CurrentProperty.AllowRestoreFormLayout;
             ceAllowRestoreLayoutControlLayout.Checked = CurrentProperty.AllowRestoreLayoutControlLayout;
             ceAllowRestoreGridViewLayout.Checked = CurrentProperty.AllowRestoreGridViewLayout;
             ceAllowRestoreDockingLayout.Checked = CurrentProperty.AllowRestoreDockingLayout;
             ceDefaultEditGridViewInDetailForms.Checked = CurrentProperty.DefaultEditGridViewInDetailForms;
         }
-        
-        private void sbClearLayouts_Click(object sender, EventArgs e) {
+
+        private void sbClearLayouts_Click(object sender, EventArgs e)
+        {
             layoutManager.ClearLayouts();
         }
 
-        protected override void OnClosing(CancelEventArgs e) {
+        protected override void OnClosing(CancelEventArgs e)
+        {
             base.OnClosing(e);
-            if(this.DialogResult == DialogResult.OK) 
+            if (this.DialogResult == DialogResult.OK)
                 SaveData();
         }
 
-        void SaveData() {
+        private void SaveData()
+        {
             CurrentProperty.AllowRestoreFormLayout = ceAllowRestoreFormLayout.Checked;
             CurrentProperty.AllowRestoreLayoutControlLayout = ceAllowRestoreLayoutControlLayout.Checked;
             CurrentProperty.AllowRestoreGridViewLayout = ceAllowRestoreGridViewLayout.Checked;

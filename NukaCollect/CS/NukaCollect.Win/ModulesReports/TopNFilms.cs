@@ -1,21 +1,29 @@
 using DevExpress.XtraPrinting;
 using NukaCollect.Reports;
 
-namespace NukaCollect.Win.ModulesReports {
-    public partial class TopNFilms : ReportModuleBase {
-        public TopNFilms() {
+namespace NukaCollect.Win.ModulesReports
+{
+    public partial class TopNFilms : ReportModuleBase
+    {
+        public TopNFilms()
+        {
             InitializeComponent();
         }
 
-        protected override ReportBase CreateReport() {
+        protected override ReportBase CreateReport()
+        {
             return new TopNFilmsReport();
         }
-        protected override void SetCommandsVisibility(ReportBase report) {
+
+        protected override void SetCommandsVisibility(ReportBase report)
+        {
             base.SetCommandsVisibility(report);
             HideUnsupportedExportCommands(report);
             HideUnsupportedSendCommands(report);
         }
-        static void HideUnsupportedExportCommands(ReportBase report) {
+
+        private static void HideUnsupportedExportCommands(ReportBase report)
+        {
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.ExportMht, CommandVisibility.None);
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.ExportHtm, CommandVisibility.None);
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.ExportCsv, CommandVisibility.None);
@@ -25,7 +33,9 @@ namespace NukaCollect.Win.ModulesReports {
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.ExportXlsx, CommandVisibility.None);
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.ExportXps, CommandVisibility.None);
         }
-        static void HideUnsupportedSendCommands(ReportBase report) {
+
+        private static void HideUnsupportedSendCommands(ReportBase report)
+        {
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.SendMht, CommandVisibility.None);
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.SendCsv, CommandVisibility.None);
             report.PrintingSystem.SetCommandVisibility(PrintingSystemCommand.SendXls, CommandVisibility.None);
