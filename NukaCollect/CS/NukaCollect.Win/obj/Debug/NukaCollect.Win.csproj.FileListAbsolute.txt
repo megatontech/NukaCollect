@@ -174,3 +174,7 @@ C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\obj\Debug\
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\obj\Debug\NukaCollect.Win.csproj.CoreCompileInputs.cache
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\obj\Debug\NukaCollect.Win.exe
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\obj\Debug\NukaCollect.Win.pdb
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\bin\Debug\NukaCollect.Win.exe.manifest
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\bin\Debug\NukaCollect.Win.application
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\obj\Debug\NukaCollect.Win.exe.manifest
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Win\obj\Debug\NukaCollect.Win.application
