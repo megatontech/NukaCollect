@@ -36,6 +36,7 @@ namespace NukaCollect.Win
             IniFile iniFile = new IniFile();
             if (File.Exists(iniFilePath)) iniFile.Load(iniFilePath);
             InitialDbCreator initialDbCreator = new InitialDbCreator(new CreateInitialDbDialog(), new ExceptionsProcesser(null));
+            //¼ÓÔØiniÎÄ¼þ£ºNukaCollect.ini
             if (initialDbCreator.OpenDb(iniFile))
             {
                 iniFile.Save(iniFilePath);
