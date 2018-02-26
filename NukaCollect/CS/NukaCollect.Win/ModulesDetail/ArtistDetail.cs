@@ -154,9 +154,5 @@ namespace NukaCollect.Win.Modules
                 ParentFormMain.DeletePictureButton.Enabled = ucPictureCollection1.DeleteButtonEnabled;
         }
 
-#if DebugTest
-        public TextEdit GetFirstNameEditor() { return teFirstName; }
-        public TextEdit GetLastNameEditor() { return teLastName; }
-#endif
     }
 }

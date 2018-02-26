@@ -47,6 +47,7 @@
       </HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpo.v13.2">
       <HintPath>
       </HintPath>
@@ -90,8 +91,6 @@
     <Compile Include="ReferenceData.cs" />
     <Compile Include="RentsHistory.cs" />
     <Compile Include="StartApplicationHelper.cs" />
-    <Compile Include="Tests\XPObjectsBaseTests.cs" Condition="'$(Configuration)' == 'DebugTest'" />
-    <Compile Include="Tests\XPObjectsTests.cs" Condition="'$(Configuration)' == 'DebugTest'" />
     <Compile Include="XPObjectsBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XPObjectsCatalog.cs" />

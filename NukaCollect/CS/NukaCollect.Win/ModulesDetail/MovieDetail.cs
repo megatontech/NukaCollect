@@ -278,26 +278,5 @@ namespace NukaCollect.Win.Modules
             ucPictureEditBar1.ClearPicture();
         }
 
-#       if DebugTest
-        public MemoEdit GetTitleEditor() { return teTitle; }
-        public PictureEdit GetPhotoEditor() { return pePhoto; }
-        public DateEdit GetRealiseDateEditor() { return deReleaseDate; }
-        public ImageComboBoxEdit GetRatingEditor() { return icbRating; }
-        public CheckedComboBoxEdit GetGenreEditor() { return ccbGenre; }
-        public MemoEdit GetPlotEditor() { return mePlot; }
-        public MemoEdit GetTaglineEditor() { return meTagline; }
-        public TextEdit GetAwardsEditor() { return teAwards; }
-        public TextEdit GetDirectorsEditor() { return teDirectors; }
-        public XtraGrid.GridControl GetArtistsEditor() { return gcArtists; }
-        public XtraGrid.Views.Grid.GridView GetArtistsEditorView() { return gvArtist; }
-        public TextEdit GetAspectRatioEditor() { return teAspectRatio; }
-        public TimeEdit GetRunTimeEditor() { return teRunTime; }
-        public CheckedComboBoxEdit GetCountriesEditor() { return ccbCountries; }
-        public LookUpEdit GetLanguageEditor() { return lueLanguage; }
-        public TextEdit GetWebSiteEditor() { return teWebSite; }
-        public CheckEdit GetColorEditor() { return ceIsColor; }
-        public XtraGrid.GridControl GetCompaniesEditor() { return gcCompanies; }
-        public XtraGrid.Views.Grid.GridView GetCompaniesEditorView() { return gvCompanies; }
-#       endif
     }
 }

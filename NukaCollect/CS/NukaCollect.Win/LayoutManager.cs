@@ -466,7 +466,8 @@ namespace NukaCollect.Win
     public class WinFormProperties
     {
         private UnitOfWork session;
-
+        private string skinstyle;
+        public string SkinStyle { get { return skinstyle; } set { skinstyle = value; } }
         public WinFormProperties(UnitOfWork session)
         {
             this.session = session;
@@ -547,6 +548,11 @@ namespace NukaCollect.Win
 
         private void SaveDefaultSkin()
         {
+            string iniFilePath = "NukaCollect.ini";
+            IniFile iniFile = new IniFile();
+            if (File.Exists(iniFilePath)) iniFile.Load(iniFilePath);
+            iniFile.Set<string>("[]SkinStyle", UserLookAndFeel.Default.ActiveSkinName );
+            iniFile.Save(iniFilePath);
             CurrentProperty.DefaultSkinName = string.Format("{0}@{1}",
                 UserLookAndFeel.Default.ActiveStyle,
                 UserLookAndFeel.Default.ActiveSkinName);

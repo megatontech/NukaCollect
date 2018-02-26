@@ -1,4 +1,5 @@
 using DevExpress.DemoData.Helpers;
+using DevExpress.LookAndFeel;
 using DevExpress.Xpo;
 using DevExpress.Xpo.DB;
 using NukaCollect.Helpers;
@@ -228,11 +229,13 @@ namespace NukaCollect
         private const string PasswordKey = "[]Password";
         private const string GenerateRentsHistoryKey = "[]GenerateRentsHistory";
         internal const string LanguageKey = "[]Language";
+        internal const string SkinStyleKey = "[]SkinStyle";
         private DBFormat dbFormat;
         private string mdbPath;
         private SqlDBHandle sqlDBHandle;
         private bool generateRentsHistory;
         private string language;
+        private string skinstyle;
 
         public DBFormat DBFormat { get { return dbFormat; } set { dbFormat = value; } }
         public string MdbPath { get { return mdbPath; } set { mdbPath = value; } }
@@ -244,6 +247,7 @@ namespace NukaCollect
         public string Password { get { return sqlDBHandle.Password; } set { sqlDBHandle.Password = value; } }
         public bool GenerateRentsHistory { get { return generateRentsHistory; } set { generateRentsHistory = value; } }
         public string Language { get { return language; } set { language = value; } }
+        public string SkinStyle { get { return skinstyle; } set { skinstyle = value; } }
 
         public void LoadIniFile(IniFile iniFile)
         {
@@ -256,6 +260,7 @@ namespace NukaCollect
             Login = iniFile.Get<string>(LoginKey);
             Password = iniFile.Get<string>(PasswordKey);
             Language = iniFile.Get<string>(LanguageKey);
+            SkinStyle = iniFile.Get<string>(SkinStyleKey);
         }
 
         public void SaveIniFile(IniFile iniFile)
@@ -269,6 +274,7 @@ namespace NukaCollect
             iniFile.Set<string>(LoginKey, Login);
             iniFile.Set<string>(PasswordKey, Password);
             iniFile.Set<string>(LanguageKey, Language);
+            iniFile.Set<string>(SkinStyle , UserLookAndFeel.Default.ActiveSkinName);
         }
 
         public static bool CheckDefaults(IniFile iniFile)
@@ -283,6 +289,7 @@ namespace NukaCollect
             if (!iniFile.ContainKey(LoginKey)) { iniFile.Add<string>(LoginKey, "sa"); ret = false; }
             if (!iniFile.ContainKey(PasswordKey)) { iniFile.Add<string>(PasswordKey, string.Empty); ret = false; }
             if (!iniFile.ContainKey(LanguageKey)) { iniFile.Add<string>(LanguageKey, CurrentLanguageString); ret = false; }
+            if (!iniFile.ContainKey(SkinStyleKey)) { iniFile.Add<string>(SkinStyleKey, string.Empty); ret = false; }
             return ret;
         }
 

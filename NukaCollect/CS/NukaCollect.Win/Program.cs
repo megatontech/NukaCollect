@@ -39,6 +39,7 @@ namespace NukaCollect.Win
             if (initialDbCreator.OpenDb(iniFile))
             {
                 iniFile.Save(iniFilePath);
+                UserLookAndFeel.Default.SetSkinStyle(iniFile.Get<string>("[]SkinStyle"));
                 VideoRentCurrentUser.Login(XpoDefault.Session, ReferenceData.AdministratorString); //TODO Create Login-Dialog
                 Application.Run(new frmMain());
             }

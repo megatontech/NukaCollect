@@ -310,8 +310,5 @@ namespace NukaCollect.Win.Forms
             layoutManager.SaveFormLayout(new FormLayoutInfo(this, layoutControl));
         }
 
-#       if DebugTest
-        public TreeList GetTreeList() { return treeList; }
-#       endif
     }
 }

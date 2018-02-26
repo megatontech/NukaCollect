@@ -304,10 +304,5 @@ namespace NukaCollect
 
         #endregion IComparable Members
 
-#if DebugTest
-        public void SetDiscountLevel(CustomerDiscountLevel level) {
-            DiscountLevel = level;
-        }
-#endif
     }
 }

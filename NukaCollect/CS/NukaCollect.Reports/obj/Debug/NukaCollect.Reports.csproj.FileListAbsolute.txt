@@ -34,3 +34,4 @@ C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Reports\obj\De
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Reports\obj\Debug\NukaCollect.Reports.csproj.CoreCompileInputs.cache
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Reports\obj\Debug\NukaCollect.Reports.dll
 C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Reports\obj\Debug\NukaCollect.Reports.pdb
+C:\Users\user\OneDrive\NukaCollect.git\NukaCollect\CS\NukaCollect.Reports\obj\Debug\NukaCollect.Reports.dll.licenses

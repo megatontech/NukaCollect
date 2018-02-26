@@ -439,16 +439,7 @@ namespace NukaCollect.Win
             }
         }
 
-#if DebugTest
-        static ImageCollection imagesForTests = null;
-        public static ImageCollection ImagesForTests {
-            get {
-                if(ElementHelper.imagesForTests == null)
-                    ElementHelper.imagesForTests = DevExpress.Utils.Controls.ImageHelper.CreateImageCollectionFromResources("NukaCollect.Resources.Images.FolderIcons16x16.png", typeof(ImagesHelper).Assembly, new Size(16, 16));
-                return ElementHelper.imagesForTests;
-            }
-        }
-#endif
+
         public static Font FontItalic = new Font("Tahoma", 8, FontStyle.Italic);
         public static Font FontBold = new Font("Tahoma", 8, FontStyle.Bold);
 

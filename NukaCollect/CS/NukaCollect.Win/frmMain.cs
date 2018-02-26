@@ -159,9 +159,6 @@ namespace NukaCollect.Win
         {
             if (e.State == 0)
             {
-#if DebugTest
-                System.Diagnostics.Debug.WriteLine(string.Format("Look and Feel objects count = {0}", e.Progress));
-#endif
                 Progress.ShowProgress(e.Progress);
                 SuspendLayout();
             }

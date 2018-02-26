@@ -406,13 +406,7 @@ namespace NukaCollect.Win.Modules
 
         #endregion IDetailControl Members
 
-#if DebugTest
-        public DialogResult ReturnResult {
-            get { return returnResult; }
-            set { returnResult = value; }
-        }
-        public void SendOnLoad() { OnLoad(EventArgs.Empty); }
-#endif
+
     }
 
     public delegate UnitOfWork GetSessionCallback();
