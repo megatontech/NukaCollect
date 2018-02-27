@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
-              <xsd:attribute ref="xml:space"></xsd:attribute>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
-              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
-              <xsd:attribute ref="xml:space"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -112,947 +112,947 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="AboutDescription" xml:space="preserve">
-    <value>About this application...</value>
+    <value>关于此软件</value>
   </data>
   <data name="AboutFormCopyright" xml:space="preserve">
-    <value>Copyright (c) 2000-{0} Developer Express Inc. All rights reserved.</value>
+    <value>版权 (c) 2000-{0} 开放版权</value>
   </data>
   <data name="AboutFormDescription" xml:space="preserve">
-    <value>This application demonstrates some of the capabilities available to you when using DevExpress WinForms Controls and Libraries. To learn more about DevExpress and download your free evaluation, use the links below.</value>
+    <value>此软件为评估版，更多信息请咨询客服</value>
   </data>
   <data name="AboutFormWpfDescription" xml:space="preserve">
-    <value>This application demonstrates some of the capabilities available to you when using DevExpress WPF Controls and Libraries. To learn more about DevExpress and download your free evaluation, use the links below.</value>
+    <value>此软件为评估版，更多信息请咨询客服</value>
   </data>
   <data name="AboutFormLink1" xml:space="preserve">
-    <value>DevExpress.com</value>
+    <value>megatontrade.com</value>
   </data>
   <data name="AboutFormLink2" xml:space="preserve">
-    <value>Download Free Trials</value>
+    <value>下载免费试用版</value>
   </data>
   <data name="AboutFormLink3" xml:space="preserve">
-    <value>Purchase DevExpress Products</value>
+    <value>购买完整版</value>
   </data>
   <data name="AboutFormSeparator" xml:space="preserve">
     <value>   |   </value>
   </data>
   <data name="AboutFormVersion" xml:space="preserve">
-    <value>for WinForms {0}</value>
+    <value>桌面版 {0}</value>
   </data>
   <data name="AboutFormWpfVersion" xml:space="preserve">
-    <value>for WPF v2011 vol 1</value>
+    <value>WPF开发组件</value>
   </data>
   <data name="AboutGroup" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="AboutThisDemo" xml:space="preserve">
-    <value>About this Demo</value>
+    <value>关于此软件</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Home</value>
+    <value>主页</value>
   </data>
   <data name="HomeDescription" xml:space="preserve">
-    <value>View Start Page</value>
+    <value>起始页面</value>
   </data>
   <data name="WelcomeLink1" xml:space="preserve">
-    <value>Learn More</value>
+    <value>了解更多</value>
   </data>
   <data name="WelcomeLink2" xml:space="preserve">
-    <value>Download Trial</value>
+    <value>下载试用版</value>
   </data>
   <data name="WelcomeLink3" xml:space="preserve">
-    <value>Buy Now</value>
+    <value>立刻购买</value>
   </data>
   <data name="WelcomeText1" xml:space="preserve">
-    <value>About this Application</value>
+    <value>关于此程序</value>
   </data>
   <data name="WelcomeText2" xml:space="preserve">
-    <value>This sample WinForms application illustrates some of the capabilities available to you when using award-winning DevExpress WinForms Control Libraries.</value>
+    <value>此程序使用了第三方插件，您无需额外付费</value>
   </data>
   <data name="WelcomeWpfText2" xml:space="preserve">
-    <value>This application demonstrates some of the capabilities available to you when using DevExpress WPF Controls and Libraries.</value>
+    <value>此程序包含 DevExpress插件和类库</value>
   </data>
   <data name="WelcomeText3" xml:space="preserve">
-    <value>Controls used in this demo are:</value>
+    <value>此软件中使用的插件</value>
   </data>
   <data name="WelcomeText4" xml:space="preserve">
-    <value>Press 'F1' to return again to this page</value>
+    <value>按F1回到此页面</value>
   </data>
   <data name="RuleUniqueName" xml:space="preserve">
-    <value>Name must be unique</value>
+    <value>名称必须是唯一的</value>
   </data>
   <data name="RuleIsNotBlankWarning" xml:space="preserve">
-    <value>This value cannot be empty</value>
+    <value>此值不能为空</value>
   </data>
   <data name="RuleGreaterOrEqualZeroWarning" xml:space="preserve">
-    <value>This value cannot be negative</value>
+    <value>此值不能为负</value>
   </data>
   <data name="ThemeApplyingMessage" xml:space="preserve">
-    <value>Please wait while the theme is being applied</value>
+    <value>主题应用中，请稍后</value>
   </data>
   <data name="ItemsCountDetailCaptionHtml" xml:space="preserve">
-    <value>&lt;b&gt;{0}&lt;/b&gt; currently rented, &lt;b&gt;{1}&lt;/b&gt; available for rent, &lt;b&gt;{2}&lt;/b&gt; available for sale, &lt;b&gt;{3}&lt;/b&gt; lost, &lt;b&gt;{4}&lt;/b&gt; damaged, &lt;b&gt;{5}&lt;/b&gt; sold.</value>
+    <value>&lt;b&gt;{0}&lt;/b&gt; 当前租借, &lt;b&gt;{1}&lt;/b&gt; 可用 &lt;b&gt;{2}&lt;/b&gt; 可售, &lt;b&gt;{3}&lt;/b&gt; lost, &lt;b&gt;{4}&lt;/b&gt; 损坏, &lt;b&gt;{5}&lt;/b&gt; 已售.</value>
   </data>
   <data name="ItemsCountDetailCaptionFlowDocument" xml:space="preserve">
-    <value>[Paragraph][Bold]{0}[/Bold] currently rented, [Bold]{1}[/Bold] available for rent, [Bold]{2}[/Bold] available for sale, [Bold]{3}[/Bold] lost, [Bold]{4}[/Bold] damaged, [Bold]{5}[/Bold] sold.[/Paragraph]</value>
+    <value>[Paragraph][Bold]{0}[/Bold] 当前, [Bold]{1}[/Bold] 可供租借, [Bold]{2}[/Bold] 可供出售, [Bold]{3}[/Bold] 丢失, [Bold]{4}[/Bold] 损坏, [Bold]{5}[/Bold] 已售出.[/Paragraph]</value>
   </data>
   <data name="ItemsCountCaptionHtml" xml:space="preserve">
-    <value>Totals: &lt;b&gt;{0}&lt;/b&gt;.</value>
+    <value>总数: &lt;b&gt;{0}&lt;/b&gt;.</value>
   </data>
   <data name="ItemsCountCaptionFlowDocument" xml:space="preserve">
-    <value>[Paragraph]Totals: [Bold]{0}[/Bold].[/Paragraph]</value>
+    <value>[Paragraph]总数: [Bold]{0}[/Bold].[/Paragraph]</value>
   </data>
   <data name="AvailableForSaleHtml" xml:space="preserve">
-    <value>Available for &lt;b&gt;Sale&lt;/b&gt;</value>
+    <value>可供 &lt;b&gt;售卖&lt;/b&gt;</value>
   </data>
   <data name="AvailableForSale" xml:space="preserve">
-    <value>Available for Sale</value>
+    <value>可供售卖</value>
   </data>
   <data name="ChangingLookAndFeelHtml" xml:space="preserve">
-    <value>Changing &lt;b&gt;Look and Feel&lt;/b&gt;</value>
+    <value>更改 &lt;b&gt;外观&lt;/b&gt;</value>
   </data>
   <data name="DaysOverdue" xml:space="preserve">
-    <value>Days Overdue</value>
+    <value>逾期天数</value>
   </data>
   <data name="DaysOverdueHtml" xml:space="preserve">
-    <value>Days &lt;b&gt;Overdue&lt;/b&gt;</value>
+    <value>逾期 &lt;b&gt;天数&lt;/b&gt;</value>
   </data>
   <data name="DaysOverdueFlowDocument" xml:space="preserve">
-    <value>[Paragraph]Days [Bold]Overdue[/Bold][/Paragraph]</value>
+    <value>[Paragraph]逾期 [Bold]天数[/Bold][/Paragraph]</value>
   </data>
   <data name="PaymentDue" xml:space="preserve">
-    <value>Payment Due</value>
+    <value>到期应付款</value>
   </data>
   <data name="PaymentDueHtml" xml:space="preserve">
-    <value>Payment &lt;b&gt;Due&lt;/b&gt;</value>
+    <value>到期 &lt;b&gt;应付&lt;/b&gt;</value>
   </data>
   <data name="PaymentDueFlowDocument" xml:space="preserve">
-    <value>[Paragraph]Payment [Bold]Due[/Bold][/Paragraph]</value>
+    <value>[Paragraph]到期 [Bold]应付[/Bold][/Paragraph]</value>
   </data>
   <data name="PurchaseId" xml:space="preserve">
-    <value>Purchase Id</value>
+    <value>采购 Id</value>
   </data>
   <data name="PurchaseIdHtml" xml:space="preserve">
-    <value>&lt;b&gt;Purchase&lt;/b&gt; Id</value>
+    <value>&lt;b&gt;采购&lt;/b&gt; Id</value>
   </data>
   <data name="PurchaseIdFlowDocument" xml:space="preserve">
-    <value>[Paragraph][Bold]Purchase[/Bold] Id[/Paragraph]</value>
+    <value>[Paragraph][Bold]采购[/Bold] Id[/Paragraph]</value>
   </data>
   <data name="RentalId" xml:space="preserve">
-    <value>Rental Id</value>
+    <value>租借ID</value>
   </data>
   <data name="RentalIdHtml" xml:space="preserve">
-    <value>&lt;b&gt;Rental&lt;/b&gt; Id</value>
+    <value>&lt;b&gt;租借&lt;/b&gt;ID</value>
   </data>
   <data name="RentalIdFlowDocument" xml:space="preserve">
-    <value>[Paragraph][Bold]Rental[/Bold] Id[/Paragraph]</value>
+    <value>[Paragraph][Bold]租借[/Bold] ID[/Paragraph]</value>
   </data>
   <data name="CustomerDiscountLevelToolTipHtml" xml:space="preserve">
     <value>&lt;b&gt;{0}&lt;/b&gt;
-Discount: &lt;b&gt;{1:p}&lt;/b&gt;
-Total Amount: &lt;b&gt;$ {2}&lt;/b&gt;</value>
+折扣: &lt;b&gt;{1:p}&lt;/b&gt;
+总数: &lt;b&gt;￥ {2}&lt;/b&gt;</value>
   </data>
   <data name="Active" xml:space="preserve">
-    <value>Active</value>
+    <value>激活</value>
   </data>
   <data name="ActiveRental" xml:space="preserve">
-    <value>Active Rental</value>
+    <value>当前的租借</value>
   </data>
   <data name="ActiveRentals" xml:space="preserve">
-    <value>Active Rentals</value>
+    <value>当前的租借</value>
   </data>
   <data name="ActiveType" xml:space="preserve">
-    <value>Active Type</value>
+    <value>当前的类别</value>
   </data>
   <data name="Actor" xml:space="preserve">
-    <value>Actor</value>
+    <value>演员</value>
   </data>
   <data name="ActorCrew" xml:space="preserve">
-    <value>Actor/Crew</value>
+    <value>演员/剧组</value>
   </data>
   <data name="Artist" xml:space="preserve">
-    <value>Actor/Crew</value>
+    <value>演员剧组</value>
   </data>
   <data name="ArtistDetail" xml:space="preserve">
-    <value>Actor/Crew Details Form</value>
+    <value>演员剧组详细表</value>
   </data>
   <data name="ActorPhotos" xml:space="preserve">
-    <value>Actor Photos</value>
+    <value>演员照片</value>
   </data>
   <data name="Actors" xml:space="preserve">
-    <value>Actors</value>
+    <value>演员</value>
   </data>
   <data name="ActorsCrew" xml:space="preserve">
-    <value>Actors/Crew</value>
+    <value>演员/剧组</value>
   </data>
   <data name="ActorsModule" xml:space="preserve">
-    <value>Actors/Crew</value>
+    <value>演员/剧组</value>
   </data>
   <data name="Artists" xml:space="preserve">
-    <value>Actors/Crew</value>
+    <value>演员剧组</value>
   </data>
   <data name="ArtistList" xml:space="preserve">
-    <value>Actors/Crew List</value>
+    <value>演员剧组列表</value>
   </data>
   <data name="ActorsCrewRecordManagement" xml:space="preserve">
-    <value>Actors/Crew Record Management</value>
+    <value>演员/剧组记录管理</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Add</value>
+    <value>添加</value>
   </data>
   <data name="ButtonTextAdd" xml:space="preserve">
-    <value>&amp;Add</value>
+    <value>&amp;Add添加</value>
   </data>
   <data name="AddArtistTo" xml:space="preserve">
-    <value>{0} - Add Actors/Crew</value>
+    <value>{0} - 添加演员/剧组</value>
   </data>
   <data name="AddArtistTitle" xml:space="preserve">
-    <value>Add Actors/Crew</value>
+    <value>添加演员/剧组</value>
   </data>
   <data name="AddANewImage" xml:space="preserve">
-    <value>Add a new image</value>
+    <value>添加新图片</value>
   </data>
   <data name="AddButtonHint" xml:space="preserve">
-    <value>Add a new {0} record</value>
+    <value>添加新的 {0}记录</value>
   </data>
   <data name="AddMovieButtonHint" xml:space="preserve">
-    <value>Add a new Movie record</value>
+    <value>添加新的电影记录</value>
   </data>
   <data name="AddArtistButtonHint" xml:space="preserve">
-    <value>Add a new Artist record</value>
+    <value>添加新的艺术家</value>
   </data>
   <data name="AddCompanyButtonHint" xml:space="preserve">
-    <value>Add a new Company record</value>
+    <value>添加新的公司</value>
   </data>
   <data name="AddCompanyTitle" xml:space="preserve">
-    <value>Add Company</value>
+    <value>添加公司</value>
   </data>
   <data name="AddCompanyTo" xml:space="preserve">
-    <value>{0} - Add Company</value>
+    <value>{0} - 添加公司</value>
   </data>
   <data name="AddImage" xml:space="preserve">
-    <value>Add Image</value>
+    <value>添加图片</value>
   </data>
   <data name="AddItems" xml:space="preserve">
-    <value>Add Item(s)</value>
+    <value>添加项目</value>
   </data>
   <data name="AdditionalDetails" xml:space="preserve">
-    <value>Additional Details</value>
+    <value>额外信息</value>
   </data>
   <data name="AddLinkMovieTitle" xml:space="preserve">
-    <value>Add Link Movie</value>
+    <value>添加关联影片</value>
   </data>
   <data name="AddMovieItems" xml:space="preserve">
-    <value>Add movie item(s)</value>
+    <value>添加电影</value>
   </data>
   <data name="AddNewCategory" xml:space="preserve">
-    <value>Add new category</value>
+    <value>添加新分类</value>
   </data>
   <data name="AddNewImage" xml:space="preserve">
-    <value>Add new image</value>
+    <value>添加新图片</value>
   </data>
   <data name="AddNewPhoto" xml:space="preserve">
-    <value>Add new photo</value>
+    <value>添加新照片</value>
   </data>
   <data name="AddNewRecord" xml:space="preserve">
-    <value>Add new record</value>
+    <value>添加新记录</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>Address</value>
+    <value>地址</value>
   </data>
   <data name="AddToInventory" xml:space="preserve">
-    <value>Add to Inventory</value>
+    <value>加入到库存</value>
   </data>
   <data name="AddToMovieInventory" xml:space="preserve">
-    <value>Add to Movie Inventory</value>
+    <value>加入到影片库</value>
   </data>
   <data name="AdminGroup" xml:space="preserve">
-    <value>Administrator</value>
+    <value>管理员</value>
   </data>
   <data name="AdvancedGrid" xml:space="preserve">
-    <value>Advanced grid</value>
+    <value>高级视图</value>
   </data>
   <data name="AllDayEvent" xml:space="preserve">
-    <value>All day event</value>
+    <value>全天事件</value>
   </data>
   <data name="AllowCascadeUpdate" xml:space="preserve">
-    <value>Allow Cascade Update</value>
+    <value>允许级联更新</value>
   </data>
   <data name="AllowDataEditingViaListViews" xml:space="preserve">
-    <value>Allow data editing via List Views</value>
+    <value>允许在列表视图中更新</value>
   </data>
   <data name="AllowEditing" xml:space="preserve">
-    <value>Allow Editing</value>
+    <value>允许修改</value>
   </data>
   <data name="AllowFormSkins" xml:space="preserve">
-    <value>Allow Form Skins</value>
+    <value>允许表单样式</value>
   </data>
   <data name="AllowPerPixelScrolling" xml:space="preserve">
-    <value>Allow Per Pixel Scrolling</value>
+    <value>允许像素级滚动</value>
   </data>
   <data name="AlternateView" xml:space="preserve">
-    <value>Alternate View</value>
+    <value>超级视图</value>
   </data>
   <data name="ExportError" xml:space="preserve">
-    <value>An error occurred while exporting</value>
+    <value>导出时发生异常</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Appearance</value>
+    <value>外观</value>
   </data>
   <data name="Appearances" xml:space="preserve">
-    <value>Appearances</value>
+    <value>外观展示</value>
   </data>
   <data name="AspectRatio" xml:space="preserve">
-    <value>Aspect Ratio</value>
+    <value>长宽比</value>
   </data>
   <data name="AutoZoomDetails" xml:space="preserve">
-    <value>Auto zoom details</value>
+    <value>自动放大详情</value>
   </data>
   <data name="MovieItemStatusActive" xml:space="preserve">
-    <value>Available for Rent</value>
+    <value>可租</value>
   </data>
   <data name="AvailableForSell" xml:space="preserve">
-    <value>Available For Sell</value>
+    <value>可供售卖</value>
   </data>
   <data name="Awards" xml:space="preserve">
-    <value>Awards</value>
+    <value>奖项</value>
   </data>
   <data name="Biography" xml:space="preserve">
-    <value>Biography</value>
+    <value>传记</value>
   </data>
   <data name="BirthCountry" xml:space="preserve">
-    <value>Birth Country</value>
+    <value>祖籍</value>
   </data>
   <data name="BirthDate" xml:space="preserve">
-    <value>Birth Date</value>
+    <value>生日</value>
   </data>
   <data name="BirthLocation" xml:space="preserve">
-    <value>Birth Location</value>
+    <value>出生地</value>
   </data>
   <data name="BirthName" xml:space="preserve">
-    <value>Birth Name</value>
+    <value>原名</value>
   </data>
   <data name="BuiltIn" xml:space="preserve">
-    <value>Built-In</value>
+    <value>内置</value>
   </data>
   <data name="ButtonTextCancel" xml:space="preserve">
-    <value>&amp;Cancel</value>
+    <value>&amp;Cancel取消</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Cancel</value>
+    <value>取消</value>
   </data>
   <data name="CannotDeleteCustomer" xml:space="preserve">
-    <value>Cannot delete customer {0}. The 'Rental' table contains linked records.</value>
+    <value>无法删除 {0}. 因为关联了其他记录</value>
   </data>
   <data name="CardNumber" xml:space="preserve">
-    <value>Card Number</value>
+    <value>卡号</value>
   </data>
   <data name="Cards" xml:space="preserve">
-    <value>Cards</value>
+    <value>卡</value>
   </data>
   <data name="CatalogGroup" xml:space="preserve">
-    <value>Catalog</value>
+    <value>分类</value>
   </data>
   <data name="ChangeCurrentCustomer" xml:space="preserve">
-    <value>Change current customer</value>
+    <value>更改当前顾客</value>
   </data>
   <data name="ChangeCustomer" xml:space="preserve">
-    <value>Change Customer</value>
+    <value>更改顾客</value>
   </data>
   <data name="ChangeGridStyle" xml:space="preserve">
-    <value>Change Grid Style</value>
+    <value>更改表格样式</value>
   </data>
   <data name="ChartAppearance" xml:space="preserve">
-    <value>Chart Appearance</value>
+    <value>图表样式</value>
   </data>
   <data name="CheckActiveRentals" xml:space="preserve">
-    <value>Check Active Rentals</value>
+    <value>检查活跃的租借记录</value>
   </data>
   <data name="CheckActiveRentalsForTheCurrentCustomer" xml:space="preserve">
-    <value>Check active rentals for the current customer</value>
+    <value>查看当前顾客的活跃租借</value>
   </data>
   <data name="ChooseSkin" xml:space="preserve">
-    <value>Choose skin</value>
+    <value>更换皮肤样式</value>
   </data>
   <data name="SubclassError" xml:space="preserve">
-    <value>Class has to be inherited from Form</value>
+    <value>类必须从窗体继承而来</value>
   </data>
   <data name="ClearCurrentCustomer" xml:space="preserve">
-    <value>C&amp;lear current customer</value>
+    <value>C&amp;lear 清除当前顾客</value>
   </data>
   <data name="ClearImage" xml:space="preserve">
-    <value>Clear Image</value>
+    <value>清空图片</value>
   </data>
   <data name="ClearLayouts" xml:space="preserve">
-    <value>Clear Layouts</value>
+    <value>还原布局</value>
   </data>
   <data name="ButtonTextClose" xml:space="preserve">
-    <value>&amp;Close</value>
+    <value>&amp;Close关闭</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Close</value>
+    <value>关闭</value>
   </data>
   <data name="CloseAllOpenDetailViews" xml:space="preserve">
-    <value>Close all open Detail Views</value>
+    <value>关闭所有打开的详情页</value>
   </data>
   <data name="CloseDetailView" xml:space="preserve">
-    <value>Close Detail View</value>
+    <value>关闭详情</value>
   </data>
   <data name="CloseDetailViews" xml:space="preserve">
-    <value>Close Detail Views</value>
+    <value>关闭详情</value>
   </data>
   <data name="Color" xml:space="preserve">
-    <value>Color</value>
+    <value>颜色</value>
   </data>
   <data name="Comments" xml:space="preserve">
-    <value>Comments</value>
+    <value>评论</value>
   </data>
   <data name="Companies" xml:space="preserve">
-    <value>Companies</value>
+    <value>公司</value>
   </data>
   <data name="CompaniesModule" xml:space="preserve">
-    <value>Companies</value>
+    <value>公司</value>
   </data>
   <data name="Company" xml:space="preserve">
-    <value>Company</value>
+    <value>公司</value>
   </data>
   <data name="CompanyDetails" xml:space="preserve">
-    <value>Company Details Form</value>
+    <value>公司详细页</value>
   </data>
   <data name="CompanyList" xml:space="preserve">
-    <value>Company List</value>
+    <value>公司列表</value>
   </data>
   <data name="CompanyRecordManagement" xml:space="preserve">
-    <value>Company Record Management</value>
+    <value>公司记录管理</value>
   </data>
   <data name="Count" xml:space="preserve">
-    <value>Count</value>
+    <value>计数</value>
   </data>
   <data name="Countries" xml:space="preserve">
-    <value>Countries</value>
+    <value>国别</value>
   </data>
   <data name="Country" xml:space="preserve">
-    <value>Country</value>
+    <value>国家</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Create</value>
+    <value>创建</value>
   </data>
   <data name="CreateDatabase" xml:space="preserve">
-    <value>Create Database</value>
+    <value>新建数据库</value>
   </data>
   <data name="CreatingDatabase" xml:space="preserve">
-    <value>Creating database</value>
+    <value>创建数据库中</value>
   </data>
   <data name="Credits" xml:space="preserve">
-    <value>Credits</value>
+    <value>信用</value>
   </data>
   <data name="CurrentCustomerInfo" xml:space="preserve">
-    <value>Current customer: {0}</value>
+    <value>当前顾客: {0}</value>
   </data>
   <data name="CurrentCustomer" xml:space="preserve">
-    <value>Current Customer</value>
+    <value>当前顾客</value>
   </data>
   <data name="CurrentRents" xml:space="preserve">
-    <value>Current Rents</value>
+    <value>当前租借</value>
   </data>
   <data name="Customer" xml:space="preserve">
-    <value>Customer</value>
+    <value>顾客</value>
   </data>
   <data name="CustomerDiscount" xml:space="preserve">
-    <value>Customer Discount</value>
+    <value>顾客折扣</value>
   </data>
   <data name="CustomerList" xml:space="preserve">
-    <value>Customer List</value>
+    <value>顾客列表</value>
   </data>
   <data name="CustomerPhoto" xml:space="preserve">
-    <value>Customer Photo</value>
+    <value>顾客照片</value>
   </data>
   <data name="CustomerRecordManagement" xml:space="preserve">
-    <value>Customer Record Management</value>
+    <value>顾客记录管理</value>
   </data>
   <data name="Customers" xml:space="preserve">
-    <value>Customers</value>
+    <value>顾客</value>
   </data>
   <data name="CustomersModule" xml:space="preserve">
-    <value>Customers</value>
+    <value>顾客</value>
   </data>
   <data name="CustomersDatesModule" xml:space="preserve">
-    <value>Customers by Dates</value>
+    <value>顾客与日期</value>
   </data>
   <data name="CustomersKPIModule" xml:space="preserve">
-    <value>Customers KPI</value>
+    <value>顾客绩效</value>
   </data>
   <data name="CustomerStatistics" xml:space="preserve">
-    <value>Customer Statistics</value>
+    <value>顾客统计</value>
   </data>
   <data name="LayoutOptionDescription" xml:space="preserve">
-    <value>Customize layout options...</value>
+    <value>自定义布局选项...</value>
   </data>
   <data name="Database" xml:space="preserve">
-    <value>Database</value>
+    <value>数据库</value>
   </data>
   <data name="DatabaseType" xml:space="preserve">
-    <value>Database type</value>
+    <value>数据库类型</value>
   </data>
   <data name="Date" xml:space="preserve">
-    <value>Date</value>
+    <value>日期</value>
   </data>
   <data name="OneDayRental" xml:space="preserve">
-    <value>1 Day Rental</value>
+    <value>租借一天</value>
   </data>
   <data name="TwoDayRental" xml:space="preserve">
-    <value>2 Day Rental</value>
+    <value>租借2天</value>
   </data>
   <data name="ThreeDayRental" xml:space="preserve">
-    <value>3 Day Rental</value>
+    <value>租借3天</value>
   </data>
   <data name="FourDayRental" xml:space="preserve">
-    <value>4 Day Rental</value>
+    <value>租借4天</value>
   </data>
   <data name="FiveDayRental" xml:space="preserve">
-    <value>5 Day Rental</value>
+    <value>租借5天</value>
   </data>
   <data name="SixDayRental" xml:space="preserve">
-    <value>6 Day Rental</value>
+    <value>租借6天</value>
   </data>
   <data name="Days" xml:space="preserve">
-    <value>Days</value>
+    <value>天</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Default</value>
+    <value>默认</value>
   </data>
   <data name="DefaultLateFee" xml:space="preserve">
-    <value>Default Late Fee</value>
+    <value>默认逾期费用</value>
   </data>
   <data name="DefaultLatePricePerDay" xml:space="preserve">
-    <value>Default/Late Price Per Day</value>
+    <value>每天默认逾期费用</value>
   </data>
   <data name="DefaultRentalDays" xml:space="preserve">
-    <value>Default # of Rental Days</value>
+    <value>默认 # 租期</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>删除</value>
   </data>
   <data name="DeleteCurrentCategory" xml:space="preserve">
-    <value>Delete current category</value>
+    <value>删除当前分类</value>
   </data>
   <data name="DeleteCurrentImage" xml:space="preserve">
-    <value>Delete current image</value>
+    <value>删除当前图</value>
   </data>
   <data name="DeleteCurrentPhoto" xml:space="preserve">
-    <value>Delete current photo</value>
+    <value>删除当前照片</value>
   </data>
   <data name="DeleteCurrentRecord" xml:space="preserve">
-    <value>Delete current record</value>
+    <value>删除当前记录</value>
   </data>
   <data name="DeleteImage" xml:space="preserve">
-    <value>Delete Image</value>
+    <value>删除图片</value>
   </data>
   <data name="DeleteSelectedItems" xml:space="preserve">
-    <value>Delete selected items</value>
+    <value>删除所选项</value>
   </data>
   <data name="DeleteTheCurrentImage" xml:space="preserve">
-    <value>Delete the current image</value>
+    <value>删除当前照片</value>
   </data>
   <data name="DeleteButtonHint" xml:space="preserve">
-    <value>Delete the highlighted {0} record</value>
+    <value>删除选中的 {0} 条记录</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>Details</value>
+    <value>详细</value>
   </data>
   <data name="Directors" xml:space="preserve">
-    <value>Directors</value>
+    <value>编导</value>
   </data>
   <data name="Discount" xml:space="preserve">
-    <value>Discount</value>
+    <value>折扣</value>
   </data>
   <data name="DiscountKPI" xml:space="preserve">
-    <value>Discount KPI</value>
+    <value>折扣考核</value>
   </data>
   <data name="DiscountLevel" xml:space="preserve">
-    <value>Discount Level</value>
+    <value>折扣级别</value>
   </data>
   <data name="DisplayStyle" xml:space="preserve">
-    <value>Display Style</value>
+    <value>显示样式</value>
   </data>
   <data name="PublicConstructorError" xml:space="preserve">
-    <value>{0} doesn't have public constructor with empty parameters</value>
+    <value>{0} 不包含空参构造函数</value>
   </data>
   <data name="CustomerDetailTooltip" xml:space="preserve">
-    <value>Double click here to show the current customer details</value>
+    <value>双击查看详细</value>
   </data>
   <data name="Down" xml:space="preserve">
-    <value>Down</value>
+    <value>下</value>
   </data>
   <data name="DeleteRecord" xml:space="preserve">
-    <value>Do you want to delete the {0}?</value>
+    <value>确认删除 {0}?</value>
   </data>
   <data name="ExportFileOpen" xml:space="preserve">
-    <value>Do you want to open this file?</value>
+    <value>确认要打开此文件？</value>
   </data>
   <data name="DeletePictureMessage" xml:space="preserve">
-    <value>Do you want to delete this picture?</value>
+    <value>确认删除此图？</value>
   </data>
   <data name="CloseCancelFormWarning" xml:space="preserve">
-    <value>Do you want to save changes?</value>
+    <value>是否保存</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>Edit</value>
+    <value>编辑</value>
   </data>
   <data name="EditCategories" xml:space="preserve">
-    <value>Edit Categories</value>
+    <value>编辑分类</value>
   </data>
   <data name="EditButtonHint" xml:space="preserve">
-    <value>Edit the highlighted {0} record</value>
+    <value>编辑选中的 {0} 条记录</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>Email</value>
+    <value>电子邮件</value>
   </data>
   <data name="EmployeesModule" xml:space="preserve">
-    <value>Employees</value>
+    <value>雇员</value>
   </data>
   <data name="EnableDataEditingWithinTheGrid" xml:space="preserve">
-    <value>Enable data editing within the grid</value>
+    <value>启用在表格中编辑</value>
   </data>
   <data name="EnableMasterViewMode" xml:space="preserve">
-    <value>Enable master view mode</value>
+    <value>启用主视图模式</value>
   </data>
   <data name="EndDate" xml:space="preserve">
-    <value>End Date</value>
+    <value>结束日期</value>
   </data>
   <data name="DateLess" xml:space="preserve">
-    <value>End Date is less than Start Date</value>
+    <value>结束日期小于开始日期</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>Error</value>
+    <value>错误</value>
   </data>
   <data name="Exit" xml:space="preserve">
-    <value>Exit</value>
+    <value>退出</value>
   </data>
   <data name="ExitApplication" xml:space="preserve">
-    <value>Exit Application</value>
+    <value>关闭程序</value>
   </data>
   <data name="ExpectedOn" xml:space="preserve">
-    <value>Expected On</value>
+    <value>预计</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>Export</value>
+    <value>导出</value>
   </data>
   <data name="ExportDescription" xml:space="preserve">
-    <value>Export data into different file formats</value>
+    <value>导出数据为多种格式</value>
   </data>
   <data name="ExportButtonHint" xml:space="preserve">
-    <value>Export {0} report</value>
+    <value>导出 {0} 报表</value>
   </data>
   <data name="ExportButtonHintDefault" xml:space="preserve">
-    <value>Export the report</value>
+    <value>导出报表</value>
   </data>
   <data name="ExportToHTML" xml:space="preserve">
-    <value>Export to HTML</value>
+    <value>导出成 HTML网页</value>
   </data>
   <data name="ExportToImage" xml:space="preserve">
-    <value>Export to Image</value>
+    <value>导出成 Image图片</value>
   </data>
   <data name="ExportToMHT" xml:space="preserve">
-    <value>Export to MHT</value>
+    <value>导出成 MHT单网页</value>
   </data>
   <data name="ExportToPDF" xml:space="preserve">
-    <value>Export to PDF</value>
+    <value>导出成 PDF</value>
   </data>
   <data name="ExportToRTF" xml:space="preserve">
-    <value>Export to RTF</value>
+    <value>导出成 RTF文档</value>
   </data>
   <data name="ExportToText" xml:space="preserve">
-    <value>Export to Text</value>
+    <value>导出成 Text文本文档</value>
   </data>
   <data name="ExportToXLS" xml:space="preserve">
-    <value>Export to XLS</value>
+    <value>导出成 XLS电子表格2003</value>
   </data>
   <data name="ExportToXLSX" xml:space="preserve">
-    <value>Export to XLSX</value>
+    <value>导出成 XLSX电子表格2007</value>
   </data>
   <data name="ExportToXML" xml:space="preserve">
-    <value>Export to XML</value>
+    <value>导出成 XML</value>
   </data>
   <data name="FindCustomer" xml:space="preserve">
-    <value>Find Customer</value>
+    <value>查找顾客</value>
   </data>
   <data name="FirstName" xml:space="preserve">
-    <value>First Name</value>
+    <value>姓</value>
   </data>
   <data name="Flag" xml:space="preserve">
-    <value>Flag</value>
+    <value>旗</value>
   </data>
   <data name="FlipDisplayLayout" xml:space="preserve">
-    <value>Flip display layout</value>
+    <value>翻转展示布局</value>
   </data>
   <data name="FlipLayout" xml:space="preserve">
-    <value>Flip Layout</value>
+    <value>翻转布局</value>
   </data>
   <data name="Format" xml:space="preserve">
-    <value>Format</value>
+    <value>格式</value>
   </data>
   <data name="DatePeriodCaption" xml:space="preserve">
-    <value>From {0:d} to {1:d}</value>
+    <value>从 {0:d} 到 {1:d}</value>
   </data>
   <data name="Gender" xml:space="preserve">
-    <value>Gender</value>
+    <value>性别</value>
   </data>
   <data name="GeneralInfo" xml:space="preserve">
-    <value>General Info</value>
+    <value>一般信息</value>
   </data>
   <data name="GenerateRentsHistory" xml:space="preserve">
-    <value>Generate rents history</value>
+    <value>生成租借历史</value>
   </data>
   <data name="PrintPreviewButtonHint" xml:space="preserve">
-    <value>Generate {1} {0} report</value>
+    <value>生成 {1} {0} 报表</value>
   </data>
   <data name="GeneratingData" xml:space="preserve">
-    <value>Generating data</value>
+    <value>数据生成中</value>
   </data>
   <data name="Genre" xml:space="preserve">
-    <value>Genre</value>
+    <value>流派</value>
   </data>
   <data name="Grid" xml:space="preserve">
-    <value>Grid</value>
+    <value>表格</value>
   </data>
   <data name="HideDisplayRibbon" xml:space="preserve">
-    <value>Hide/Display Ribbon</value>
+    <value>隐藏/展示导航</value>
   </data>
   <data name="DefaultPageName" xml:space="preserve">
-    <value>Home</value>
+    <value>主页</value>
   </data>
   <data name="HTMLOpenFileFilter" xml:space="preserve">
-    <value>HTML document (*.html)|*.html</value>
+    <value>HTML 网页文档 (*.html)|*.html</value>
   </data>
   <data name="Image" xml:space="preserve">
-    <value>Image</value>
+    <value>图片</value>
   </data>
   <data name="IncomeStatistics" xml:space="preserve">
-    <value>Income Statistics</value>
+    <value>收入统计</value>
   </data>
   <data name="Info" xml:space="preserve">
-    <value>Info</value>
+    <value>信息</value>
   </data>
   <data name="Information" xml:space="preserve">
-    <value>Information</value>
+    <value>信息</value>
   </data>
   <data name="KPIGroup" xml:space="preserve">
-    <value>KPI</value>
+    <value>绩效考核</value>
   </data>
   <data name="KPIPeriod" xml:space="preserve">
-    <value>KPI Period</value>
+    <value>绩效考核周期</value>
   </data>
   <data name="KPIReceiptsPeriods" xml:space="preserve">
-    <value>KPI/Receipts periods</value>
+    <value>统计收款周期</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Language</value>
+    <value>语言</value>
   </data>
   <data name="LastName" xml:space="preserve">
-    <value>Last Name</value>
+    <value>名</value>
   </data>
   <data name="LastRentedOn" xml:space="preserve">
-    <value>Last Rented On</value>
+    <value>最后租期</value>
   </data>
   <data name="LatePricePerDay" xml:space="preserve">
-    <value>Late Price Per Day</value>
+    <value>按天最低价</value>
   </data>
   <data name="Layout" xml:space="preserve">
-    <value>Layout</value>
+    <value>布局</value>
   </data>
   <data name="LayoutOptions" xml:space="preserve">
-    <value>Layout Options</value>
+    <value>布局选项</value>
   </data>
   <data name="Level" xml:space="preserve">
-    <value>Level</value>
+    <value>级别</value>
   </data>
   <data name="Line" xml:space="preserve">
-    <value>Line</value>
+    <value>行</value>
   </data>
   <data name="Link" xml:space="preserve">
-    <value>Link</value>
+    <value>链接</value>
   </data>
   <data name="LinkedMovies" xml:space="preserve">
-    <value>Linked Movies</value>
+    <value>关联电影</value>
   </data>
   <data name="AddMovieTo" xml:space="preserve">
-    <value>{0} - Link Movie</value>
+    <value>{0} - 关联电影</value>
   </data>
   <data name="ListViewOptions" xml:space="preserve">
-    <value>List View Options</value>
+    <value>列表视图选项</value>
   </data>
   <data name="LoadImage" xml:space="preserve">
-    <value>Load Image</value>
+    <value>加载图片</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>Location</value>
+    <value>位置</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Login</value>
+    <value>登录</value>
   </data>
   <data name="LogOff" xml:space="preserve">
-    <value>Log Off</value>
+    <value>注销</value>
   </data>
   <data name="LookupDetails" xml:space="preserve">
-    <value>Lookup details...</value>
+    <value>查找详细...</value>
   </data>
   <data name="Main" xml:space="preserve">
-    <value>Main</value>
+    <value>主要的</value>
   </data>
   <data name="MainMenu" xml:space="preserve">
-    <value>Main menu</value>
+    <value>主菜单</value>
   </data>
   <data name="MainView" xml:space="preserve">
-    <value>Main View</value>
+    <value>主视图</value>
   </data>
   <data name="ManageInventory" xml:space="preserve">
-    <value>Manage Inventory</value>
+    <value>管理库存</value>
   </data>
   <data name="Marker" xml:space="preserve">
-    <value>Marker</value>
+    <value>标记</value>
   </data>
   <data name="MarkerSize" xml:space="preserve">
-    <value>Marker Size</value>
+    <value>标记尺寸</value>
   </data>
   <data name="MarkerAngle" xml:space="preserve">
-    <value>Marker Angle</value>
+    <value>标记角度</value>
   </data>
   <data name="MediaFormats" xml:space="preserve">
-    <value>Media Formats</value>
+    <value>多媒体格式</value>
   </data>
   <data name="MediaStatistics" xml:space="preserve">
-    <value>Media Statistics</value>
+    <value>媒体统计</value>
   </data>
   <data name="MHTOpenFileFilter" xml:space="preserve">
-    <value>MHT document (*.mht)|*.mht</value>
+    <value>MHT 文档 (*.mht)|*.mht</value>
   </data>
   <data name="MiddleName" xml:space="preserve">
-    <value>Middle Name</value>
+    <value>中间名</value>
   </data>
   <data name="MinimizeTheRibbonCtrlF1" xml:space="preserve">
-    <value>Minimize the Ribbon (Ctrl+F1)</value>
+    <value>最小化菜单栏 (Ctrl+F1)</value>
   </data>
   <data name="EditViewOptions" xml:space="preserve">
-    <value>Modify {0} List View settings</value>
+    <value>编辑 {0} 列表视图设置</value>
   </data>
   <data name="Modules" xml:space="preserve">
-    <value>Modules</value>
+    <value>模块</value>
   </data>
   <data name="Movie" xml:space="preserve">
-    <value>Movie</value>
+    <value>电影</value>
   </data>
   <data name="MovieCategory" xml:space="preserve">
-    <value>Movie Category</value>
+    <value>电影类别</value>
   </data>
   <data name="MovieCategories" xml:space="preserve">
-    <value>Movie Categories</value>
+    <value>电影类别</value>
   </data>
   <data name="MovieDetail" xml:space="preserve">
-    <value>Movie Details Form</value>
+    <value>电影详细页</value>
   </data>
   <data name="MovieImage" xml:space="preserve">
-    <value>Movie Image</value>
+    <value>电影海报</value>
   </data>
   <data name="MovieItems" xml:space="preserve">
-    <value>Movie Items</value>
+    <value>电影项</value>
   </data>
   <data name="MovieItemsManager" xml:space="preserve">
-    <value>Movie Items Manager</value>
+    <value>电影项管理</value>
   </data>
   <data name="MovieKPI" xml:space="preserve">
-    <value>Movie KPI</value>
+    <value>电影 指标</value>
   </data>
   <data name="MovieList" xml:space="preserve">
-    <value>Movie List</value>
+    <value>电影列表</value>
   </data>
   <data name="MovieOf" xml:space="preserve">
-    <value>Movie {0} of {1}</value>
+    <value>电影 {0} - {1}</value>
   </data>
   <data name="MovieRating" xml:space="preserve">
-    <value>Movie Rating</value>
+    <value>电影评分</value>
   </data>
   <data name="MovieRecordManagement" xml:space="preserve">
-    <value>Movie Record Management</value>
+    <value>电影记录管理</value>
   </data>
   <data name="RentalGroup" xml:space="preserve">
-    <value>Movie Rental</value>
+    <value>电影租借</value>
   </data>
   <data name="RentModule" xml:space="preserve">
-    <value>Movie Rentals
-(for current customer)</value>
+    <value>电影租赁
+(当前客户)</value>
   </data>
   <data name="RentModulePattern" xml:space="preserve">
-    <value>Movie Rentals
-(for {0})</value>
+    <value>电影租赁
+( {0})</value>
   </data>
   <data name="MovieRentals" xml:space="preserve">
-    <value>Movie Rentals</value>
+    <value>电影租借</value>
   </data>
   <data name="MovieRevenues" xml:space="preserve">
-    <value>{0} Movie Revenues</value>
+    <value>{0} 电影 收益</value>
   </data>
   <data name="Movies" xml:space="preserve">
-    <value>Movies</value>
+    <value>电影</value>
   </data>
   <data name="MoviesModule" xml:space="preserve">
-    <value>Movies</value>
+    <value>电影</value>
   </data>
   <data name="MoviesKPIModule" xml:space="preserve">
-    <value>Movies KPI</value>
+    <value>电影 指标</value>
   </data>
   <data name="MovieTitle" xml:space="preserve">
-    <value>Movie Title</value>
+    <value>电影标题</value>
   </data>
   <data name="PriceError" xml:space="preserve">
-    <value>Must specify Price before saving the record.</value>
+    <value>在保存记录之前，必须指定价格。</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Name</value>
+    <value>名</value>
   </data>
   <data name="Navigation" xml:space="preserve">
-    <value>Navigation</value>
+    <value>导航</value>
   </data>
   <data name="NewActor" xml:space="preserve">
-    <value>New Actor</value>
+    <value>新演员</value>
   </data>
   <data name="NewMovieCategory" xml:space="preserve">
-    <value>New Category</value>
+    <value>新分类</value>
   </data>
   <data name="NewCompany" xml:space="preserve">
-    <value>New Company</value>
+    <value>新公司</value>
   </data>
   <data name="NewCustomer" xml:space="preserve">
-    <value>New Customer</value>
+    <value>新顾客</value>
   </data>
   <data name="NewMovie" xml:space="preserve">
-    <value>New Movie</value>
+    <value>新电影</value>
   </data>
   <data name="Next" xml:space="preserve">
-    <value>Next</value>
+    <value>下一个</value>
   </data>
   <data name="NextPhoto" xml:space="preserve">
-    <value>Next photo</value>
+    <value>下一张图</value>
   </data>
   <data name="NextButtonHint" xml:space="preserve">
-    <value>Next {0} record</value>
+    <value>下 {0} 条记录</value>
   </data>
   <data name="NickName" xml:space="preserve">
-    <value>Nick Name</value>
+    <value>别名</value>
   </data>
   <data name="NoImageData" xml:space="preserve">
-    <value>No image for current record</value>
+    <value>此记录中没有图片</value>
   </data>
   <data name="None" xml:space="preserve">
     <value>None</value>
@@ -1064,604 +1064,600 @@ Total Amount: &lt;b&gt;$ {2}&lt;/b&gt;</value>
     <value>(null)</value>
   </data>
   <data name="ButtonTextOK" xml:space="preserve">
-    <value>&amp;OK</value>
+    <value>&amp;OK好</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>好</value>
   </data>
   <data name="OnlyActive" xml:space="preserve">
-    <value>Only Active</value>
+    <value>唯一活动</value>
   </data>
   <data name="OpenImage" xml:space="preserve">
-    <value>Open Image</value>
+    <value>打开图片</value>
   </data>
   <data name="Options" xml:space="preserve">
-    <value>Options</value>
+    <value>选项</value>
   </data>
   <data name="OverduePayment" xml:space="preserve">
-    <value>Overdue Payment</value>
+    <value>逾期付款</value>
   </data>
   <data name="Owner" xml:space="preserve">
-    <value>Owner</value>
+    <value>拥有者</value>
   </data>
   <data name="Palette" xml:space="preserve">
-    <value>Palette</value>
+    <value>调色盘</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Password</value>
+    <value>密码</value>
   </data>
   <data name="Path" xml:space="preserve">
-    <value>Path</value>
+    <value>路径</value>
   </data>
   <data name="Payment" xml:space="preserve">
-    <value>Payment</value>
+    <value>付款</value>
   </data>
   <data name="PDFOpenFileFilter" xml:space="preserve">
-    <value>PDF document (*.pdf)|*.pdf</value>
+    <value>PDF 文档 (*.pdf)|*.pdf</value>
   </data>
   <data name="MediaPerformanceModule" xml:space="preserve">
-    <value>Performance by Media Type</value>
+    <value>多媒体类别表现</value>
   </data>
   <data name="Period" xml:space="preserve">
-    <value>Period</value>
+    <value>时间范围</value>
   </data>
   <data name="ComparePeriod" xml:space="preserve">
-    <value>Period Comparison ({0:d} - {1:d})</value>
+    <value>时间范围比较 ({0:d} - {1:d})</value>
   </data>
   <data name="Phone" xml:space="preserve">
-    <value>Phone</value>
+    <value>电话</value>
   </data>
   <data name="PhotoSuffix" xml:space="preserve">
-    <value>photo</value>
+    <value>图片</value>
   </data>
   <data name="Photo" xml:space="preserve">
-    <value>Photo</value>
+    <value>图片</value>
   </data>
   <data name="PhotoNumber" xml:space="preserve">
-    <value>Photo {0}</value>
+    <value>图片 {0}</value>
   </data>
   <data name="PhotoGallery" xml:space="preserve">
-    <value>Photo Gallery</value>
+    <value>图片库</value>
   </data>
   <data name="PhotoOf" xml:space="preserve">
-    <value>Photo: {0} of {1}</value>
+    <value>图片: {0} / {1}</value>
   </data>
   <data name="PicturesCount" xml:space="preserve">
-    <value>Pictures Count</value>
+    <value>图片数量</value>
   </data>
   <data name="Pictures" xml:space="preserve">
-    <value>Pictures</value>
+    <value>图片</value>
   </data>
   <data name="FindCustomerHint" xml:space="preserve">
-    <value>Please choose a customer</value>
+    <value>请选择顾客</value>
   </data>
   <data name="Plot" xml:space="preserve">
-    <value>Plot</value>
+    <value>绘图</value>
   </data>
   <data name="PNGOpenFileFilter" xml:space="preserve">
-    <value>PNG image (*.png)|*.png</value>
+    <value>PNG 图片 (*.png)|*.png</value>
   </data>
   <data name="Prev" xml:space="preserve">
-    <value>Prev</value>
+    <value>前一个</value>
   </data>
   <data name="PrintPreviewDescription" xml:space="preserve">
-    <value>Preview a report...</value>
+    <value>预览报表...</value>
   </data>
   <data name="PrintPreviewButtonHintDefault" xml:space="preserve">
-    <value>Preview the report</value>
+    <value>预览报表</value>
   </data>
   <data name="PreviousPhoto" xml:space="preserve">
-    <value>Previous photo</value>
+    <value>前一张图片</value>
   </data>
   <data name="PrevButtonHint" xml:space="preserve">
-    <value>Previous {0} record</value>
+    <value>前 {0} 记录</value>
   </data>
   <data name="Price" xml:space="preserve">
-    <value>Price</value>
+    <value>价格</value>
   </data>
   <data name="PricePerDayFor1DayRental" xml:space="preserve">
-    <value>Price Per Day For 1 Day Rental</value>
+    <value>租1天每天的价格</value>
   </data>
   <data name="PricePerDayFor2DayRental" xml:space="preserve">
-    <value>Price Per Day For 2 Day Rental</value>
+    <value>租2天每天的价格</value>
   </data>
   <data name="PricePerDayFor3DayRental" xml:space="preserve">
-    <value>Price Per Day For 3 Day Rental</value>
+    <value>租3天每天的价格</value>
   </data>
   <data name="PricePerDayFor4DayRental" xml:space="preserve">
-    <value>Price Per Day For 4 Day Rental</value>
+    <value>租4天每天的价格</value>
   </data>
   <data name="PricePerDayFor5DayRental" xml:space="preserve">
-    <value>Price Per Day For 5 Day Rental</value>
+    <value>租5天每天的价格</value>
   </data>
   <data name="PricePerDayFor6DayRental" xml:space="preserve">
-    <value>Price Per Day For 6 Day Rental</value>
+    <value>租6天每天的价格</value>
   </data>
   <data name="PricePerDayFor7DayRental" xml:space="preserve">
-    <value>Price Per Day For 7 Day Rental</value>
+    <value>租7天每天的价格</value>
   </data>
   <data name="PrintAndExport" xml:space="preserve">
-    <value>Print and Export</value>
+    <value>打印并导出</value>
   </data>
   <data name="PrintAndExport1" xml:space="preserve">
-    <value>Print and Export </value>
+    <value>打印并导出</value>
   </data>
   <data name="PrintPreview" xml:space="preserve">
-    <value>Print Preview</value>
+    <value>打印预览</value>
   </data>
   <data name="Question" xml:space="preserve">
-    <value>Question</value>
+    <value>质询</value>
   </data>
   <data name="Rating" xml:space="preserve">
-    <value>Rating</value>
+    <value>评分</value>
   </data>
   <data name="ReadOnlyCaption" xml:space="preserve">
-    <value>{0} (Read Only)</value>
+    <value>{0} (只读)</value>
   </data>
   <data name="RealeaseDate" xml:space="preserve">
-    <value>Realease Date</value>
+    <value>发行日期</value>
   </data>
   <data name="Receipt" xml:space="preserve">
-    <value>Receipt</value>
+    <value>收入</value>
   </data>
   <data name="ReceiptCount" xml:space="preserve">
-    <value>Receipt Count</value>
+    <value>应收数</value>
   </data>
   <data name="ReceiptCount12Months" xml:space="preserve">
-    <value>Receipt Count - Last 12 Months</value>
+    <value>收到数-最后12月</value>
   </data>
   <data name="ReceiptId" xml:space="preserve">
-    <value>Receipt Id</value>
+    <value>收据 Id</value>
   </data>
   <data name="ReceiptPeriod" xml:space="preserve">
-    <value>Receipt Period</value>
+    <value>收据周期</value>
   </data>
   <data name="Receipts" xml:space="preserve">
-    <value>Receipts</value>
+    <value>收据</value>
   </data>
   <data name="ReceiptsPeriod" xml:space="preserve">
-    <value>Receipts period</value>
+    <value>收据周期</value>
   </data>
   <data name="ReceiptsViewOptions" xml:space="preserve">
-    <value>Receipts View Options</value>
+    <value>收据视图选项</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>刷新</value>
   </data>
   <data name="RefreshDefaultButtonHint" xml:space="preserve">
-    <value>Refresh data</value>
+    <value>更新日期</value>
   </data>
   <data name="RefreshButtonHint" xml:space="preserve">
-    <value>Refresh the {0} List View</value>
+    <value>刷新 {0} 列表视图</value>
   </data>
   <data name="ReleaseDate" xml:space="preserve">
-    <value>Release Date</value>
+    <value>发售日期</value>
   </data>
   <data name="Rent" xml:space="preserve">
-    <value>Rent</value>
+    <value>租借</value>
   </data>
   <data name="RentScheduleModule" xml:space="preserve">
-    <value>Rental Calendar
-(by customer)</value>
+    <value>租金日历(客户)</value>
   </data>
   <data name="RentalCategory" xml:space="preserve">
-    <value>Rental Category</value>
+    <value>租借分类</value>
   </data>
   <data name="RentalDetailsReadOnly" xml:space="preserve">
-    <value>Rental Details (Read Only)</value>
+    <value>租借详细（只读）</value>
   </data>
   <data name="RentalRecordManagement" xml:space="preserve">
-    <value>Rental Record Management</value>
+    <value>租赁记录管理</value>
   </data>
   <data name="RentalSalesInfo" xml:space="preserve">
-    <value>Rental/Sales Info</value>
+    <value>租赁销售信息</value>
   </data>
   <data name="RentType" xml:space="preserve">
-    <value>Rental type</value>
+    <value>出租类型</value>
   </data>
   <data name="RentedOn" xml:space="preserve">
-    <value>Rented On</value>
+    <value>租借于</value>
   </data>
   <data name="RenterDiscount" xml:space="preserve">
-    <value>{0} Renter</value>
+    <value>{0} 租借人</value>
   </data>
   <data name="RentId" xml:space="preserve">
-    <value>Rent Id</value>
+    <value>租借ID</value>
   </data>
   <data name="RentOrSellMovie" xml:space="preserve">
-    <value>Rent (or sell) movie</value>
+    <value>租(或卖出)电影</value>
   </data>
   <data name="RentOverdue" xml:space="preserve">
-    <value>Rent Overdue</value>
+    <value>逾期</value>
   </data>
   <data name="Rents" xml:space="preserve">
-    <value>Rents</value>
+    <value>租借</value>
   </data>
   <data name="RentSell" xml:space="preserve">
-    <value>Rent/Sell</value>
+    <value>租/售l</value>
   </data>
   <data name="ReportsGroup" xml:space="preserve">
-    <value>Reports</value>
+    <value>报表</value>
   </data>
   <data name="Return" xml:space="preserve">
-    <value>Return</value>
+    <value>返回</value>
   </data>
   <data name="ReturnedOn" xml:space="preserve">
-    <value>Returned On</value>
+    <value>返回于</value>
   </data>
   <data name="ReturnQuestion" xml:space="preserve">
-    <value>Return items?</value>
+    <value>退回商品？</value>
   </data>
   <data name="ReturnAndPaymentLateFeeQuestion" xml:space="preserve">
-    <value>Return items and display payment receipt?</value>
+    <value>返回项目，并显示付款收据？</value>
   </data>
   <data name="ReturnSelectedMoviesCheckedItemsFromTheActiveRen" xml:space="preserve">
-    <value>Return selected movies (checked items from the Active Rentals tab)</value>
+    <value>返回所选电影(选中项活动租赁选项卡中)</value>
   </data>
   <data name="HomeButtonHint" xml:space="preserve">
-    <value>Return to {0} List View</value>
+    <value>返回到 {0} 列表视图</value>
   </data>
   <data name="Revenue" xml:space="preserve">
-    <value>Revenue</value>
+    <value>收入</value>
   </data>
   <data name="CustomerRevenueModule" xml:space="preserve">
-    <value>Revenue by Customers</value>
+    <value>顾客与收入</value>
   </data>
   <data name="RevenueSplitModule" xml:space="preserve">
-    <value>Revenue Categories - Last 12 Months</value>
+    <value>收入类别-最后12月</value>
   </data>
   <data name="RevenueDifference" xml:space="preserve">
-    <value>Revenue Difference</value>
+    <value>收入差异</value>
   </data>
   <data name="Revenue12Months" xml:space="preserve">
-    <value>Revenue - Last 12 Months</value>
+    <value>过去12月的收入</value>
   </data>
   <data name="RevenueSplit12Months" xml:space="preserve">
-    <value>Revenue Split - Last 12 Months</value>
+    <value>收益分成-最后12月</value>
   </data>
   <data name="Revenue12MonthsModule" xml:space="preserve">
-    <value>Revenue - Last 12 Months</value>
+    <value>过去12月的收入</value>
   </data>
   <data name="RevenueStatistics" xml:space="preserve">
-    <value>Revenue Statistics</value>
+    <value>收入统计</value>
   </data>
   <data name="RotateDisplayLayout" xml:space="preserve">
-    <value>Rotate display layout</value>
+    <value>旋转展示布局</value>
   </data>
   <data name="RotateLayout" xml:space="preserve">
-    <value>Rotate Layout</value>
+    <value>旋转布局</value>
   </data>
   <data name="RunTime" xml:space="preserve">
-    <value>Run Time</value>
+    <value>运行时间</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
   </data>
   <data name="SaveCurrentRecord" xml:space="preserve">
-    <value>Save Current Record</value>
+    <value>保存当前记录</value>
   </data>
   <data name="ButtonTextSaveAndClose" xml:space="preserve">
-    <value>S&amp;ave and Close</value>
+    <value>S&amp;ave and Close保存并关闭</value>
   </data>
   <data name="SaveAndClose" xml:space="preserve">
-    <value>Save and Close</value>
+    <value>保存并关闭</value>
   </data>
   <data name="EnableLayoutSaving" xml:space="preserve">
-    <value>Enable layout saving</value>
+    <value>启用布局保存功能</value>
   </data>
   <data name="SaveAndRestoreControlLayoutWithinForms" xml:space="preserve">
-    <value>Save and restore control layout within forms</value>
+    <value>保存和还原控件中的布局形式</value>
   </data>
   <data name="SaveAndRestoreDetailViewLayouts" xml:space="preserve">
-    <value>Save and restore Detail View layouts</value>
+    <value>保存和还原的详细信息视图布局</value>
   </data>
   <data name="SaveAndRestoreDockWindowLayouts" xml:space="preserve">
-    <value>Save and restore dock window layouts</value>
+    <value>保存和恢复停靠窗口布局</value>
   </data>
   <data name="SaveAndRestoreGridControlLayouts" xml:space="preserve">
-    <value>Save and restore grid control layouts</value>
+    <value>保存和恢复网格控件布局</value>
   </data>
   <data name="SaveAndRestoreLayoutControlLayouts" xml:space="preserve">
-    <value>Save and restore layout control layouts</value>
+    <value>保存和还原布局控件布局</value>
   </data>
   <data name="SaveChangesToCurrentRecord" xml:space="preserve">
-    <value>Save changes to current record</value>
+    <value>将更改保存到当前记录</value>
   </data>
   <data name="SaveChangesToCurrentRecordAndCloseTheDetailView" xml:space="preserve">
-    <value>Save changes to current record and close the Detail View</value>
+    <value>保存对当前记录的更改并关闭详细信息视图</value>
   </data>
   <data name="Scheduler" xml:space="preserve">
-    <value>Scheduler</value>
+    <value>调度程序</value>
   </data>
   <data name="Screens" xml:space="preserve">
-    <value>Screens</value>
+    <value>荧屏</value>
   </data>
   <data name="SellingPrice" xml:space="preserve">
-    <value>Selling Price</value>
+    <value>售价</value>
   </data>
   <data name="SendEmail" xml:space="preserve">
-    <value>Send Email</value>
+    <value>发送邮件</value>
   </data>
   <data name="SelectAReceiptFromTheListAboveToSeeItDetails" xml:space="preserve">
-    <value>Select a receipt from the list above to see it details</value>
+    <value>从列表中选择一张收据查看细节</value>
   </data>
   <data name="SetAsCurrentCustomer" xml:space="preserve">
-    <value>Set as Current Customer</value>
+    <value>设置为当前客户</value>
   </data>
   <data name="ShowDetailTabs" xml:space="preserve">
-    <value>Show detail tabs</value>
+    <value>显示详细信息选项卡</value>
   </data>
   <data name="ShowGroupRowFooter" xml:space="preserve">
-    <value>Show group row footer</value>
+    <value>显示行组页脚</value>
   </data>
   <data name="ShowIndicator" xml:space="preserve">
-    <value>Show indicator</value>
+    <value>显示方式</value>
   </data>
   <data name="ShowOnlyTheTabNamesOnTheRibbon" xml:space="preserve">
-    <value>Show only the tab names on the Ribbon</value>
+    <value>仅显示功能区上的选项卡名称</value>
   </data>
   <data name="ShowReportDesigner" xml:space="preserve">
-    <value>Show Report Designer</value>
+    <value>显示报表设计器</value>
   </data>
   <data name="ShowRowPreviews" xml:space="preserve">
-    <value>Show row previews</value>
+    <value>显示行预览</value>
   </data>
   <data name="ShowTheAutoFilterRow" xml:space="preserve">
-    <value>Show the auto filter row</value>
+    <value>显示自动筛选行</value>
   </data>
   <data name="ShowVerticalLines" xml:space="preserve">
-    <value>Show vertical lines</value>
+    <value>显示垂直线</value>
   </data>
   <data name="ShowViewCaption" xml:space="preserve">
-    <value>Show view caption</value>
+    <value>显示视图的标题</value>
   </data>
   <data name="SimpleGrid" xml:space="preserve">
-    <value>Simple grid</value>
+    <value>简单表格</value>
   </data>
   <data name="Skins" xml:space="preserve">
-    <value>Skins</value>
+    <value>皮肤</value>
   </data>
   <data name="CloseCancelFormsWarning" xml:space="preserve">
-    <value>Some detail forms have been modified.
-Do you want to close these forms?</value>
+    <value>已经修改了记录，是否保存？</value>
   </data>
   <data name="NotAllItemsCanBeDeleted" xml:space="preserve">
-    <value>Some of items cannot be deleted. Do you want to continue?</value>
+    <value>一些项目不能被删除。 你想继续吗？</value>
   </data>
   <data name="SpecialPricePerDayFor" xml:space="preserve">
-    <value>Special Price Per Day For ...</value>
+    <value>特价每天...</value>
   </data>
   <data name="PaletteButtonHint" xml:space="preserve">
-    <value>Specify a color palette ({0})</value>
+    <value>选择一个调色盘 ({0})</value>
   </data>
   <data name="PeriodDescription" xml:space="preserve">
-    <value>Specify data processing date intervals...</value>
+    <value>指定数据的处理日期的时间间隔..</value>
   </data>
   <data name="SpecifyDateIntervals" xml:space="preserve">
-    <value>Specify Date Intervals</value>
+    <value>指定日期间隔</value>
   </data>
   <data name="ChooseSkinDescription" xml:space="preserve">
-    <value>Specify the application's paint scheme</value>
+    <value>制定本软件的样式</value>
   </data>
   <data name="SQLServer" xml:space="preserve">
     <value>SQL Server</value>
   </data>
   <data name="StartDate" xml:space="preserve">
-    <value>Start Date</value>
+    <value>开始日期</value>
   </data>
   <data name="StatisticsGroup" xml:space="preserve">
-    <value>Statistics</value>
+    <value>统计</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Status</value>
+    <value>状态</value>
   </data>
   <data name="Tagline" xml:space="preserve">
-    <value>Tagline</value>
+    <value>标语</value>
   </data>
   <data name="Text" xml:space="preserve">
-    <value>Text</value>
+    <value>文本</value>
   </data>
   <data name="MostRentedMovies" xml:space="preserve">
-    <value>The Most Rented Movies on {0}</value>
+    <value> {0} 时租借次数最多的电影</value>
   </data>
   <data name="DiscountNote" xml:space="preserve">
-    <value>These are auto-calculated values and are based on rental volume.</value>
+    <value>此值为自动计算得出</value>
   </data>
   <data name="ObjectCanNotBeDeleted" xml:space="preserve">
-    <value>This object cannot be deleted.</value>
+    <value>此对象无法被删除</value>
   </data>
   <data name="ActiveGrid_Warning" xml:space="preserve">
-    <value>This operation might take a few minutes.
-Do you want to continue?</value>
+    <value>此操作会耗费一段时间，请耐心等待</value>
   </data>
   <data name="TimePeriod" xml:space="preserve">
-    <value>Time Period ({0:d} - {1:d})</value>
+    <value>时间范围 ({0:d} - {1:d})</value>
   </data>
   <data name="TimePeriods" xml:space="preserve">
-    <value>Time Periods</value>
+    <value>时间范围</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Title</value>
+    <value>标题</value>
   </data>
   <data name="Tools" xml:space="preserve">
-    <value>Tools</value>
+    <value>工具</value>
   </data>
   <data name="TopCustomer" xml:space="preserve">
-    <value>Top Customer</value>
+    <value>最佳顾客</value>
   </data>
   <data name="TopCustomers" xml:space="preserve">
-    <value>Top Customers</value>
+    <value>最佳顾客们</value>
   </data>
   <data name="TopCustomersModule" xml:space="preserve">
-    <value>Top Customers</value>
+    <value>最佳顾客组</value>
   </data>
   <data name="AutoFilterRowHint" xml:space="preserve">
-    <value>To quickly locate a customer, type the customer's name or a part of his/her name in the Name column in the top row. You can also search against other columns in the same way.</value>
+    <value>输入名字可以快速搜索</value>
   </data>
   <data name="DatabaseCreating" xml:space="preserve">
-    <value>To run the application, a sample database needs to be created and populated with data.
-Please select the database type and connection options below.</value>
+    <value>此程序运行时需要数据库支持，在下面选择一个数据库</value>
   </data>
   <data name="Total" xml:space="preserve">
-    <value>Total</value>
+    <value>总计</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>Type</value>
+    <value>类别</value>
   </data>
   <data name="UnableCreateDBMessage" xml:space="preserve">
-    <value>Unable to create a database. Please check the connection settings.</value>
+    <value>无法创建数据库，请联系技术支持人员</value>
   </data>
   <data name="UnableOpenDBMessage" xml:space="preserve">
-    <value>Unable to open the database. A new database will be created.</value>
+    <value>无法打开数据库，将会创建新的数据库</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>&lt;Unknown&gt;</value>
+    <value>&lt;未知&gt;</value>
   </data>
   <data name="NewRecordsIDString" xml:space="preserve">
     <value>&lt;unassigned&gt;</value>
   </data>
   <data name="UnitAllocation" xml:space="preserve">
-    <value>Unit Allocation</value>
+    <value>补给基数</value>
   </data>
   <data name="Up" xml:space="preserve">
-    <value>Up</value>
+    <value>上</value>
   </data>
   <data name="DemoName" xml:space="preserve">
-    <value>Video Rental Demo (C#)</value>
+    <value>Nuka采集工具桌面版</value>
   </data>
   <data name="View" xml:space="preserve">
-    <value>View</value>
+    <value>视图</value>
   </data>
   <data name="ViewOptions" xml:space="preserve">
-    <value>View Options</value>
+    <value>视图选项</value>
   </data>
   <data name="Warning" xml:space="preserve">
-    <value>Warning</value>
+    <value>警告</value>
   </data>
   <data name="WebSite" xml:space="preserve">
-    <value>WebSite</value>
+    <value>网站</value>
   </data>
   <data name="XLSOpenFileFilter" xml:space="preserve">
-    <value>XLS document (*.xls)|*.xls</value>
+    <value>Excel2003文件 (*.xls)|*.xls</value>
   </data>
   <data name="XLSXOpenFileFilter" xml:space="preserve">
-    <value>XLSX document (*.xlsx)|*.xlsx</value>
+    <value>Excel2007文件 (*.xlsx)|*.xlsx</value>
   </data>
   <data name="GoToWebsite" xml:space="preserve">
-    <value>Go to Website</value>
+    <value>打开网站</value>
   </data>
   <data name="RevenueMovies" xml:space="preserve">
-    <value>Revenue from Movies</value>
+    <value>来自电影的收入</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>Year</value>
+    <value>年</value>
   </data>
   <data name="Quarter" xml:space="preserve">
-    <value>Quarter</value>
+    <value>季度</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value>Month</value>
+    <value>月</value>
   </data>
   <data name="SortBy" xml:space="preserve">
-    <value>Sort by</value>
+    <value>排序</value>
   </data>
   <data name="ShowMonthlyRevenue" xml:space="preserve">
-    <value>Show Monthly Revenue</value>
+    <value>显示每月的收入</value>
   </data>
   <data name="ShowMonthlyReceipts" xml:space="preserve">
-    <value>Show Monthly Receipts</value>
+    <value>显示每月收益</value>
   </data>
   <data name="ReceiptType" xml:space="preserve">
-    <value>ReceiptType</value>
+    <value>收货单类型</value>
   </data>
   <data name="Income" xml:space="preserve">
-    <value>Income</value>
+    <value>收入</value>
   </data>
   <data name="CustomerCount" xml:space="preserve">
-    <value>Customer Count</value>
+    <value>顾客数量</value>
   </data>
   <data name="ThisMonth" xml:space="preserve">
-    <value>This Month</value>
+    <value>本月</value>
   </data>
   <data name="LastMonth" xml:space="preserve">
-    <value>Last Month</value>
+    <value>最近1月</value>
   </data>
   <data name="Last12Months" xml:space="preserve">
-    <value>Last 12 Months</value>
+    <value>最近12个月</value>
   </data>
   <data name="MovieMediaDB" xml:space="preserve">
-    <value>Movie Media In Database</value>
+    <value>数据库中电影媒体</value>
   </data>
   <data name="PieHint" xml:space="preserve">
-    <value>Press a pie section to view detailed information</value>
+    <value>点击饼图中区域可以获取到更详细的信息</value>
   </data>
   <data name="SchedulerCaptionDayViewDescription" xml:space="preserve">
-    <value>View a single day’s rentals within the calendar</value>
+    <value>查看一天的租金在日历内</value>
   </data>
   <data name="SchedulerCaptionMonthViewDescription" xml:space="preserve">
-    <value>View rentals across an entire month</value>
+    <value>查看整个月租赁</value>
   </data>
   <data name="SchedulerCaptionNextAppointment" xml:space="preserve">
-    <value>Next Rentals</value>
+    <value>后记录</value>
   </data>
   <data name="SchedulerCaptionPrevAppointment" xml:space="preserve">
-    <value>Previous Rentals</value>
+    <value>前记录</value>
   </data>
   <data name="SchedulerCaptionTimelineViewDescription" xml:space="preserve">
-    <value>View rentals within a timeline</value>
+    <value>查看时间表内的租金</value>
   </data>
   <data name="SchedulerCaptionWeekViewDescription" xml:space="preserve">
-    <value>View rentals across an entire week</value>
+    <value>查看整个星期租赁</value>
   </data>
   <data name="SchedulerCaptionWorkWeekViewDescription" xml:space="preserve">
-    <value>View rentals across a work week</value>
+    <value>在一个工作周视图租赁</value>
   </data>
   <data name="SchedulerDescCmdGotoToday" xml:space="preserve">
-    <value>Navigate to today’s date</value>
+    <value>导航到今天</value>
   </data>
   <data name="SchedulerDescCmdNavigateBackward" xml:space="preserve">
-    <value>Move back to an earlier time frame</value>
+    <value>移动到较早的时间框架</value>
   </data>
   <data name="SchedulerDescCmdNavigateForward" xml:space="preserve">
-    <value>Move forward to a later time frame</value>
+    <value>向前移动到稍后的时间框架</value>
   </data>
   <data name="SchedulerDescCmdViewZoomIn" xml:space="preserve">
-    <value>Zoom in and view more detailed information within the calendar</value>
+    <value>缩放和查看日历中的详细信息</value>
   </data>
   <data name="SchedulerDescCmdViewZoomOut" xml:space="preserve">
-    <value>Zoom out and view expanded information within the calendar</value>
+    <value>缩放和查看日历中的扩展信息</value>
   </data>
   <data name="PeriodCustom" xml:space="preserve">
     <value>(Custom)</value>
   </data>
   <data name="PeriodFiveYears" xml:space="preserve">
-    <value>5 Years</value>
+    <value>5年</value>
   </data>
   <data name="PeriodMonth" xml:space="preserve">
     <value>Month</value>
   </data>
   <data name="PeriodSixMonths" xml:space="preserve">
-    <value>6 Months</value>
+    <value>6个月</value>
   </data>
   <data name="PeriodTenYears" xml:space="preserve">
-    <value>10 Years</value>
+    <value>10年</value>
   </data>
   <data name="PeriodThreeMonths" xml:space="preserve">
-    <value>3 Months</value>
+    <value>3个月</value>
   </data>
   <data name="PeriodTwoYears" xml:space="preserve">
-    <value>2 Years</value>
+    <value>2 年</value>
   </data>
   <data name="PeriodYear" xml:space="preserve">
-    <value>Year</value>
+    <value>年</value>
   </data>
   <data name="DaysChart" xml:space="preserve">
-    <value>Days</value>
+    <value>天</value>
   </data>
   <data name="LayoutAndNavigation" xml:space="preserve">
-    <value>Layout and Navigation</value>
+    <value>布局和导航</value>
   </data>
   <data name="RecordManagement" xml:space="preserve">
-    <value>Record Management</value>
+    <value>记录管理</value>
   </data>
 </root>

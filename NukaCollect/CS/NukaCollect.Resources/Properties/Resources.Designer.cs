@@ -61,7 +61,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 About 的本地化字符串。
+        ///   查找类似 关于 的本地化字符串。
         /// </summary>
         public static string About {
             get {
@@ -70,7 +70,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 About this application... 的本地化字符串。
+        ///   查找类似 关于此软件 的本地化字符串。
         /// </summary>
         public static string AboutDescription {
             get {
@@ -79,7 +79,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Copyright (c) 2000-{0} Developer Express Inc. All rights reserved. 的本地化字符串。
+        ///   查找类似 版权 (c) 2000-{0} 开放版权 的本地化字符串。
         /// </summary>
         public static string AboutFormCopyright {
             get {
@@ -88,7 +88,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This application demonstrates some of the capabilities available to you when using DevExpress WinForms Controls and Libraries. To learn more about DevExpress and download your free evaluation, use the links below. 的本地化字符串。
+        ///   查找类似 此软件为评估版，更多信息请咨询客服 的本地化字符串。
         /// </summary>
         public static string AboutFormDescription {
             get {
@@ -97,7 +97,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 DevExpress.com 的本地化字符串。
+        ///   查找类似 megatontrade.com 的本地化字符串。
         /// </summary>
         public static string AboutFormLink1 {
             get {
@@ -106,7 +106,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Download Free Trials 的本地化字符串。
+        ///   查找类似 下载免费试用版 的本地化字符串。
         /// </summary>
         public static string AboutFormLink2 {
             get {
@@ -115,7 +115,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Purchase DevExpress Products 的本地化字符串。
+        ///   查找类似 购买完整版 的本地化字符串。
         /// </summary>
         public static string AboutFormLink3 {
             get {
@@ -133,7 +133,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 for WinForms {0} 的本地化字符串。
+        ///   查找类似 桌面版 {0} 的本地化字符串。
         /// </summary>
         public static string AboutFormVersion {
             get {
@@ -142,7 +142,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This application demonstrates some of the capabilities available to you when using DevExpress WPF Controls and Libraries. To learn more about DevExpress and download your free evaluation, use the links below. 的本地化字符串。
+        ///   查找类似 此软件为评估版，更多信息请咨询客服 的本地化字符串。
         /// </summary>
         public static string AboutFormWpfDescription {
             get {
@@ -151,7 +151,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 for WPF v2011 vol 1 的本地化字符串。
+        ///   查找类似 WPF开发组件 的本地化字符串。
         /// </summary>
         public static string AboutFormWpfVersion {
             get {
@@ -160,7 +160,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 About 的本地化字符串。
+        ///   查找类似 关于 的本地化字符串。
         /// </summary>
         public static string AboutGroup {
             get {
@@ -169,7 +169,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 About this Demo 的本地化字符串。
+        ///   查找类似 关于此软件 的本地化字符串。
         /// </summary>
         public static string AboutThisDemo {
             get {
@@ -178,7 +178,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Active 的本地化字符串。
+        ///   查找类似 激活 的本地化字符串。
         /// </summary>
         public static string Active {
             get {
@@ -187,8 +187,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This operation might take a few minutes.
-        ///Do you want to continue? 的本地化字符串。
+        ///   查找类似 此操作会耗费一段时间，请耐心等待 的本地化字符串。
         /// </summary>
         public static string ActiveGrid_Warning {
             get {
@@ -197,7 +196,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Active Rental 的本地化字符串。
+        ///   查找类似 当前的租借 的本地化字符串。
         /// </summary>
         public static string ActiveRental {
             get {
@@ -206,7 +205,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Active Rentals 的本地化字符串。
+        ///   查找类似 当前的租借 的本地化字符串。
         /// </summary>
         public static string ActiveRentals {
             get {
@@ -215,7 +214,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Active Type 的本地化字符串。
+        ///   查找类似 当前的类别 的本地化字符串。
         /// </summary>
         public static string ActiveType {
             get {
@@ -224,7 +223,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actor 的本地化字符串。
+        ///   查找类似 演员 的本地化字符串。
         /// </summary>
         public static string Actor {
             get {
@@ -233,7 +232,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actor/Crew 的本地化字符串。
+        ///   查找类似 演员/剧组 的本地化字符串。
         /// </summary>
         public static string ActorCrew {
             get {
@@ -242,7 +241,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actor Photos 的本地化字符串。
+        ///   查找类似 演员照片 的本地化字符串。
         /// </summary>
         public static string ActorPhotos {
             get {
@@ -251,7 +250,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actors 的本地化字符串。
+        ///   查找类似 演员 的本地化字符串。
         /// </summary>
         public static string Actors {
             get {
@@ -260,7 +259,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actors/Crew 的本地化字符串。
+        ///   查找类似 演员/剧组 的本地化字符串。
         /// </summary>
         public static string ActorsCrew {
             get {
@@ -269,7 +268,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actors/Crew Record Management 的本地化字符串。
+        ///   查找类似 演员/剧组记录管理 的本地化字符串。
         /// </summary>
         public static string ActorsCrewRecordManagement {
             get {
@@ -278,7 +277,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actors/Crew 的本地化字符串。
+        ///   查找类似 演员/剧组 的本地化字符串。
         /// </summary>
         public static string ActorsModule {
             get {
@@ -287,7 +286,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add 的本地化字符串。
+        ///   查找类似 添加 的本地化字符串。
         /// </summary>
         public static string Add {
             get {
@@ -296,7 +295,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add a new image 的本地化字符串。
+        ///   查找类似 添加新图片 的本地化字符串。
         /// </summary>
         public static string AddANewImage {
             get {
@@ -305,7 +304,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add a new Artist record 的本地化字符串。
+        ///   查找类似 添加新的艺术家 的本地化字符串。
         /// </summary>
         public static string AddArtistButtonHint {
             get {
@@ -314,7 +313,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add Actors/Crew 的本地化字符串。
+        ///   查找类似 添加演员/剧组 的本地化字符串。
         /// </summary>
         public static string AddArtistTitle {
             get {
@@ -323,7 +322,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} - Add Actors/Crew 的本地化字符串。
+        ///   查找类似 {0} - 添加演员/剧组 的本地化字符串。
         /// </summary>
         public static string AddArtistTo {
             get {
@@ -332,7 +331,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add a new {0} record 的本地化字符串。
+        ///   查找类似 添加新的 {0}记录 的本地化字符串。
         /// </summary>
         public static string AddButtonHint {
             get {
@@ -341,7 +340,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add a new Company record 的本地化字符串。
+        ///   查找类似 添加新的公司 的本地化字符串。
         /// </summary>
         public static string AddCompanyButtonHint {
             get {
@@ -350,7 +349,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add Company 的本地化字符串。
+        ///   查找类似 添加公司 的本地化字符串。
         /// </summary>
         public static string AddCompanyTitle {
             get {
@@ -359,7 +358,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} - Add Company 的本地化字符串。
+        ///   查找类似 {0} - 添加公司 的本地化字符串。
         /// </summary>
         public static string AddCompanyTo {
             get {
@@ -368,7 +367,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add Image 的本地化字符串。
+        ///   查找类似 添加图片 的本地化字符串。
         /// </summary>
         public static string AddImage {
             get {
@@ -377,7 +376,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add Item(s) 的本地化字符串。
+        ///   查找类似 添加项目 的本地化字符串。
         /// </summary>
         public static string AddItems {
             get {
@@ -386,7 +385,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Additional Details 的本地化字符串。
+        ///   查找类似 额外信息 的本地化字符串。
         /// </summary>
         public static string AdditionalDetails {
             get {
@@ -395,7 +394,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add Link Movie 的本地化字符串。
+        ///   查找类似 添加关联影片 的本地化字符串。
         /// </summary>
         public static string AddLinkMovieTitle {
             get {
@@ -404,7 +403,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add a new Movie record 的本地化字符串。
+        ///   查找类似 添加新的电影记录 的本地化字符串。
         /// </summary>
         public static string AddMovieButtonHint {
             get {
@@ -413,7 +412,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add movie item(s) 的本地化字符串。
+        ///   查找类似 添加电影 的本地化字符串。
         /// </summary>
         public static string AddMovieItems {
             get {
@@ -422,7 +421,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} - Link Movie 的本地化字符串。
+        ///   查找类似 {0} - 关联电影 的本地化字符串。
         /// </summary>
         public static string AddMovieTo {
             get {
@@ -431,7 +430,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add new category 的本地化字符串。
+        ///   查找类似 添加新分类 的本地化字符串。
         /// </summary>
         public static string AddNewCategory {
             get {
@@ -440,7 +439,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add new image 的本地化字符串。
+        ///   查找类似 添加新图片 的本地化字符串。
         /// </summary>
         public static string AddNewImage {
             get {
@@ -449,7 +448,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add new photo 的本地化字符串。
+        ///   查找类似 添加新照片 的本地化字符串。
         /// </summary>
         public static string AddNewPhoto {
             get {
@@ -458,7 +457,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add new record 的本地化字符串。
+        ///   查找类似 添加新记录 的本地化字符串。
         /// </summary>
         public static string AddNewRecord {
             get {
@@ -467,7 +466,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Address 的本地化字符串。
+        ///   查找类似 地址 的本地化字符串。
         /// </summary>
         public static string Address {
             get {
@@ -476,7 +475,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add to Inventory 的本地化字符串。
+        ///   查找类似 加入到库存 的本地化字符串。
         /// </summary>
         public static string AddToInventory {
             get {
@@ -485,7 +484,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Add to Movie Inventory 的本地化字符串。
+        ///   查找类似 加入到影片库 的本地化字符串。
         /// </summary>
         public static string AddToMovieInventory {
             get {
@@ -494,7 +493,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Administrator 的本地化字符串。
+        ///   查找类似 管理员 的本地化字符串。
         /// </summary>
         public static string AdminGroup {
             get {
@@ -503,7 +502,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Advanced grid 的本地化字符串。
+        ///   查找类似 高级视图 的本地化字符串。
         /// </summary>
         public static string AdvancedGrid {
             get {
@@ -512,7 +511,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 All day event 的本地化字符串。
+        ///   查找类似 全天事件 的本地化字符串。
         /// </summary>
         public static string AllDayEvent {
             get {
@@ -521,7 +520,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Allow Cascade Update 的本地化字符串。
+        ///   查找类似 允许级联更新 的本地化字符串。
         /// </summary>
         public static string AllowCascadeUpdate {
             get {
@@ -530,7 +529,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Allow data editing via List Views 的本地化字符串。
+        ///   查找类似 允许在列表视图中更新 的本地化字符串。
         /// </summary>
         public static string AllowDataEditingViaListViews {
             get {
@@ -539,7 +538,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Allow Editing 的本地化字符串。
+        ///   查找类似 允许修改 的本地化字符串。
         /// </summary>
         public static string AllowEditing {
             get {
@@ -548,7 +547,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Allow Form Skins 的本地化字符串。
+        ///   查找类似 允许表单样式 的本地化字符串。
         /// </summary>
         public static string AllowFormSkins {
             get {
@@ -557,7 +556,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Allow Per Pixel Scrolling 的本地化字符串。
+        ///   查找类似 允许像素级滚动 的本地化字符串。
         /// </summary>
         public static string AllowPerPixelScrolling {
             get {
@@ -566,7 +565,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Alternate View 的本地化字符串。
+        ///   查找类似 超级视图 的本地化字符串。
         /// </summary>
         public static string AlternateView {
             get {
@@ -575,7 +574,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Appearance 的本地化字符串。
+        ///   查找类似 外观 的本地化字符串。
         /// </summary>
         public static string Appearance {
             get {
@@ -584,7 +583,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Appearances 的本地化字符串。
+        ///   查找类似 外观展示 的本地化字符串。
         /// </summary>
         public static string Appearances {
             get {
@@ -593,7 +592,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actor/Crew 的本地化字符串。
+        ///   查找类似 演员剧组 的本地化字符串。
         /// </summary>
         public static string Artist {
             get {
@@ -602,7 +601,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actor/Crew Details Form 的本地化字符串。
+        ///   查找类似 演员剧组详细表 的本地化字符串。
         /// </summary>
         public static string ArtistDetail {
             get {
@@ -611,7 +610,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actors/Crew List 的本地化字符串。
+        ///   查找类似 演员剧组列表 的本地化字符串。
         /// </summary>
         public static string ArtistList {
             get {
@@ -620,7 +619,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Actors/Crew 的本地化字符串。
+        ///   查找类似 演员剧组 的本地化字符串。
         /// </summary>
         public static string Artists {
             get {
@@ -629,7 +628,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Aspect Ratio 的本地化字符串。
+        ///   查找类似 长宽比 的本地化字符串。
         /// </summary>
         public static string AspectRatio {
             get {
@@ -638,7 +637,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 To quickly locate a customer, type the customer&apos;s name or a part of his/her name in the Name column in the top row. You can also search against other columns in the same way. 的本地化字符串。
+        ///   查找类似 输入名字可以快速搜索 的本地化字符串。
         /// </summary>
         public static string AutoFilterRowHint {
             get {
@@ -647,7 +646,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Auto zoom details 的本地化字符串。
+        ///   查找类似 自动放大详情 的本地化字符串。
         /// </summary>
         public static string AutoZoomDetails {
             get {
@@ -656,7 +655,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Available for Sale 的本地化字符串。
+        ///   查找类似 可供售卖 的本地化字符串。
         /// </summary>
         public static string AvailableForSale {
             get {
@@ -665,7 +664,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Available for &lt;b&gt;Sale&lt;/b&gt; 的本地化字符串。
+        ///   查找类似 可供 &lt;b&gt;售卖&lt;/b&gt; 的本地化字符串。
         /// </summary>
         public static string AvailableForSaleHtml {
             get {
@@ -674,7 +673,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Available For Sell 的本地化字符串。
+        ///   查找类似 可供售卖 的本地化字符串。
         /// </summary>
         public static string AvailableForSell {
             get {
@@ -683,7 +682,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Awards 的本地化字符串。
+        ///   查找类似 奖项 的本地化字符串。
         /// </summary>
         public static string Awards {
             get {
@@ -692,7 +691,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Biography 的本地化字符串。
+        ///   查找类似 传记 的本地化字符串。
         /// </summary>
         public static string Biography {
             get {
@@ -701,7 +700,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Birth Country 的本地化字符串。
+        ///   查找类似 祖籍 的本地化字符串。
         /// </summary>
         public static string BirthCountry {
             get {
@@ -710,7 +709,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Birth Date 的本地化字符串。
+        ///   查找类似 生日 的本地化字符串。
         /// </summary>
         public static string BirthDate {
             get {
@@ -719,7 +718,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Birth Location 的本地化字符串。
+        ///   查找类似 出生地 的本地化字符串。
         /// </summary>
         public static string BirthLocation {
             get {
@@ -728,7 +727,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Birth Name 的本地化字符串。
+        ///   查找类似 原名 的本地化字符串。
         /// </summary>
         public static string BirthName {
             get {
@@ -737,7 +736,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Built-In 的本地化字符串。
+        ///   查找类似 内置 的本地化字符串。
         /// </summary>
         public static string BuiltIn {
             get {
@@ -746,7 +745,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &amp;Add 的本地化字符串。
+        ///   查找类似 &amp;Add添加 的本地化字符串。
         /// </summary>
         public static string ButtonTextAdd {
             get {
@@ -755,7 +754,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &amp;Cancel 的本地化字符串。
+        ///   查找类似 &amp;Cancel取消 的本地化字符串。
         /// </summary>
         public static string ButtonTextCancel {
             get {
@@ -764,7 +763,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &amp;Close 的本地化字符串。
+        ///   查找类似 &amp;Close关闭 的本地化字符串。
         /// </summary>
         public static string ButtonTextClose {
             get {
@@ -773,7 +772,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &amp;OK 的本地化字符串。
+        ///   查找类似 &amp;OK好 的本地化字符串。
         /// </summary>
         public static string ButtonTextOK {
             get {
@@ -782,7 +781,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 S&amp;ave and Close 的本地化字符串。
+        ///   查找类似 S&amp;ave and Close保存并关闭 的本地化字符串。
         /// </summary>
         public static string ButtonTextSaveAndClose {
             get {
@@ -791,7 +790,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Cancel 的本地化字符串。
+        ///   查找类似 取消 的本地化字符串。
         /// </summary>
         public static string Cancel {
             get {
@@ -800,7 +799,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Cannot delete customer {0}. The &apos;Rental&apos; table contains linked records. 的本地化字符串。
+        ///   查找类似 无法删除 {0}. 因为关联了其他记录 的本地化字符串。
         /// </summary>
         public static string CannotDeleteCustomer {
             get {
@@ -809,7 +808,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Card Number 的本地化字符串。
+        ///   查找类似 卡号 的本地化字符串。
         /// </summary>
         public static string CardNumber {
             get {
@@ -818,7 +817,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Cards 的本地化字符串。
+        ///   查找类似 卡 的本地化字符串。
         /// </summary>
         public static string Cards {
             get {
@@ -827,7 +826,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Catalog 的本地化字符串。
+        ///   查找类似 分类 的本地化字符串。
         /// </summary>
         public static string CatalogGroup {
             get {
@@ -836,7 +835,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Change current customer 的本地化字符串。
+        ///   查找类似 更改当前顾客 的本地化字符串。
         /// </summary>
         public static string ChangeCurrentCustomer {
             get {
@@ -845,7 +844,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Change Customer 的本地化字符串。
+        ///   查找类似 更改顾客 的本地化字符串。
         /// </summary>
         public static string ChangeCustomer {
             get {
@@ -854,7 +853,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Change Grid Style 的本地化字符串。
+        ///   查找类似 更改表格样式 的本地化字符串。
         /// </summary>
         public static string ChangeGridStyle {
             get {
@@ -863,7 +862,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Changing &lt;b&gt;Look and Feel&lt;/b&gt; 的本地化字符串。
+        ///   查找类似 更改 &lt;b&gt;外观&lt;/b&gt; 的本地化字符串。
         /// </summary>
         public static string ChangingLookAndFeelHtml {
             get {
@@ -872,7 +871,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Chart Appearance 的本地化字符串。
+        ///   查找类似 图表样式 的本地化字符串。
         /// </summary>
         public static string ChartAppearance {
             get {
@@ -881,7 +880,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Check Active Rentals 的本地化字符串。
+        ///   查找类似 检查活跃的租借记录 的本地化字符串。
         /// </summary>
         public static string CheckActiveRentals {
             get {
@@ -890,7 +889,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Check active rentals for the current customer 的本地化字符串。
+        ///   查找类似 查看当前顾客的活跃租借 的本地化字符串。
         /// </summary>
         public static string CheckActiveRentalsForTheCurrentCustomer {
             get {
@@ -899,7 +898,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Choose skin 的本地化字符串。
+        ///   查找类似 更换皮肤样式 的本地化字符串。
         /// </summary>
         public static string ChooseSkin {
             get {
@@ -908,7 +907,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Specify the application&apos;s paint scheme 的本地化字符串。
+        ///   查找类似 制定本软件的样式 的本地化字符串。
         /// </summary>
         public static string ChooseSkinDescription {
             get {
@@ -917,7 +916,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 C&amp;lear current customer 的本地化字符串。
+        ///   查找类似 C&amp;lear 清除当前顾客 的本地化字符串。
         /// </summary>
         public static string ClearCurrentCustomer {
             get {
@@ -926,7 +925,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Clear Image 的本地化字符串。
+        ///   查找类似 清空图片 的本地化字符串。
         /// </summary>
         public static string ClearImage {
             get {
@@ -935,7 +934,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Clear Layouts 的本地化字符串。
+        ///   查找类似 还原布局 的本地化字符串。
         /// </summary>
         public static string ClearLayouts {
             get {
@@ -944,7 +943,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Close 的本地化字符串。
+        ///   查找类似 关闭 的本地化字符串。
         /// </summary>
         public static string Close {
             get {
@@ -953,7 +952,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Close all open Detail Views 的本地化字符串。
+        ///   查找类似 关闭所有打开的详情页 的本地化字符串。
         /// </summary>
         public static string CloseAllOpenDetailViews {
             get {
@@ -962,8 +961,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Some detail forms have been modified.
-        ///Do you want to close these forms? 的本地化字符串。
+        ///   查找类似 已经修改了记录，是否保存？ 的本地化字符串。
         /// </summary>
         public static string CloseCancelFormsWarning {
             get {
@@ -972,7 +970,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Do you want to save changes? 的本地化字符串。
+        ///   查找类似 是否保存 的本地化字符串。
         /// </summary>
         public static string CloseCancelFormWarning {
             get {
@@ -981,7 +979,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Close Detail View 的本地化字符串。
+        ///   查找类似 关闭详情 的本地化字符串。
         /// </summary>
         public static string CloseDetailView {
             get {
@@ -990,7 +988,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Close Detail Views 的本地化字符串。
+        ///   查找类似 关闭详情 的本地化字符串。
         /// </summary>
         public static string CloseDetailViews {
             get {
@@ -999,7 +997,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Color 的本地化字符串。
+        ///   查找类似 颜色 的本地化字符串。
         /// </summary>
         public static string Color {
             get {
@@ -1008,7 +1006,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Comments 的本地化字符串。
+        ///   查找类似 评论 的本地化字符串。
         /// </summary>
         public static string Comments {
             get {
@@ -1017,7 +1015,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Companies 的本地化字符串。
+        ///   查找类似 公司 的本地化字符串。
         /// </summary>
         public static string Companies {
             get {
@@ -1026,7 +1024,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Companies 的本地化字符串。
+        ///   查找类似 公司 的本地化字符串。
         /// </summary>
         public static string CompaniesModule {
             get {
@@ -1035,7 +1033,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Company 的本地化字符串。
+        ///   查找类似 公司 的本地化字符串。
         /// </summary>
         public static string Company {
             get {
@@ -1044,7 +1042,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Company Details Form 的本地化字符串。
+        ///   查找类似 公司详细页 的本地化字符串。
         /// </summary>
         public static string CompanyDetails {
             get {
@@ -1053,7 +1051,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Company List 的本地化字符串。
+        ///   查找类似 公司列表 的本地化字符串。
         /// </summary>
         public static string CompanyList {
             get {
@@ -1062,7 +1060,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Company Record Management 的本地化字符串。
+        ///   查找类似 公司记录管理 的本地化字符串。
         /// </summary>
         public static string CompanyRecordManagement {
             get {
@@ -1071,7 +1069,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Period Comparison ({0:d} - {1:d}) 的本地化字符串。
+        ///   查找类似 时间范围比较 ({0:d} - {1:d}) 的本地化字符串。
         /// </summary>
         public static string ComparePeriod {
             get {
@@ -1080,7 +1078,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Count 的本地化字符串。
+        ///   查找类似 计数 的本地化字符串。
         /// </summary>
         public static string Count {
             get {
@@ -1089,7 +1087,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Countries 的本地化字符串。
+        ///   查找类似 国别 的本地化字符串。
         /// </summary>
         public static string Countries {
             get {
@@ -1098,7 +1096,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Country 的本地化字符串。
+        ///   查找类似 国家 的本地化字符串。
         /// </summary>
         public static string Country {
             get {
@@ -1107,7 +1105,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Create 的本地化字符串。
+        ///   查找类似 创建 的本地化字符串。
         /// </summary>
         public static string Create {
             get {
@@ -1116,7 +1114,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Create Database 的本地化字符串。
+        ///   查找类似 新建数据库 的本地化字符串。
         /// </summary>
         public static string CreateDatabase {
             get {
@@ -1125,7 +1123,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Creating database 的本地化字符串。
+        ///   查找类似 创建数据库中 的本地化字符串。
         /// </summary>
         public static string CreatingDatabase {
             get {
@@ -1134,7 +1132,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Credits 的本地化字符串。
+        ///   查找类似 信用 的本地化字符串。
         /// </summary>
         public static string Credits {
             get {
@@ -1143,7 +1141,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Current Customer 的本地化字符串。
+        ///   查找类似 当前顾客 的本地化字符串。
         /// </summary>
         public static string CurrentCustomer {
             get {
@@ -1152,7 +1150,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Current customer: {0} 的本地化字符串。
+        ///   查找类似 当前顾客: {0} 的本地化字符串。
         /// </summary>
         public static string CurrentCustomerInfo {
             get {
@@ -1161,7 +1159,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Current Rents 的本地化字符串。
+        ///   查找类似 当前租借 的本地化字符串。
         /// </summary>
         public static string CurrentRents {
             get {
@@ -1170,7 +1168,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer 的本地化字符串。
+        ///   查找类似 顾客 的本地化字符串。
         /// </summary>
         public static string Customer {
             get {
@@ -1179,7 +1177,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer Count 的本地化字符串。
+        ///   查找类似 顾客数量 的本地化字符串。
         /// </summary>
         public static string CustomerCount {
             get {
@@ -1188,7 +1186,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Double click here to show the current customer details 的本地化字符串。
+        ///   查找类似 双击查看详细 的本地化字符串。
         /// </summary>
         public static string CustomerDetailTooltip {
             get {
@@ -1197,7 +1195,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer Discount 的本地化字符串。
+        ///   查找类似 顾客折扣 的本地化字符串。
         /// </summary>
         public static string CustomerDiscount {
             get {
@@ -1207,8 +1205,8 @@ namespace NukaCollect.Resources.Properties {
         
         /// <summary>
         ///   查找类似 &lt;b&gt;{0}&lt;/b&gt;
-        ///Discount: &lt;b&gt;{1:p}&lt;/b&gt;
-        ///Total Amount: &lt;b&gt;$ {2}&lt;/b&gt; 的本地化字符串。
+        ///折扣: &lt;b&gt;{1:p}&lt;/b&gt;
+        ///总数: &lt;b&gt;￥ {2}&lt;/b&gt; 的本地化字符串。
         /// </summary>
         public static string CustomerDiscountLevelToolTipHtml {
             get {
@@ -1217,7 +1215,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer List 的本地化字符串。
+        ///   查找类似 顾客列表 的本地化字符串。
         /// </summary>
         public static string CustomerList {
             get {
@@ -1226,7 +1224,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer Photo 的本地化字符串。
+        ///   查找类似 顾客照片 的本地化字符串。
         /// </summary>
         public static string CustomerPhoto {
             get {
@@ -1235,7 +1233,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer Record Management 的本地化字符串。
+        ///   查找类似 顾客记录管理 的本地化字符串。
         /// </summary>
         public static string CustomerRecordManagement {
             get {
@@ -1244,7 +1242,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue by Customers 的本地化字符串。
+        ///   查找类似 顾客与收入 的本地化字符串。
         /// </summary>
         public static string CustomerRevenueModule {
             get {
@@ -1253,7 +1251,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customers 的本地化字符串。
+        ///   查找类似 顾客 的本地化字符串。
         /// </summary>
         public static string Customers {
             get {
@@ -1262,7 +1260,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customers by Dates 的本地化字符串。
+        ///   查找类似 顾客与日期 的本地化字符串。
         /// </summary>
         public static string CustomersDatesModule {
             get {
@@ -1271,7 +1269,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customers KPI 的本地化字符串。
+        ///   查找类似 顾客绩效 的本地化字符串。
         /// </summary>
         public static string CustomersKPIModule {
             get {
@@ -1280,7 +1278,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customers 的本地化字符串。
+        ///   查找类似 顾客 的本地化字符串。
         /// </summary>
         public static string CustomersModule {
             get {
@@ -1289,7 +1287,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customer Statistics 的本地化字符串。
+        ///   查找类似 顾客统计 的本地化字符串。
         /// </summary>
         public static string CustomerStatistics {
             get {
@@ -1298,7 +1296,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Database 的本地化字符串。
+        ///   查找类似 数据库 的本地化字符串。
         /// </summary>
         public static string Database {
             get {
@@ -1307,8 +1305,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 To run the application, a sample database needs to be created and populated with data.
-        ///Please select the database type and connection options below. 的本地化字符串。
+        ///   查找类似 此程序运行时需要数据库支持，在下面选择一个数据库 的本地化字符串。
         /// </summary>
         public static string DatabaseCreating {
             get {
@@ -1317,7 +1314,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Database type 的本地化字符串。
+        ///   查找类似 数据库类型 的本地化字符串。
         /// </summary>
         public static string DatabaseType {
             get {
@@ -1326,7 +1323,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Date 的本地化字符串。
+        ///   查找类似 日期 的本地化字符串。
         /// </summary>
         public static string Date {
             get {
@@ -1335,7 +1332,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 End Date is less than Start Date 的本地化字符串。
+        ///   查找类似 结束日期小于开始日期 的本地化字符串。
         /// </summary>
         public static string DateLess {
             get {
@@ -1344,7 +1341,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 From {0:d} to {1:d} 的本地化字符串。
+        ///   查找类似 从 {0:d} 到 {1:d} 的本地化字符串。
         /// </summary>
         public static string DatePeriodCaption {
             get {
@@ -1353,7 +1350,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Days 的本地化字符串。
+        ///   查找类似 天 的本地化字符串。
         /// </summary>
         public static string Days {
             get {
@@ -1362,7 +1359,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Days 的本地化字符串。
+        ///   查找类似 天 的本地化字符串。
         /// </summary>
         public static string DaysChart {
             get {
@@ -1371,7 +1368,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Days Overdue 的本地化字符串。
+        ///   查找类似 逾期天数 的本地化字符串。
         /// </summary>
         public static string DaysOverdue {
             get {
@@ -1380,7 +1377,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [Paragraph]Days [Bold]Overdue[/Bold][/Paragraph] 的本地化字符串。
+        ///   查找类似 [Paragraph]逾期 [Bold]天数[/Bold][/Paragraph] 的本地化字符串。
         /// </summary>
         public static string DaysOverdueFlowDocument {
             get {
@@ -1389,7 +1386,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Days &lt;b&gt;Overdue&lt;/b&gt; 的本地化字符串。
+        ///   查找类似 逾期 &lt;b&gt;天数&lt;/b&gt; 的本地化字符串。
         /// </summary>
         public static string DaysOverdueHtml {
             get {
@@ -1398,7 +1395,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Default 的本地化字符串。
+        ///   查找类似 默认 的本地化字符串。
         /// </summary>
         public static string Default {
             get {
@@ -1407,7 +1404,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Default Late Fee 的本地化字符串。
+        ///   查找类似 默认逾期费用 的本地化字符串。
         /// </summary>
         public static string DefaultLateFee {
             get {
@@ -1416,7 +1413,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Default/Late Price Per Day 的本地化字符串。
+        ///   查找类似 每天默认逾期费用 的本地化字符串。
         /// </summary>
         public static string DefaultLatePricePerDay {
             get {
@@ -1425,7 +1422,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Home 的本地化字符串。
+        ///   查找类似 主页 的本地化字符串。
         /// </summary>
         public static string DefaultPageName {
             get {
@@ -1434,7 +1431,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Default # of Rental Days 的本地化字符串。
+        ///   查找类似 默认 # 租期 的本地化字符串。
         /// </summary>
         public static string DefaultRentalDays {
             get {
@@ -1443,7 +1440,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete 的本地化字符串。
+        ///   查找类似 删除 的本地化字符串。
         /// </summary>
         public static string Delete {
             get {
@@ -1452,7 +1449,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete the highlighted {0} record 的本地化字符串。
+        ///   查找类似 删除选中的 {0} 条记录 的本地化字符串。
         /// </summary>
         public static string DeleteButtonHint {
             get {
@@ -1461,7 +1458,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete current category 的本地化字符串。
+        ///   查找类似 删除当前分类 的本地化字符串。
         /// </summary>
         public static string DeleteCurrentCategory {
             get {
@@ -1470,7 +1467,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete current image 的本地化字符串。
+        ///   查找类似 删除当前图 的本地化字符串。
         /// </summary>
         public static string DeleteCurrentImage {
             get {
@@ -1479,7 +1476,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete current photo 的本地化字符串。
+        ///   查找类似 删除当前照片 的本地化字符串。
         /// </summary>
         public static string DeleteCurrentPhoto {
             get {
@@ -1488,7 +1485,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete current record 的本地化字符串。
+        ///   查找类似 删除当前记录 的本地化字符串。
         /// </summary>
         public static string DeleteCurrentRecord {
             get {
@@ -1497,7 +1494,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete Image 的本地化字符串。
+        ///   查找类似 删除图片 的本地化字符串。
         /// </summary>
         public static string DeleteImage {
             get {
@@ -1506,7 +1503,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Do you want to delete this picture? 的本地化字符串。
+        ///   查找类似 确认删除此图？ 的本地化字符串。
         /// </summary>
         public static string DeletePictureMessage {
             get {
@@ -1515,7 +1512,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Do you want to delete the {0}? 的本地化字符串。
+        ///   查找类似 确认删除 {0}? 的本地化字符串。
         /// </summary>
         public static string DeleteRecord {
             get {
@@ -1524,7 +1521,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete selected items 的本地化字符串。
+        ///   查找类似 删除所选项 的本地化字符串。
         /// </summary>
         public static string DeleteSelectedItems {
             get {
@@ -1533,7 +1530,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Delete the current image 的本地化字符串。
+        ///   查找类似 删除当前照片 的本地化字符串。
         /// </summary>
         public static string DeleteTheCurrentImage {
             get {
@@ -1542,7 +1539,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Video Rental Demo (C#) 的本地化字符串。
+        ///   查找类似 Nuka采集工具桌面版 的本地化字符串。
         /// </summary>
         public static string DemoName {
             get {
@@ -1551,7 +1548,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Description 的本地化字符串。
+        ///   查找类似 描述 的本地化字符串。
         /// </summary>
         public static string Description {
             get {
@@ -1560,7 +1557,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Details 的本地化字符串。
+        ///   查找类似 详细 的本地化字符串。
         /// </summary>
         public static string Details {
             get {
@@ -1569,7 +1566,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Directors 的本地化字符串。
+        ///   查找类似 编导 的本地化字符串。
         /// </summary>
         public static string Directors {
             get {
@@ -1578,7 +1575,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Discount 的本地化字符串。
+        ///   查找类似 折扣 的本地化字符串。
         /// </summary>
         public static string Discount {
             get {
@@ -1587,7 +1584,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Discount KPI 的本地化字符串。
+        ///   查找类似 折扣考核 的本地化字符串。
         /// </summary>
         public static string DiscountKPI {
             get {
@@ -1596,7 +1593,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Discount Level 的本地化字符串。
+        ///   查找类似 折扣级别 的本地化字符串。
         /// </summary>
         public static string DiscountLevel {
             get {
@@ -1605,7 +1602,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 These are auto-calculated values and are based on rental volume. 的本地化字符串。
+        ///   查找类似 此值为自动计算得出 的本地化字符串。
         /// </summary>
         public static string DiscountNote {
             get {
@@ -1614,7 +1611,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Display Style 的本地化字符串。
+        ///   查找类似 显示样式 的本地化字符串。
         /// </summary>
         public static string DisplayStyle {
             get {
@@ -1623,7 +1620,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Down 的本地化字符串。
+        ///   查找类似 下 的本地化字符串。
         /// </summary>
         public static string Down {
             get {
@@ -1632,7 +1629,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Edit 的本地化字符串。
+        ///   查找类似 编辑 的本地化字符串。
         /// </summary>
         public static string Edit {
             get {
@@ -1641,7 +1638,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Edit the highlighted {0} record 的本地化字符串。
+        ///   查找类似 编辑选中的 {0} 条记录 的本地化字符串。
         /// </summary>
         public static string EditButtonHint {
             get {
@@ -1650,7 +1647,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Edit Categories 的本地化字符串。
+        ///   查找类似 编辑分类 的本地化字符串。
         /// </summary>
         public static string EditCategories {
             get {
@@ -1659,7 +1656,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Modify {0} List View settings 的本地化字符串。
+        ///   查找类似 编辑 {0} 列表视图设置 的本地化字符串。
         /// </summary>
         public static string EditViewOptions {
             get {
@@ -1668,7 +1665,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Email 的本地化字符串。
+        ///   查找类似 电子邮件 的本地化字符串。
         /// </summary>
         public static string Email {
             get {
@@ -1677,7 +1674,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Employees 的本地化字符串。
+        ///   查找类似 雇员 的本地化字符串。
         /// </summary>
         public static string EmployeesModule {
             get {
@@ -1686,7 +1683,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Enable data editing within the grid 的本地化字符串。
+        ///   查找类似 启用在表格中编辑 的本地化字符串。
         /// </summary>
         public static string EnableDataEditingWithinTheGrid {
             get {
@@ -1695,7 +1692,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Enable layout saving 的本地化字符串。
+        ///   查找类似 启用布局保存功能 的本地化字符串。
         /// </summary>
         public static string EnableLayoutSaving {
             get {
@@ -1704,7 +1701,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Enable master view mode 的本地化字符串。
+        ///   查找类似 启用主视图模式 的本地化字符串。
         /// </summary>
         public static string EnableMasterViewMode {
             get {
@@ -1713,7 +1710,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 End Date 的本地化字符串。
+        ///   查找类似 结束日期 的本地化字符串。
         /// </summary>
         public static string EndDate {
             get {
@@ -1722,7 +1719,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Error 的本地化字符串。
+        ///   查找类似 错误 的本地化字符串。
         /// </summary>
         public static string Error {
             get {
@@ -1731,7 +1728,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Exit 的本地化字符串。
+        ///   查找类似 退出 的本地化字符串。
         /// </summary>
         public static string Exit {
             get {
@@ -1740,7 +1737,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Exit Application 的本地化字符串。
+        ///   查找类似 关闭程序 的本地化字符串。
         /// </summary>
         public static string ExitApplication {
             get {
@@ -1749,7 +1746,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Expected On 的本地化字符串。
+        ///   查找类似 预计 的本地化字符串。
         /// </summary>
         public static string ExpectedOn {
             get {
@@ -1758,7 +1755,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export 的本地化字符串。
+        ///   查找类似 导出 的本地化字符串。
         /// </summary>
         public static string Export {
             get {
@@ -1767,7 +1764,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export {0} report 的本地化字符串。
+        ///   查找类似 导出 {0} 报表 的本地化字符串。
         /// </summary>
         public static string ExportButtonHint {
             get {
@@ -1776,7 +1773,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export the report 的本地化字符串。
+        ///   查找类似 导出报表 的本地化字符串。
         /// </summary>
         public static string ExportButtonHintDefault {
             get {
@@ -1785,7 +1782,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export data into different file formats 的本地化字符串。
+        ///   查找类似 导出数据为多种格式 的本地化字符串。
         /// </summary>
         public static string ExportDescription {
             get {
@@ -1794,7 +1791,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 An error occurred while exporting 的本地化字符串。
+        ///   查找类似 导出时发生异常 的本地化字符串。
         /// </summary>
         public static string ExportError {
             get {
@@ -1803,7 +1800,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Do you want to open this file? 的本地化字符串。
+        ///   查找类似 确认要打开此文件？ 的本地化字符串。
         /// </summary>
         public static string ExportFileOpen {
             get {
@@ -1812,7 +1809,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to HTML 的本地化字符串。
+        ///   查找类似 导出成 HTML网页 的本地化字符串。
         /// </summary>
         public static string ExportToHTML {
             get {
@@ -1821,7 +1818,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to Image 的本地化字符串。
+        ///   查找类似 导出成 Image图片 的本地化字符串。
         /// </summary>
         public static string ExportToImage {
             get {
@@ -1830,7 +1827,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to MHT 的本地化字符串。
+        ///   查找类似 导出成 MHT单网页 的本地化字符串。
         /// </summary>
         public static string ExportToMHT {
             get {
@@ -1839,7 +1836,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to PDF 的本地化字符串。
+        ///   查找类似 导出成 PDF 的本地化字符串。
         /// </summary>
         public static string ExportToPDF {
             get {
@@ -1848,7 +1845,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to RTF 的本地化字符串。
+        ///   查找类似 导出成 RTF文档 的本地化字符串。
         /// </summary>
         public static string ExportToRTF {
             get {
@@ -1857,7 +1854,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to Text 的本地化字符串。
+        ///   查找类似 导出成 Text文本文档 的本地化字符串。
         /// </summary>
         public static string ExportToText {
             get {
@@ -1866,7 +1863,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to XLS 的本地化字符串。
+        ///   查找类似 导出成 XLS电子表格2003 的本地化字符串。
         /// </summary>
         public static string ExportToXLS {
             get {
@@ -1875,7 +1872,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to XLSX 的本地化字符串。
+        ///   查找类似 导出成 XLSX电子表格2007 的本地化字符串。
         /// </summary>
         public static string ExportToXLSX {
             get {
@@ -1884,7 +1881,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Export to XML 的本地化字符串。
+        ///   查找类似 导出成 XML 的本地化字符串。
         /// </summary>
         public static string ExportToXML {
             get {
@@ -1893,7 +1890,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Find Customer 的本地化字符串。
+        ///   查找类似 查找顾客 的本地化字符串。
         /// </summary>
         public static string FindCustomer {
             get {
@@ -1902,7 +1899,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Please choose a customer 的本地化字符串。
+        ///   查找类似 请选择顾客 的本地化字符串。
         /// </summary>
         public static string FindCustomerHint {
             get {
@@ -1911,7 +1908,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 First Name 的本地化字符串。
+        ///   查找类似 姓 的本地化字符串。
         /// </summary>
         public static string FirstName {
             get {
@@ -1920,7 +1917,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 5 Day Rental 的本地化字符串。
+        ///   查找类似 租借5天 的本地化字符串。
         /// </summary>
         public static string FiveDayRental {
             get {
@@ -1929,7 +1926,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Flag 的本地化字符串。
+        ///   查找类似 旗 的本地化字符串。
         /// </summary>
         public static string Flag {
             get {
@@ -1938,7 +1935,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Flip display layout 的本地化字符串。
+        ///   查找类似 翻转展示布局 的本地化字符串。
         /// </summary>
         public static string FlipDisplayLayout {
             get {
@@ -1947,7 +1944,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Flip Layout 的本地化字符串。
+        ///   查找类似 翻转布局 的本地化字符串。
         /// </summary>
         public static string FlipLayout {
             get {
@@ -1956,7 +1953,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Format 的本地化字符串。
+        ///   查找类似 格式 的本地化字符串。
         /// </summary>
         public static string Format {
             get {
@@ -1965,7 +1962,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 4 Day Rental 的本地化字符串。
+        ///   查找类似 租借4天 的本地化字符串。
         /// </summary>
         public static string FourDayRental {
             get {
@@ -1974,7 +1971,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Gender 的本地化字符串。
+        ///   查找类似 性别 的本地化字符串。
         /// </summary>
         public static string Gender {
             get {
@@ -1983,7 +1980,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 General Info 的本地化字符串。
+        ///   查找类似 一般信息 的本地化字符串。
         /// </summary>
         public static string GeneralInfo {
             get {
@@ -1992,7 +1989,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Generate rents history 的本地化字符串。
+        ///   查找类似 生成租借历史 的本地化字符串。
         /// </summary>
         public static string GenerateRentsHistory {
             get {
@@ -2001,7 +1998,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Generating data 的本地化字符串。
+        ///   查找类似 数据生成中 的本地化字符串。
         /// </summary>
         public static string GeneratingData {
             get {
@@ -2010,7 +2007,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Genre 的本地化字符串。
+        ///   查找类似 流派 的本地化字符串。
         /// </summary>
         public static string Genre {
             get {
@@ -2019,7 +2016,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Go to Website 的本地化字符串。
+        ///   查找类似 打开网站 的本地化字符串。
         /// </summary>
         public static string GoToWebsite {
             get {
@@ -2028,7 +2025,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Grid 的本地化字符串。
+        ///   查找类似 表格 的本地化字符串。
         /// </summary>
         public static string Grid {
             get {
@@ -2037,7 +2034,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Hide/Display Ribbon 的本地化字符串。
+        ///   查找类似 隐藏/展示导航 的本地化字符串。
         /// </summary>
         public static string HideDisplayRibbon {
             get {
@@ -2046,7 +2043,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Home 的本地化字符串。
+        ///   查找类似 主页 的本地化字符串。
         /// </summary>
         public static string Home {
             get {
@@ -2055,7 +2052,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Return to {0} List View 的本地化字符串。
+        ///   查找类似 返回到 {0} 列表视图 的本地化字符串。
         /// </summary>
         public static string HomeButtonHint {
             get {
@@ -2064,7 +2061,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View Start Page 的本地化字符串。
+        ///   查找类似 起始页面 的本地化字符串。
         /// </summary>
         public static string HomeDescription {
             get {
@@ -2073,7 +2070,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 HTML document (*.html)|*.html 的本地化字符串。
+        ///   查找类似 HTML 网页文档 (*.html)|*.html 的本地化字符串。
         /// </summary>
         public static string HTMLOpenFileFilter {
             get {
@@ -2082,7 +2079,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Image 的本地化字符串。
+        ///   查找类似 图片 的本地化字符串。
         /// </summary>
         public static string Image {
             get {
@@ -2091,7 +2088,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Income 的本地化字符串。
+        ///   查找类似 收入 的本地化字符串。
         /// </summary>
         public static string Income {
             get {
@@ -2100,7 +2097,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Income Statistics 的本地化字符串。
+        ///   查找类似 收入统计 的本地化字符串。
         /// </summary>
         public static string IncomeStatistics {
             get {
@@ -2109,7 +2106,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Info 的本地化字符串。
+        ///   查找类似 信息 的本地化字符串。
         /// </summary>
         public static string Info {
             get {
@@ -2118,7 +2115,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Information 的本地化字符串。
+        ///   查找类似 信息 的本地化字符串。
         /// </summary>
         public static string Information {
             get {
@@ -2127,7 +2124,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [Paragraph]Totals: [Bold]{0}[/Bold].[/Paragraph] 的本地化字符串。
+        ///   查找类似 [Paragraph]总数: [Bold]{0}[/Bold].[/Paragraph] 的本地化字符串。
         /// </summary>
         public static string ItemsCountCaptionFlowDocument {
             get {
@@ -2136,7 +2133,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Totals: &lt;b&gt;{0}&lt;/b&gt;. 的本地化字符串。
+        ///   查找类似 总数: &lt;b&gt;{0}&lt;/b&gt;. 的本地化字符串。
         /// </summary>
         public static string ItemsCountCaptionHtml {
             get {
@@ -2145,7 +2142,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [Paragraph][Bold]{0}[/Bold] currently rented, [Bold]{1}[/Bold] available for rent, [Bold]{2}[/Bold] available for sale, [Bold]{3}[/Bold] lost, [Bold]{4}[/Bold] damaged, [Bold]{5}[/Bold] sold.[/Paragraph] 的本地化字符串。
+        ///   查找类似 [Paragraph][Bold]{0}[/Bold] 当前, [Bold]{1}[/Bold] 可供租借, [Bold]{2}[/Bold] 可供出售, [Bold]{3}[/Bold] 丢失, [Bold]{4}[/Bold] 损坏, [Bold]{5}[/Bold] 已售出.[/Paragraph] 的本地化字符串。
         /// </summary>
         public static string ItemsCountDetailCaptionFlowDocument {
             get {
@@ -2154,7 +2151,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &lt;b&gt;{0}&lt;/b&gt; currently rented, &lt;b&gt;{1}&lt;/b&gt; available for rent, &lt;b&gt;{2}&lt;/b&gt; available for sale, &lt;b&gt;{3}&lt;/b&gt; lost, &lt;b&gt;{4}&lt;/b&gt; damaged, &lt;b&gt;{5}&lt;/b&gt; sold. 的本地化字符串。
+        ///   查找类似 &lt;b&gt;{0}&lt;/b&gt; 当前租借, &lt;b&gt;{1}&lt;/b&gt; 可用 &lt;b&gt;{2}&lt;/b&gt; 可售, &lt;b&gt;{3}&lt;/b&gt; lost, &lt;b&gt;{4}&lt;/b&gt; 损坏, &lt;b&gt;{5}&lt;/b&gt; 已售. 的本地化字符串。
         /// </summary>
         public static string ItemsCountDetailCaptionHtml {
             get {
@@ -2163,7 +2160,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 KPI 的本地化字符串。
+        ///   查找类似 绩效考核 的本地化字符串。
         /// </summary>
         public static string KPIGroup {
             get {
@@ -2172,7 +2169,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 KPI Period 的本地化字符串。
+        ///   查找类似 绩效考核周期 的本地化字符串。
         /// </summary>
         public static string KPIPeriod {
             get {
@@ -2181,7 +2178,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 KPI/Receipts periods 的本地化字符串。
+        ///   查找类似 统计收款周期 的本地化字符串。
         /// </summary>
         public static string KPIReceiptsPeriods {
             get {
@@ -2190,7 +2187,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Language 的本地化字符串。
+        ///   查找类似 语言 的本地化字符串。
         /// </summary>
         public static string Language {
             get {
@@ -2199,7 +2196,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Last 12 Months 的本地化字符串。
+        ///   查找类似 最近12个月 的本地化字符串。
         /// </summary>
         public static string Last12Months {
             get {
@@ -2208,7 +2205,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Last Month 的本地化字符串。
+        ///   查找类似 最近1月 的本地化字符串。
         /// </summary>
         public static string LastMonth {
             get {
@@ -2217,7 +2214,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Last Name 的本地化字符串。
+        ///   查找类似 名 的本地化字符串。
         /// </summary>
         public static string LastName {
             get {
@@ -2226,7 +2223,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Last Rented On 的本地化字符串。
+        ///   查找类似 最后租期 的本地化字符串。
         /// </summary>
         public static string LastRentedOn {
             get {
@@ -2235,7 +2232,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Late Price Per Day 的本地化字符串。
+        ///   查找类似 按天最低价 的本地化字符串。
         /// </summary>
         public static string LatePricePerDay {
             get {
@@ -2244,7 +2241,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Layout 的本地化字符串。
+        ///   查找类似 布局 的本地化字符串。
         /// </summary>
         public static string Layout {
             get {
@@ -2253,7 +2250,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Layout and Navigation 的本地化字符串。
+        ///   查找类似 布局和导航 的本地化字符串。
         /// </summary>
         public static string LayoutAndNavigation {
             get {
@@ -2262,7 +2259,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Customize layout options... 的本地化字符串。
+        ///   查找类似 自定义布局选项... 的本地化字符串。
         /// </summary>
         public static string LayoutOptionDescription {
             get {
@@ -2271,7 +2268,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Layout Options 的本地化字符串。
+        ///   查找类似 布局选项 的本地化字符串。
         /// </summary>
         public static string LayoutOptions {
             get {
@@ -2280,7 +2277,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Level 的本地化字符串。
+        ///   查找类似 级别 的本地化字符串。
         /// </summary>
         public static string Level {
             get {
@@ -2289,7 +2286,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Line 的本地化字符串。
+        ///   查找类似 行 的本地化字符串。
         /// </summary>
         public static string Line {
             get {
@@ -2298,7 +2295,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Link 的本地化字符串。
+        ///   查找类似 链接 的本地化字符串。
         /// </summary>
         public static string Link {
             get {
@@ -2307,7 +2304,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Linked Movies 的本地化字符串。
+        ///   查找类似 关联电影 的本地化字符串。
         /// </summary>
         public static string LinkedMovies {
             get {
@@ -2316,7 +2313,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 List View Options 的本地化字符串。
+        ///   查找类似 列表视图选项 的本地化字符串。
         /// </summary>
         public static string ListViewOptions {
             get {
@@ -2325,7 +2322,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Load Image 的本地化字符串。
+        ///   查找类似 加载图片 的本地化字符串。
         /// </summary>
         public static string LoadImage {
             get {
@@ -2334,7 +2331,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Location 的本地化字符串。
+        ///   查找类似 位置 的本地化字符串。
         /// </summary>
         public static string Location {
             get {
@@ -2343,7 +2340,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Login 的本地化字符串。
+        ///   查找类似 登录 的本地化字符串。
         /// </summary>
         public static string Login {
             get {
@@ -2352,7 +2349,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Log Off 的本地化字符串。
+        ///   查找类似 注销 的本地化字符串。
         /// </summary>
         public static string LogOff {
             get {
@@ -2361,7 +2358,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Lookup details... 的本地化字符串。
+        ///   查找类似 查找详细... 的本地化字符串。
         /// </summary>
         public static string LookupDetails {
             get {
@@ -2370,7 +2367,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Main 的本地化字符串。
+        ///   查找类似 主要的 的本地化字符串。
         /// </summary>
         public static string Main {
             get {
@@ -2379,7 +2376,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Main menu 的本地化字符串。
+        ///   查找类似 主菜单 的本地化字符串。
         /// </summary>
         public static string MainMenu {
             get {
@@ -2388,7 +2385,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Main View 的本地化字符串。
+        ///   查找类似 主视图 的本地化字符串。
         /// </summary>
         public static string MainView {
             get {
@@ -2397,7 +2394,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Manage Inventory 的本地化字符串。
+        ///   查找类似 管理库存 的本地化字符串。
         /// </summary>
         public static string ManageInventory {
             get {
@@ -2406,7 +2403,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Marker 的本地化字符串。
+        ///   查找类似 标记 的本地化字符串。
         /// </summary>
         public static string Marker {
             get {
@@ -2415,7 +2412,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Marker Angle 的本地化字符串。
+        ///   查找类似 标记角度 的本地化字符串。
         /// </summary>
         public static string MarkerAngle {
             get {
@@ -2424,7 +2421,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Marker Size 的本地化字符串。
+        ///   查找类似 标记尺寸 的本地化字符串。
         /// </summary>
         public static string MarkerSize {
             get {
@@ -2433,7 +2430,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Media Formats 的本地化字符串。
+        ///   查找类似 多媒体格式 的本地化字符串。
         /// </summary>
         public static string MediaFormats {
             get {
@@ -2442,7 +2439,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Performance by Media Type 的本地化字符串。
+        ///   查找类似 多媒体类别表现 的本地化字符串。
         /// </summary>
         public static string MediaPerformanceModule {
             get {
@@ -2451,7 +2448,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Media Statistics 的本地化字符串。
+        ///   查找类似 媒体统计 的本地化字符串。
         /// </summary>
         public static string MediaStatistics {
             get {
@@ -2460,7 +2457,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 MHT document (*.mht)|*.mht 的本地化字符串。
+        ///   查找类似 MHT 文档 (*.mht)|*.mht 的本地化字符串。
         /// </summary>
         public static string MHTOpenFileFilter {
             get {
@@ -2469,7 +2466,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Middle Name 的本地化字符串。
+        ///   查找类似 中间名 的本地化字符串。
         /// </summary>
         public static string MiddleName {
             get {
@@ -2478,7 +2475,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Minimize the Ribbon (Ctrl+F1) 的本地化字符串。
+        ///   查找类似 最小化菜单栏 (Ctrl+F1) 的本地化字符串。
         /// </summary>
         public static string MinimizeTheRibbonCtrlF1 {
             get {
@@ -2487,7 +2484,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Modules 的本地化字符串。
+        ///   查找类似 模块 的本地化字符串。
         /// </summary>
         public static string Modules {
             get {
@@ -2496,7 +2493,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Month 的本地化字符串。
+        ///   查找类似 月 的本地化字符串。
         /// </summary>
         public static string Month {
             get {
@@ -2505,7 +2502,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 The Most Rented Movies on {0} 的本地化字符串。
+        ///   查找类似  {0} 时租借次数最多的电影 的本地化字符串。
         /// </summary>
         public static string MostRentedMovies {
             get {
@@ -2514,7 +2511,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie 的本地化字符串。
+        ///   查找类似 电影 的本地化字符串。
         /// </summary>
         public static string Movie {
             get {
@@ -2523,7 +2520,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Categories 的本地化字符串。
+        ///   查找类似 电影类别 的本地化字符串。
         /// </summary>
         public static string MovieCategories {
             get {
@@ -2532,7 +2529,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Category 的本地化字符串。
+        ///   查找类似 电影类别 的本地化字符串。
         /// </summary>
         public static string MovieCategory {
             get {
@@ -2541,7 +2538,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Details Form 的本地化字符串。
+        ///   查找类似 电影详细页 的本地化字符串。
         /// </summary>
         public static string MovieDetail {
             get {
@@ -2550,7 +2547,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Image 的本地化字符串。
+        ///   查找类似 电影海报 的本地化字符串。
         /// </summary>
         public static string MovieImage {
             get {
@@ -2559,7 +2556,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Items 的本地化字符串。
+        ///   查找类似 电影项 的本地化字符串。
         /// </summary>
         public static string MovieItems {
             get {
@@ -2568,7 +2565,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Items Manager 的本地化字符串。
+        ///   查找类似 电影项管理 的本地化字符串。
         /// </summary>
         public static string MovieItemsManager {
             get {
@@ -2577,7 +2574,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Available for Rent 的本地化字符串。
+        ///   查找类似 可租 的本地化字符串。
         /// </summary>
         public static string MovieItemStatusActive {
             get {
@@ -2586,7 +2583,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie KPI 的本地化字符串。
+        ///   查找类似 电影 指标 的本地化字符串。
         /// </summary>
         public static string MovieKPI {
             get {
@@ -2595,7 +2592,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie List 的本地化字符串。
+        ///   查找类似 电影列表 的本地化字符串。
         /// </summary>
         public static string MovieList {
             get {
@@ -2604,7 +2601,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Media In Database 的本地化字符串。
+        ///   查找类似 数据库中电影媒体 的本地化字符串。
         /// </summary>
         public static string MovieMediaDB {
             get {
@@ -2613,7 +2610,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie {0} of {1} 的本地化字符串。
+        ///   查找类似 电影 {0} - {1} 的本地化字符串。
         /// </summary>
         public static string MovieOf {
             get {
@@ -2622,7 +2619,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Rating 的本地化字符串。
+        ///   查找类似 电影评分 的本地化字符串。
         /// </summary>
         public static string MovieRating {
             get {
@@ -2631,7 +2628,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Record Management 的本地化字符串。
+        ///   查找类似 电影记录管理 的本地化字符串。
         /// </summary>
         public static string MovieRecordManagement {
             get {
@@ -2640,7 +2637,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Rentals 的本地化字符串。
+        ///   查找类似 电影租借 的本地化字符串。
         /// </summary>
         public static string MovieRentals {
             get {
@@ -2649,7 +2646,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} Movie Revenues 的本地化字符串。
+        ///   查找类似 {0} 电影 收益 的本地化字符串。
         /// </summary>
         public static string MovieRevenues {
             get {
@@ -2658,7 +2655,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movies 的本地化字符串。
+        ///   查找类似 电影 的本地化字符串。
         /// </summary>
         public static string Movies {
             get {
@@ -2667,7 +2664,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movies KPI 的本地化字符串。
+        ///   查找类似 电影 指标 的本地化字符串。
         /// </summary>
         public static string MoviesKPIModule {
             get {
@@ -2676,7 +2673,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movies 的本地化字符串。
+        ///   查找类似 电影 的本地化字符串。
         /// </summary>
         public static string MoviesModule {
             get {
@@ -2685,7 +2682,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Title 的本地化字符串。
+        ///   查找类似 电影标题 的本地化字符串。
         /// </summary>
         public static string MovieTitle {
             get {
@@ -2694,7 +2691,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Name 的本地化字符串。
+        ///   查找类似 名 的本地化字符串。
         /// </summary>
         public static string Name {
             get {
@@ -2703,7 +2700,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Navigation 的本地化字符串。
+        ///   查找类似 导航 的本地化字符串。
         /// </summary>
         public static string Navigation {
             get {
@@ -2712,7 +2709,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 New Actor 的本地化字符串。
+        ///   查找类似 新演员 的本地化字符串。
         /// </summary>
         public static string NewActor {
             get {
@@ -2721,7 +2718,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 New Company 的本地化字符串。
+        ///   查找类似 新公司 的本地化字符串。
         /// </summary>
         public static string NewCompany {
             get {
@@ -2730,7 +2727,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 New Customer 的本地化字符串。
+        ///   查找类似 新顾客 的本地化字符串。
         /// </summary>
         public static string NewCustomer {
             get {
@@ -2739,7 +2736,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 New Movie 的本地化字符串。
+        ///   查找类似 新电影 的本地化字符串。
         /// </summary>
         public static string NewMovie {
             get {
@@ -2748,7 +2745,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 New Category 的本地化字符串。
+        ///   查找类似 新分类 的本地化字符串。
         /// </summary>
         public static string NewMovieCategory {
             get {
@@ -2766,7 +2763,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Next 的本地化字符串。
+        ///   查找类似 下一个 的本地化字符串。
         /// </summary>
         public static string Next {
             get {
@@ -2775,7 +2772,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Next {0} record 的本地化字符串。
+        ///   查找类似 下 {0} 条记录 的本地化字符串。
         /// </summary>
         public static string NextButtonHint {
             get {
@@ -2784,7 +2781,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Next photo 的本地化字符串。
+        ///   查找类似 下一张图 的本地化字符串。
         /// </summary>
         public static string NextPhoto {
             get {
@@ -2793,7 +2790,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Nick Name 的本地化字符串。
+        ///   查找类似 别名 的本地化字符串。
         /// </summary>
         public static string NickName {
             get {
@@ -2802,7 +2799,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 No image for current record 的本地化字符串。
+        ///   查找类似 此记录中没有图片 的本地化字符串。
         /// </summary>
         public static string NoImageData {
             get {
@@ -2820,7 +2817,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Some of items cannot be deleted. Do you want to continue? 的本地化字符串。
+        ///   查找类似 一些项目不能被删除。 你想继续吗？ 的本地化字符串。
         /// </summary>
         public static string NotAllItemsCanBeDeleted {
             get {
@@ -2847,7 +2844,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This object cannot be deleted. 的本地化字符串。
+        ///   查找类似 此对象无法被删除 的本地化字符串。
         /// </summary>
         public static string ObjectCanNotBeDeleted {
             get {
@@ -2856,7 +2853,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 OK 的本地化字符串。
+        ///   查找类似 好 的本地化字符串。
         /// </summary>
         public static string OK {
             get {
@@ -2865,7 +2862,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 1 Day Rental 的本地化字符串。
+        ///   查找类似 租借一天 的本地化字符串。
         /// </summary>
         public static string OneDayRental {
             get {
@@ -2874,7 +2871,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Only Active 的本地化字符串。
+        ///   查找类似 唯一活动 的本地化字符串。
         /// </summary>
         public static string OnlyActive {
             get {
@@ -2883,7 +2880,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Open Image 的本地化字符串。
+        ///   查找类似 打开图片 的本地化字符串。
         /// </summary>
         public static string OpenImage {
             get {
@@ -2892,7 +2889,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Options 的本地化字符串。
+        ///   查找类似 选项 的本地化字符串。
         /// </summary>
         public static string Options {
             get {
@@ -2901,7 +2898,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Overdue Payment 的本地化字符串。
+        ///   查找类似 逾期付款 的本地化字符串。
         /// </summary>
         public static string OverduePayment {
             get {
@@ -2910,7 +2907,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Owner 的本地化字符串。
+        ///   查找类似 拥有者 的本地化字符串。
         /// </summary>
         public static string Owner {
             get {
@@ -2919,7 +2916,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Palette 的本地化字符串。
+        ///   查找类似 调色盘 的本地化字符串。
         /// </summary>
         public static string Palette {
             get {
@@ -2928,7 +2925,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Specify a color palette ({0}) 的本地化字符串。
+        ///   查找类似 选择一个调色盘 ({0}) 的本地化字符串。
         /// </summary>
         public static string PaletteButtonHint {
             get {
@@ -2937,7 +2934,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Password 的本地化字符串。
+        ///   查找类似 密码 的本地化字符串。
         /// </summary>
         public static string Password {
             get {
@@ -2946,7 +2943,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Path 的本地化字符串。
+        ///   查找类似 路径 的本地化字符串。
         /// </summary>
         public static string Path {
             get {
@@ -2955,7 +2952,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Payment 的本地化字符串。
+        ///   查找类似 付款 的本地化字符串。
         /// </summary>
         public static string Payment {
             get {
@@ -2964,7 +2961,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Payment Due 的本地化字符串。
+        ///   查找类似 到期应付款 的本地化字符串。
         /// </summary>
         public static string PaymentDue {
             get {
@@ -2973,7 +2970,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [Paragraph]Payment [Bold]Due[/Bold][/Paragraph] 的本地化字符串。
+        ///   查找类似 [Paragraph]到期 [Bold]应付[/Bold][/Paragraph] 的本地化字符串。
         /// </summary>
         public static string PaymentDueFlowDocument {
             get {
@@ -2982,7 +2979,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Payment &lt;b&gt;Due&lt;/b&gt; 的本地化字符串。
+        ///   查找类似 到期 &lt;b&gt;应付&lt;/b&gt; 的本地化字符串。
         /// </summary>
         public static string PaymentDueHtml {
             get {
@@ -2991,7 +2988,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 PDF document (*.pdf)|*.pdf 的本地化字符串。
+        ///   查找类似 PDF 文档 (*.pdf)|*.pdf 的本地化字符串。
         /// </summary>
         public static string PDFOpenFileFilter {
             get {
@@ -3000,7 +2997,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Period 的本地化字符串。
+        ///   查找类似 时间范围 的本地化字符串。
         /// </summary>
         public static string Period {
             get {
@@ -3018,7 +3015,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Specify data processing date intervals... 的本地化字符串。
+        ///   查找类似 指定数据的处理日期的时间间隔.. 的本地化字符串。
         /// </summary>
         public static string PeriodDescription {
             get {
@@ -3027,7 +3024,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 5 Years 的本地化字符串。
+        ///   查找类似 5年 的本地化字符串。
         /// </summary>
         public static string PeriodFiveYears {
             get {
@@ -3045,7 +3042,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 6 Months 的本地化字符串。
+        ///   查找类似 6个月 的本地化字符串。
         /// </summary>
         public static string PeriodSixMonths {
             get {
@@ -3054,7 +3051,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 10 Years 的本地化字符串。
+        ///   查找类似 10年 的本地化字符串。
         /// </summary>
         public static string PeriodTenYears {
             get {
@@ -3063,7 +3060,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 3 Months 的本地化字符串。
+        ///   查找类似 3个月 的本地化字符串。
         /// </summary>
         public static string PeriodThreeMonths {
             get {
@@ -3072,7 +3069,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 2 Years 的本地化字符串。
+        ///   查找类似 2 年 的本地化字符串。
         /// </summary>
         public static string PeriodTwoYears {
             get {
@@ -3081,7 +3078,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Year 的本地化字符串。
+        ///   查找类似 年 的本地化字符串。
         /// </summary>
         public static string PeriodYear {
             get {
@@ -3090,7 +3087,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Phone 的本地化字符串。
+        ///   查找类似 电话 的本地化字符串。
         /// </summary>
         public static string Phone {
             get {
@@ -3099,7 +3096,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Photo 的本地化字符串。
+        ///   查找类似 图片 的本地化字符串。
         /// </summary>
         public static string Photo {
             get {
@@ -3108,7 +3105,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Photo Gallery 的本地化字符串。
+        ///   查找类似 图片库 的本地化字符串。
         /// </summary>
         public static string PhotoGallery {
             get {
@@ -3117,7 +3114,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Photo {0} 的本地化字符串。
+        ///   查找类似 图片 {0} 的本地化字符串。
         /// </summary>
         public static string PhotoNumber {
             get {
@@ -3126,7 +3123,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Photo: {0} of {1} 的本地化字符串。
+        ///   查找类似 图片: {0} / {1} 的本地化字符串。
         /// </summary>
         public static string PhotoOf {
             get {
@@ -3135,7 +3132,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 photo 的本地化字符串。
+        ///   查找类似 图片 的本地化字符串。
         /// </summary>
         public static string PhotoSuffix {
             get {
@@ -3144,7 +3141,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Pictures 的本地化字符串。
+        ///   查找类似 图片 的本地化字符串。
         /// </summary>
         public static string Pictures {
             get {
@@ -3153,7 +3150,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Pictures Count 的本地化字符串。
+        ///   查找类似 图片数量 的本地化字符串。
         /// </summary>
         public static string PicturesCount {
             get {
@@ -3162,7 +3159,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Press a pie section to view detailed information 的本地化字符串。
+        ///   查找类似 点击饼图中区域可以获取到更详细的信息 的本地化字符串。
         /// </summary>
         public static string PieHint {
             get {
@@ -3171,7 +3168,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Plot 的本地化字符串。
+        ///   查找类似 绘图 的本地化字符串。
         /// </summary>
         public static string Plot {
             get {
@@ -3180,7 +3177,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 PNG image (*.png)|*.png 的本地化字符串。
+        ///   查找类似 PNG 图片 (*.png)|*.png 的本地化字符串。
         /// </summary>
         public static string PNGOpenFileFilter {
             get {
@@ -3189,7 +3186,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Prev 的本地化字符串。
+        ///   查找类似 前一个 的本地化字符串。
         /// </summary>
         public static string Prev {
             get {
@@ -3198,7 +3195,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Previous {0} record 的本地化字符串。
+        ///   查找类似 前 {0} 记录 的本地化字符串。
         /// </summary>
         public static string PrevButtonHint {
             get {
@@ -3207,7 +3204,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Previous photo 的本地化字符串。
+        ///   查找类似 前一张图片 的本地化字符串。
         /// </summary>
         public static string PreviousPhoto {
             get {
@@ -3216,7 +3213,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price 的本地化字符串。
+        ///   查找类似 价格 的本地化字符串。
         /// </summary>
         public static string Price {
             get {
@@ -3225,7 +3222,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Must specify Price before saving the record. 的本地化字符串。
+        ///   查找类似 在保存记录之前，必须指定价格。 的本地化字符串。
         /// </summary>
         public static string PriceError {
             get {
@@ -3234,7 +3231,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 1 Day Rental 的本地化字符串。
+        ///   查找类似 租1天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor1DayRental {
             get {
@@ -3243,7 +3240,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 2 Day Rental 的本地化字符串。
+        ///   查找类似 租2天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor2DayRental {
             get {
@@ -3252,7 +3249,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 3 Day Rental 的本地化字符串。
+        ///   查找类似 租3天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor3DayRental {
             get {
@@ -3261,7 +3258,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 4 Day Rental 的本地化字符串。
+        ///   查找类似 租4天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor4DayRental {
             get {
@@ -3270,7 +3267,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 5 Day Rental 的本地化字符串。
+        ///   查找类似 租5天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor5DayRental {
             get {
@@ -3279,7 +3276,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 6 Day Rental 的本地化字符串。
+        ///   查找类似 租6天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor6DayRental {
             get {
@@ -3288,7 +3285,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Price Per Day For 7 Day Rental 的本地化字符串。
+        ///   查找类似 租7天每天的价格 的本地化字符串。
         /// </summary>
         public static string PricePerDayFor7DayRental {
             get {
@@ -3297,7 +3294,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Print and Export 的本地化字符串。
+        ///   查找类似 打印并导出 的本地化字符串。
         /// </summary>
         public static string PrintAndExport {
             get {
@@ -3306,7 +3303,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Print and Export  的本地化字符串。
+        ///   查找类似 打印并导出 的本地化字符串。
         /// </summary>
         public static string PrintAndExport1 {
             get {
@@ -3315,7 +3312,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Print Preview 的本地化字符串。
+        ///   查找类似 打印预览 的本地化字符串。
         /// </summary>
         public static string PrintPreview {
             get {
@@ -3324,7 +3321,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Generate {1} {0} report 的本地化字符串。
+        ///   查找类似 生成 {1} {0} 报表 的本地化字符串。
         /// </summary>
         public static string PrintPreviewButtonHint {
             get {
@@ -3333,7 +3330,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Preview the report 的本地化字符串。
+        ///   查找类似 预览报表 的本地化字符串。
         /// </summary>
         public static string PrintPreviewButtonHintDefault {
             get {
@@ -3342,7 +3339,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Preview a report... 的本地化字符串。
+        ///   查找类似 预览报表... 的本地化字符串。
         /// </summary>
         public static string PrintPreviewDescription {
             get {
@@ -3351,7 +3348,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} doesn&apos;t have public constructor with empty parameters 的本地化字符串。
+        ///   查找类似 {0} 不包含空参构造函数 的本地化字符串。
         /// </summary>
         public static string PublicConstructorError {
             get {
@@ -3360,7 +3357,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Purchase Id 的本地化字符串。
+        ///   查找类似 采购 Id 的本地化字符串。
         /// </summary>
         public static string PurchaseId {
             get {
@@ -3369,7 +3366,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [Paragraph][Bold]Purchase[/Bold] Id[/Paragraph] 的本地化字符串。
+        ///   查找类似 [Paragraph][Bold]采购[/Bold] Id[/Paragraph] 的本地化字符串。
         /// </summary>
         public static string PurchaseIdFlowDocument {
             get {
@@ -3378,7 +3375,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &lt;b&gt;Purchase&lt;/b&gt; Id 的本地化字符串。
+        ///   查找类似 &lt;b&gt;采购&lt;/b&gt; Id 的本地化字符串。
         /// </summary>
         public static string PurchaseIdHtml {
             get {
@@ -3387,7 +3384,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Quarter 的本地化字符串。
+        ///   查找类似 季度 的本地化字符串。
         /// </summary>
         public static string Quarter {
             get {
@@ -3396,7 +3393,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Question 的本地化字符串。
+        ///   查找类似 质询 的本地化字符串。
         /// </summary>
         public static string Question {
             get {
@@ -3405,7 +3402,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rating 的本地化字符串。
+        ///   查找类似 评分 的本地化字符串。
         /// </summary>
         public static string Rating {
             get {
@@ -3414,7 +3411,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} (Read Only) 的本地化字符串。
+        ///   查找类似 {0} (只读) 的本地化字符串。
         /// </summary>
         public static string ReadOnlyCaption {
             get {
@@ -3423,7 +3420,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Realease Date 的本地化字符串。
+        ///   查找类似 发行日期 的本地化字符串。
         /// </summary>
         public static string RealeaseDate {
             get {
@@ -3432,7 +3429,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipt 的本地化字符串。
+        ///   查找类似 收入 的本地化字符串。
         /// </summary>
         public static string Receipt {
             get {
@@ -3441,7 +3438,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipt Count 的本地化字符串。
+        ///   查找类似 应收数 的本地化字符串。
         /// </summary>
         public static string ReceiptCount {
             get {
@@ -3450,7 +3447,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipt Count - Last 12 Months 的本地化字符串。
+        ///   查找类似 收到数-最后12月 的本地化字符串。
         /// </summary>
         public static string ReceiptCount12Months {
             get {
@@ -3459,7 +3456,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipt Id 的本地化字符串。
+        ///   查找类似 收据 Id 的本地化字符串。
         /// </summary>
         public static string ReceiptId {
             get {
@@ -3468,7 +3465,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipt Period 的本地化字符串。
+        ///   查找类似 收据周期 的本地化字符串。
         /// </summary>
         public static string ReceiptPeriod {
             get {
@@ -3477,7 +3474,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipts 的本地化字符串。
+        ///   查找类似 收据 的本地化字符串。
         /// </summary>
         public static string Receipts {
             get {
@@ -3486,7 +3483,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipts period 的本地化字符串。
+        ///   查找类似 收据周期 的本地化字符串。
         /// </summary>
         public static string ReceiptsPeriod {
             get {
@@ -3495,7 +3492,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Receipts View Options 的本地化字符串。
+        ///   查找类似 收据视图选项 的本地化字符串。
         /// </summary>
         public static string ReceiptsViewOptions {
             get {
@@ -3504,7 +3501,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 ReceiptType 的本地化字符串。
+        ///   查找类似 收货单类型 的本地化字符串。
         /// </summary>
         public static string ReceiptType {
             get {
@@ -3513,7 +3510,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Record Management 的本地化字符串。
+        ///   查找类似 记录管理 的本地化字符串。
         /// </summary>
         public static string RecordManagement {
             get {
@@ -3522,7 +3519,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Refresh 的本地化字符串。
+        ///   查找类似 刷新 的本地化字符串。
         /// </summary>
         public static string Refresh {
             get {
@@ -3531,7 +3528,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Refresh the {0} List View 的本地化字符串。
+        ///   查找类似 刷新 {0} 列表视图 的本地化字符串。
         /// </summary>
         public static string RefreshButtonHint {
             get {
@@ -3540,7 +3537,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Refresh data 的本地化字符串。
+        ///   查找类似 更新日期 的本地化字符串。
         /// </summary>
         public static string RefreshDefaultButtonHint {
             get {
@@ -3549,7 +3546,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Release Date 的本地化字符串。
+        ///   查找类似 发售日期 的本地化字符串。
         /// </summary>
         public static string ReleaseDate {
             get {
@@ -3558,7 +3555,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rent 的本地化字符串。
+        ///   查找类似 租借 的本地化字符串。
         /// </summary>
         public static string Rent {
             get {
@@ -3567,7 +3564,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental Category 的本地化字符串。
+        ///   查找类似 租借分类 的本地化字符串。
         /// </summary>
         public static string RentalCategory {
             get {
@@ -3576,7 +3573,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental Details (Read Only) 的本地化字符串。
+        ///   查找类似 租借详细（只读） 的本地化字符串。
         /// </summary>
         public static string RentalDetailsReadOnly {
             get {
@@ -3585,7 +3582,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Rental 的本地化字符串。
+        ///   查找类似 电影租借 的本地化字符串。
         /// </summary>
         public static string RentalGroup {
             get {
@@ -3594,7 +3591,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental Id 的本地化字符串。
+        ///   查找类似 租借ID 的本地化字符串。
         /// </summary>
         public static string RentalId {
             get {
@@ -3603,7 +3600,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [Paragraph][Bold]Rental[/Bold] Id[/Paragraph] 的本地化字符串。
+        ///   查找类似 [Paragraph][Bold]租借[/Bold] ID[/Paragraph] 的本地化字符串。
         /// </summary>
         public static string RentalIdFlowDocument {
             get {
@@ -3612,7 +3609,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &lt;b&gt;Rental&lt;/b&gt; Id 的本地化字符串。
+        ///   查找类似 &lt;b&gt;租借&lt;/b&gt;ID 的本地化字符串。
         /// </summary>
         public static string RentalIdHtml {
             get {
@@ -3621,7 +3618,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental Record Management 的本地化字符串。
+        ///   查找类似 租赁记录管理 的本地化字符串。
         /// </summary>
         public static string RentalRecordManagement {
             get {
@@ -3630,7 +3627,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental/Sales Info 的本地化字符串。
+        ///   查找类似 租赁销售信息 的本地化字符串。
         /// </summary>
         public static string RentalSalesInfo {
             get {
@@ -3639,7 +3636,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rented On 的本地化字符串。
+        ///   查找类似 租借于 的本地化字符串。
         /// </summary>
         public static string RentedOn {
             get {
@@ -3648,7 +3645,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 {0} Renter 的本地化字符串。
+        ///   查找类似 {0} 租借人 的本地化字符串。
         /// </summary>
         public static string RenterDiscount {
             get {
@@ -3657,7 +3654,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rent Id 的本地化字符串。
+        ///   查找类似 租借ID 的本地化字符串。
         /// </summary>
         public static string RentId {
             get {
@@ -3666,8 +3663,8 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Rentals
-        ///(for current customer) 的本地化字符串。
+        ///   查找类似 电影租赁
+        ///(当前客户) 的本地化字符串。
         /// </summary>
         public static string RentModule {
             get {
@@ -3676,8 +3673,8 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Movie Rentals
-        ///(for {0}) 的本地化字符串。
+        ///   查找类似 电影租赁
+        ///( {0}) 的本地化字符串。
         /// </summary>
         public static string RentModulePattern {
             get {
@@ -3686,7 +3683,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rent (or sell) movie 的本地化字符串。
+        ///   查找类似 租(或卖出)电影 的本地化字符串。
         /// </summary>
         public static string RentOrSellMovie {
             get {
@@ -3695,7 +3692,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rent Overdue 的本地化字符串。
+        ///   查找类似 逾期 的本地化字符串。
         /// </summary>
         public static string RentOverdue {
             get {
@@ -3704,7 +3701,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rents 的本地化字符串。
+        ///   查找类似 租借 的本地化字符串。
         /// </summary>
         public static string Rents {
             get {
@@ -3713,8 +3710,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental Calendar
-        ///(by customer) 的本地化字符串。
+        ///   查找类似 租金日历(客户) 的本地化字符串。
         /// </summary>
         public static string RentScheduleModule {
             get {
@@ -3723,7 +3719,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rent/Sell 的本地化字符串。
+        ///   查找类似 租/售l 的本地化字符串。
         /// </summary>
         public static string RentSell {
             get {
@@ -3732,7 +3728,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rental type 的本地化字符串。
+        ///   查找类似 出租类型 的本地化字符串。
         /// </summary>
         public static string RentType {
             get {
@@ -3741,7 +3737,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Reports 的本地化字符串。
+        ///   查找类似 报表 的本地化字符串。
         /// </summary>
         public static string ReportsGroup {
             get {
@@ -3750,7 +3746,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Return 的本地化字符串。
+        ///   查找类似 返回 的本地化字符串。
         /// </summary>
         public static string Return {
             get {
@@ -3759,7 +3755,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Return items and display payment receipt? 的本地化字符串。
+        ///   查找类似 返回项目，并显示付款收据？ 的本地化字符串。
         /// </summary>
         public static string ReturnAndPaymentLateFeeQuestion {
             get {
@@ -3768,7 +3764,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Returned On 的本地化字符串。
+        ///   查找类似 返回于 的本地化字符串。
         /// </summary>
         public static string ReturnedOn {
             get {
@@ -3777,7 +3773,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Return items? 的本地化字符串。
+        ///   查找类似 退回商品？ 的本地化字符串。
         /// </summary>
         public static string ReturnQuestion {
             get {
@@ -3786,7 +3782,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Return selected movies (checked items from the Active Rentals tab) 的本地化字符串。
+        ///   查找类似 返回所选电影(选中项活动租赁选项卡中) 的本地化字符串。
         /// </summary>
         public static string ReturnSelectedMoviesCheckedItemsFromTheActiveRen {
             get {
@@ -3795,7 +3791,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue 的本地化字符串。
+        ///   查找类似 收入 的本地化字符串。
         /// </summary>
         public static string Revenue {
             get {
@@ -3804,7 +3800,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue - Last 12 Months 的本地化字符串。
+        ///   查找类似 过去12月的收入 的本地化字符串。
         /// </summary>
         public static string Revenue12Months {
             get {
@@ -3813,7 +3809,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue - Last 12 Months 的本地化字符串。
+        ///   查找类似 过去12月的收入 的本地化字符串。
         /// </summary>
         public static string Revenue12MonthsModule {
             get {
@@ -3822,7 +3818,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue Difference 的本地化字符串。
+        ///   查找类似 收入差异 的本地化字符串。
         /// </summary>
         public static string RevenueDifference {
             get {
@@ -3831,7 +3827,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue from Movies 的本地化字符串。
+        ///   查找类似 来自电影的收入 的本地化字符串。
         /// </summary>
         public static string RevenueMovies {
             get {
@@ -3840,7 +3836,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue Split - Last 12 Months 的本地化字符串。
+        ///   查找类似 收益分成-最后12月 的本地化字符串。
         /// </summary>
         public static string RevenueSplit12Months {
             get {
@@ -3849,7 +3845,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue Categories - Last 12 Months 的本地化字符串。
+        ///   查找类似 收入类别-最后12月 的本地化字符串。
         /// </summary>
         public static string RevenueSplitModule {
             get {
@@ -3858,7 +3854,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Revenue Statistics 的本地化字符串。
+        ///   查找类似 收入统计 的本地化字符串。
         /// </summary>
         public static string RevenueStatistics {
             get {
@@ -3867,7 +3863,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rotate display layout 的本地化字符串。
+        ///   查找类似 旋转展示布局 的本地化字符串。
         /// </summary>
         public static string RotateDisplayLayout {
             get {
@@ -3876,7 +3872,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Rotate Layout 的本地化字符串。
+        ///   查找类似 旋转布局 的本地化字符串。
         /// </summary>
         public static string RotateLayout {
             get {
@@ -3885,7 +3881,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This value cannot be negative 的本地化字符串。
+        ///   查找类似 此值不能为负 的本地化字符串。
         /// </summary>
         public static string RuleGreaterOrEqualZeroWarning {
             get {
@@ -3894,7 +3890,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This value cannot be empty 的本地化字符串。
+        ///   查找类似 此值不能为空 的本地化字符串。
         /// </summary>
         public static string RuleIsNotBlankWarning {
             get {
@@ -3903,7 +3899,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Name must be unique 的本地化字符串。
+        ///   查找类似 名称必须是唯一的 的本地化字符串。
         /// </summary>
         public static string RuleUniqueName {
             get {
@@ -3912,7 +3908,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Run Time 的本地化字符串。
+        ///   查找类似 运行时间 的本地化字符串。
         /// </summary>
         public static string RunTime {
             get {
@@ -3921,7 +3917,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save 的本地化字符串。
+        ///   查找类似 保存 的本地化字符串。
         /// </summary>
         public static string Save {
             get {
@@ -3930,7 +3926,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save and Close 的本地化字符串。
+        ///   查找类似 保存并关闭 的本地化字符串。
         /// </summary>
         public static string SaveAndClose {
             get {
@@ -3939,7 +3935,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save and restore control layout within forms 的本地化字符串。
+        ///   查找类似 保存和还原控件中的布局形式 的本地化字符串。
         /// </summary>
         public static string SaveAndRestoreControlLayoutWithinForms {
             get {
@@ -3948,7 +3944,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save and restore Detail View layouts 的本地化字符串。
+        ///   查找类似 保存和还原的详细信息视图布局 的本地化字符串。
         /// </summary>
         public static string SaveAndRestoreDetailViewLayouts {
             get {
@@ -3957,7 +3953,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save and restore dock window layouts 的本地化字符串。
+        ///   查找类似 保存和恢复停靠窗口布局 的本地化字符串。
         /// </summary>
         public static string SaveAndRestoreDockWindowLayouts {
             get {
@@ -3966,7 +3962,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save and restore grid control layouts 的本地化字符串。
+        ///   查找类似 保存和恢复网格控件布局 的本地化字符串。
         /// </summary>
         public static string SaveAndRestoreGridControlLayouts {
             get {
@@ -3975,7 +3971,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save and restore layout control layouts 的本地化字符串。
+        ///   查找类似 保存和还原布局控件布局 的本地化字符串。
         /// </summary>
         public static string SaveAndRestoreLayoutControlLayouts {
             get {
@@ -3984,7 +3980,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save changes to current record 的本地化字符串。
+        ///   查找类似 将更改保存到当前记录 的本地化字符串。
         /// </summary>
         public static string SaveChangesToCurrentRecord {
             get {
@@ -3993,7 +3989,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save changes to current record and close the Detail View 的本地化字符串。
+        ///   查找类似 保存对当前记录的更改并关闭详细信息视图 的本地化字符串。
         /// </summary>
         public static string SaveChangesToCurrentRecordAndCloseTheDetailView {
             get {
@@ -4002,7 +3998,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Save Current Record 的本地化字符串。
+        ///   查找类似 保存当前记录 的本地化字符串。
         /// </summary>
         public static string SaveCurrentRecord {
             get {
@@ -4011,7 +4007,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Scheduler 的本地化字符串。
+        ///   查找类似 调度程序 的本地化字符串。
         /// </summary>
         public static string Scheduler {
             get {
@@ -4020,7 +4016,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View a single day’s rentals within the calendar 的本地化字符串。
+        ///   查找类似 查看一天的租金在日历内 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionDayViewDescription {
             get {
@@ -4029,7 +4025,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View rentals across an entire month 的本地化字符串。
+        ///   查找类似 查看整个月租赁 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionMonthViewDescription {
             get {
@@ -4038,7 +4034,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Next Rentals 的本地化字符串。
+        ///   查找类似 后记录 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionNextAppointment {
             get {
@@ -4047,7 +4043,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Previous Rentals 的本地化字符串。
+        ///   查找类似 前记录 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionPrevAppointment {
             get {
@@ -4056,7 +4052,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View rentals within a timeline 的本地化字符串。
+        ///   查找类似 查看时间表内的租金 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionTimelineViewDescription {
             get {
@@ -4065,7 +4061,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View rentals across an entire week 的本地化字符串。
+        ///   查找类似 查看整个星期租赁 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionWeekViewDescription {
             get {
@@ -4074,7 +4070,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View rentals across a work week 的本地化字符串。
+        ///   查找类似 在一个工作周视图租赁 的本地化字符串。
         /// </summary>
         public static string SchedulerCaptionWorkWeekViewDescription {
             get {
@@ -4083,7 +4079,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Navigate to today’s date 的本地化字符串。
+        ///   查找类似 导航到今天 的本地化字符串。
         /// </summary>
         public static string SchedulerDescCmdGotoToday {
             get {
@@ -4092,7 +4088,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Move back to an earlier time frame 的本地化字符串。
+        ///   查找类似 移动到较早的时间框架 的本地化字符串。
         /// </summary>
         public static string SchedulerDescCmdNavigateBackward {
             get {
@@ -4101,7 +4097,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Move forward to a later time frame 的本地化字符串。
+        ///   查找类似 向前移动到稍后的时间框架 的本地化字符串。
         /// </summary>
         public static string SchedulerDescCmdNavigateForward {
             get {
@@ -4110,7 +4106,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Zoom in and view more detailed information within the calendar 的本地化字符串。
+        ///   查找类似 缩放和查看日历中的详细信息 的本地化字符串。
         /// </summary>
         public static string SchedulerDescCmdViewZoomIn {
             get {
@@ -4119,7 +4115,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Zoom out and view expanded information within the calendar 的本地化字符串。
+        ///   查找类似 缩放和查看日历中的扩展信息 的本地化字符串。
         /// </summary>
         public static string SchedulerDescCmdViewZoomOut {
             get {
@@ -4128,7 +4124,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Screens 的本地化字符串。
+        ///   查找类似 荧屏 的本地化字符串。
         /// </summary>
         public static string Screens {
             get {
@@ -4137,7 +4133,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Select a receipt from the list above to see it details 的本地化字符串。
+        ///   查找类似 从列表中选择一张收据查看细节 的本地化字符串。
         /// </summary>
         public static string SelectAReceiptFromTheListAboveToSeeItDetails {
             get {
@@ -4146,7 +4142,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Selling Price 的本地化字符串。
+        ///   查找类似 售价 的本地化字符串。
         /// </summary>
         public static string SellingPrice {
             get {
@@ -4155,7 +4151,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Send Email 的本地化字符串。
+        ///   查找类似 发送邮件 的本地化字符串。
         /// </summary>
         public static string SendEmail {
             get {
@@ -4164,7 +4160,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Set as Current Customer 的本地化字符串。
+        ///   查找类似 设置为当前客户 的本地化字符串。
         /// </summary>
         public static string SetAsCurrentCustomer {
             get {
@@ -4173,7 +4169,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show detail tabs 的本地化字符串。
+        ///   查找类似 显示详细信息选项卡 的本地化字符串。
         /// </summary>
         public static string ShowDetailTabs {
             get {
@@ -4182,7 +4178,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show group row footer 的本地化字符串。
+        ///   查找类似 显示行组页脚 的本地化字符串。
         /// </summary>
         public static string ShowGroupRowFooter {
             get {
@@ -4191,7 +4187,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show indicator 的本地化字符串。
+        ///   查找类似 显示方式 的本地化字符串。
         /// </summary>
         public static string ShowIndicator {
             get {
@@ -4200,7 +4196,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show Monthly Receipts 的本地化字符串。
+        ///   查找类似 显示每月收益 的本地化字符串。
         /// </summary>
         public static string ShowMonthlyReceipts {
             get {
@@ -4209,7 +4205,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show Monthly Revenue 的本地化字符串。
+        ///   查找类似 显示每月的收入 的本地化字符串。
         /// </summary>
         public static string ShowMonthlyRevenue {
             get {
@@ -4218,7 +4214,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show only the tab names on the Ribbon 的本地化字符串。
+        ///   查找类似 仅显示功能区上的选项卡名称 的本地化字符串。
         /// </summary>
         public static string ShowOnlyTheTabNamesOnTheRibbon {
             get {
@@ -4227,7 +4223,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show Report Designer 的本地化字符串。
+        ///   查找类似 显示报表设计器 的本地化字符串。
         /// </summary>
         public static string ShowReportDesigner {
             get {
@@ -4236,7 +4232,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show row previews 的本地化字符串。
+        ///   查找类似 显示行预览 的本地化字符串。
         /// </summary>
         public static string ShowRowPreviews {
             get {
@@ -4245,7 +4241,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show the auto filter row 的本地化字符串。
+        ///   查找类似 显示自动筛选行 的本地化字符串。
         /// </summary>
         public static string ShowTheAutoFilterRow {
             get {
@@ -4254,7 +4250,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show vertical lines 的本地化字符串。
+        ///   查找类似 显示垂直线 的本地化字符串。
         /// </summary>
         public static string ShowVerticalLines {
             get {
@@ -4263,7 +4259,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Show view caption 的本地化字符串。
+        ///   查找类似 显示视图的标题 的本地化字符串。
         /// </summary>
         public static string ShowViewCaption {
             get {
@@ -4272,7 +4268,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Simple grid 的本地化字符串。
+        ///   查找类似 简单表格 的本地化字符串。
         /// </summary>
         public static string SimpleGrid {
             get {
@@ -4281,7 +4277,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 6 Day Rental 的本地化字符串。
+        ///   查找类似 租借6天 的本地化字符串。
         /// </summary>
         public static string SixDayRental {
             get {
@@ -4290,7 +4286,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Skins 的本地化字符串。
+        ///   查找类似 皮肤 的本地化字符串。
         /// </summary>
         public static string Skins {
             get {
@@ -4299,7 +4295,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Sort by 的本地化字符串。
+        ///   查找类似 排序 的本地化字符串。
         /// </summary>
         public static string SortBy {
             get {
@@ -4308,7 +4304,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Special Price Per Day For ... 的本地化字符串。
+        ///   查找类似 特价每天... 的本地化字符串。
         /// </summary>
         public static string SpecialPricePerDayFor {
             get {
@@ -4317,7 +4313,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Specify Date Intervals 的本地化字符串。
+        ///   查找类似 指定日期间隔 的本地化字符串。
         /// </summary>
         public static string SpecifyDateIntervals {
             get {
@@ -4335,7 +4331,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Start Date 的本地化字符串。
+        ///   查找类似 开始日期 的本地化字符串。
         /// </summary>
         public static string StartDate {
             get {
@@ -4344,7 +4340,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Statistics 的本地化字符串。
+        ///   查找类似 统计 的本地化字符串。
         /// </summary>
         public static string StatisticsGroup {
             get {
@@ -4353,7 +4349,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Status 的本地化字符串。
+        ///   查找类似 状态 的本地化字符串。
         /// </summary>
         public static string Status {
             get {
@@ -4362,7 +4358,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Class has to be inherited from Form 的本地化字符串。
+        ///   查找类似 类必须从窗体继承而来 的本地化字符串。
         /// </summary>
         public static string SubclassError {
             get {
@@ -4371,7 +4367,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Tagline 的本地化字符串。
+        ///   查找类似 标语 的本地化字符串。
         /// </summary>
         public static string Tagline {
             get {
@@ -4380,7 +4376,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Text 的本地化字符串。
+        ///   查找类似 文本 的本地化字符串。
         /// </summary>
         public static string Text {
             get {
@@ -4389,7 +4385,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Please wait while the theme is being applied 的本地化字符串。
+        ///   查找类似 主题应用中，请稍后 的本地化字符串。
         /// </summary>
         public static string ThemeApplyingMessage {
             get {
@@ -4398,7 +4394,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This Month 的本地化字符串。
+        ///   查找类似 本月 的本地化字符串。
         /// </summary>
         public static string ThisMonth {
             get {
@@ -4407,7 +4403,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 3 Day Rental 的本地化字符串。
+        ///   查找类似 租借3天 的本地化字符串。
         /// </summary>
         public static string ThreeDayRental {
             get {
@@ -4416,7 +4412,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Time Period ({0:d} - {1:d}) 的本地化字符串。
+        ///   查找类似 时间范围 ({0:d} - {1:d}) 的本地化字符串。
         /// </summary>
         public static string TimePeriod {
             get {
@@ -4425,7 +4421,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Time Periods 的本地化字符串。
+        ///   查找类似 时间范围 的本地化字符串。
         /// </summary>
         public static string TimePeriods {
             get {
@@ -4434,7 +4430,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Title 的本地化字符串。
+        ///   查找类似 标题 的本地化字符串。
         /// </summary>
         public static string Title {
             get {
@@ -4443,7 +4439,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Tools 的本地化字符串。
+        ///   查找类似 工具 的本地化字符串。
         /// </summary>
         public static string Tools {
             get {
@@ -4452,7 +4448,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Top Customer 的本地化字符串。
+        ///   查找类似 最佳顾客 的本地化字符串。
         /// </summary>
         public static string TopCustomer {
             get {
@@ -4461,7 +4457,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Top Customers 的本地化字符串。
+        ///   查找类似 最佳顾客们 的本地化字符串。
         /// </summary>
         public static string TopCustomers {
             get {
@@ -4470,7 +4466,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Top Customers 的本地化字符串。
+        ///   查找类似 最佳顾客组 的本地化字符串。
         /// </summary>
         public static string TopCustomersModule {
             get {
@@ -4479,7 +4475,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Total 的本地化字符串。
+        ///   查找类似 总计 的本地化字符串。
         /// </summary>
         public static string Total {
             get {
@@ -4488,7 +4484,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 2 Day Rental 的本地化字符串。
+        ///   查找类似 租借2天 的本地化字符串。
         /// </summary>
         public static string TwoDayRental {
             get {
@@ -4497,7 +4493,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Type 的本地化字符串。
+        ///   查找类似 类别 的本地化字符串。
         /// </summary>
         public static string Type {
             get {
@@ -4506,7 +4502,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Unable to create a database. Please check the connection settings. 的本地化字符串。
+        ///   查找类似 无法创建数据库，请联系技术支持人员 的本地化字符串。
         /// </summary>
         public static string UnableCreateDBMessage {
             get {
@@ -4515,7 +4511,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Unable to open the database. A new database will be created. 的本地化字符串。
+        ///   查找类似 无法打开数据库，将会创建新的数据库 的本地化字符串。
         /// </summary>
         public static string UnableOpenDBMessage {
             get {
@@ -4524,7 +4520,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Unit Allocation 的本地化字符串。
+        ///   查找类似 补给基数 的本地化字符串。
         /// </summary>
         public static string UnitAllocation {
             get {
@@ -4533,7 +4529,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &lt;Unknown&gt; 的本地化字符串。
+        ///   查找类似 &lt;未知&gt; 的本地化字符串。
         /// </summary>
         public static string Unknown {
             get {
@@ -4542,7 +4538,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Up 的本地化字符串。
+        ///   查找类似 上 的本地化字符串。
         /// </summary>
         public static string Up {
             get {
@@ -4551,7 +4547,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View 的本地化字符串。
+        ///   查找类似 视图 的本地化字符串。
         /// </summary>
         public static string View {
             get {
@@ -4560,7 +4556,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 View Options 的本地化字符串。
+        ///   查找类似 视图选项 的本地化字符串。
         /// </summary>
         public static string ViewOptions {
             get {
@@ -4569,7 +4565,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Warning 的本地化字符串。
+        ///   查找类似 警告 的本地化字符串。
         /// </summary>
         public static string Warning {
             get {
@@ -4578,7 +4574,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 WebSite 的本地化字符串。
+        ///   查找类似 网站 的本地化字符串。
         /// </summary>
         public static string WebSite {
             get {
@@ -4587,7 +4583,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Learn More 的本地化字符串。
+        ///   查找类似 了解更多 的本地化字符串。
         /// </summary>
         public static string WelcomeLink1 {
             get {
@@ -4596,7 +4592,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Download Trial 的本地化字符串。
+        ///   查找类似 下载试用版 的本地化字符串。
         /// </summary>
         public static string WelcomeLink2 {
             get {
@@ -4605,7 +4601,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Buy Now 的本地化字符串。
+        ///   查找类似 立刻购买 的本地化字符串。
         /// </summary>
         public static string WelcomeLink3 {
             get {
@@ -4614,7 +4610,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 About this Application 的本地化字符串。
+        ///   查找类似 关于此程序 的本地化字符串。
         /// </summary>
         public static string WelcomeText1 {
             get {
@@ -4623,7 +4619,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This sample WinForms application illustrates some of the capabilities available to you when using award-winning DevExpress WinForms Control Libraries. 的本地化字符串。
+        ///   查找类似 此程序使用了第三方插件，您无需额外付费 的本地化字符串。
         /// </summary>
         public static string WelcomeText2 {
             get {
@@ -4632,7 +4628,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Controls used in this demo are: 的本地化字符串。
+        ///   查找类似 此软件中使用的插件 的本地化字符串。
         /// </summary>
         public static string WelcomeText3 {
             get {
@@ -4641,7 +4637,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Press &apos;F1&apos; to return again to this page 的本地化字符串。
+        ///   查找类似 按F1回到此页面 的本地化字符串。
         /// </summary>
         public static string WelcomeText4 {
             get {
@@ -4650,7 +4646,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 This application demonstrates some of the capabilities available to you when using DevExpress WPF Controls and Libraries. 的本地化字符串。
+        ///   查找类似 此程序包含 DevExpress插件和类库 的本地化字符串。
         /// </summary>
         public static string WelcomeWpfText2 {
             get {
@@ -4659,7 +4655,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 XLS document (*.xls)|*.xls 的本地化字符串。
+        ///   查找类似 Excel2003文件 (*.xls)|*.xls 的本地化字符串。
         /// </summary>
         public static string XLSOpenFileFilter {
             get {
@@ -4668,7 +4664,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 XLSX document (*.xlsx)|*.xlsx 的本地化字符串。
+        ///   查找类似 Excel2007文件 (*.xlsx)|*.xlsx 的本地化字符串。
         /// </summary>
         public static string XLSXOpenFileFilter {
             get {
@@ -4677,7 +4673,7 @@ namespace NukaCollect.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Year 的本地化字符串。
+        ///   查找类似 年 的本地化字符串。
         /// </summary>
         public static string Year {
             get {

@@ -2163,7 +2163,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KHzTY08QGcos+IP0rooZB8KqJtk=</dsig:DigestValue>
+        <dsig:DigestValue>0xuind1i59DY4FkyPsS6LwQp7IA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2175,19 +2175,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>agsab7O/odcHHNqpB6z0/gviA4w=</dsig:DigestValue>
+        <dsig:DigestValue>LEHPPlN/WJr4lzqVjgO2fNTDf8k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NukaCollect.Resources.dll" size="716288">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NukaCollect.Resources.dll" size="714240">
       <assemblyIdentity name="NukaCollect.Resources" version="13.2.6.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>dEPHCzPMqqYYcsZbOQ44nLrYZ9I=</dsig:DigestValue>
+        <dsig:DigestValue>PtADqA+sZsCaQk+XunY5J997EaQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2199,7 +2199,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>puTuebRJcAJBoOs3vEZ5UGomFS4=</dsig:DigestValue>
+        <dsig:DigestValue>yf9ZtBspnXrrPmRYYF6KovxjJZ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
