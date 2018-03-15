@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukaCollect", "NukaCollect\NukaCollect.csproj", "{64358044-1010-4E3D-A18D-ACB7755C40FA}"
 EndProject
@@ -9,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukaCollect.Resources", "NukaCollect.Resources\NukaCollect.Resources.csproj", "{30E7937A-0651-4865-B8AE-97C2A8D405F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukaCollect.Win", "NukaCollect.Win\NukaCollect.Win.csproj", "{B2D95262-8DB6-479C-ABBA-F41B03DB9F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukaCollect.Words", "NukaCollect.Words\NukaCollect.Words.csproj", "{7A741764-5577-4BB4-96E4-AF83F402BB8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,12 @@ Global
 		{B2D95262-8DB6-479C-ABBA-F41B03DB9F99}.DebugTest|Any CPU.Build.0 = DebugTest|Any CPU
 		{B2D95262-8DB6-479C-ABBA-F41B03DB9F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D95262-8DB6-479C-ABBA-F41B03DB9F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A741764-5577-4BB4-96E4-AF83F402BB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A741764-5577-4BB4-96E4-AF83F402BB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A741764-5577-4BB4-96E4-AF83F402BB8E}.DebugTest|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A741764-5577-4BB4-96E4-AF83F402BB8E}.DebugTest|Any CPU.Build.0 = Debug|Any CPU
+		{7A741764-5577-4BB4-96E4-AF83F402BB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A741764-5577-4BB4-96E4-AF83F402BB8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
